@@ -1,11 +1,9 @@
-import { React } from 'react';
-
 function Team() {
-    return (
-        <div>
-            <h1>Team</h1>
-        </div>
-    )
+    return(
+        <main>
+            <h1>team</h1>
+        </main>
+    );
 }
 
-export default Team
+export default Team;
