@@ -1,18 +1,16 @@
 import { React } from 'react';
-import './css/NavBar.css';
+import '../App.css';
 
 function NavBar() {
     return (
-        <div>
             <div className="navbar">
-                <ul>
-                    <li>Home</li>
-                    <li>Account</li>
-                    <li>Project</li>
-                    <li>Team</li>
+                <ul className="navbar-nav">
+                    <li className="navbar_item">Home</li>
+                    <li className="navbar_item">Account</li>
+                    <li className="navbar_item">Project</li>
+                    <li className="navbar_item">Team</li>
                 </ul>
             </div>
-        </div>
     )
 }
 
