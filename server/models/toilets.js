@@ -7,4 +7,4 @@ const toiletsSchema = new mongoose.Schema({
 
 })
 
-module.exports.mongoose.model('Toilets', toiletsSchema)
+module.exports = mongoose.model('Toilets', toiletsSchema)
