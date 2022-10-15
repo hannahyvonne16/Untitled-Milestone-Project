@@ -78,7 +78,10 @@ const Navigation = styled.nav `
     top: 0;
     right: 0;
     z-index: 600;
-    width: 100%;
+    width: ${ props => props.clicked ? '100%' : '0'};
+    opacity: ${ props => props.clicked ? '1' : '0'};
+
+    transition: width 0.8s;
 `;
 
 const List = styled.ul `
@@ -126,7 +129,7 @@ function Navbar() {
             </MenuLabel>
             <NavBackground clicked={click}>&nbsp;</NavBackground>
 
-            <Navigation onClick={handleClick}>
+            <Navigation clicked={click}>
                 <List>
                     <li>
                         <ItemLink onClick={handleClick}>
