@@ -100,11 +100,13 @@ const ItemLink = styled(NavLink) `
     padding: 1rem 2rem;
 
     background-image: linear-gradient(
+        120deg,
         transparent 0%,
         transparent 50%,
         #fff 50%
     );
-    background-size: 200%;
+    background-size: 240%;
+    transition: all 0.4s;
 
     &:hover, 
     &:active {
