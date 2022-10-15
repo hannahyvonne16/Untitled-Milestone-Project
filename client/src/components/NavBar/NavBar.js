@@ -70,6 +70,13 @@ const Icon = styled.span `
         transform: ${props => 
             props.clicked ? 'rotate(-135deg)' : 'rotate(0)'}
     }
+
+    ${MenuLabel}:hover &::before {
+        top: ${props => (props.clicked ? '0' : '-1.5rem')}; 
+    }
+    ${MenuLabel}:hover &::after {
+        top: ${props => (props.clicked ? '0' : '1.5rem')}; 
+    }
 `; 
 
 const Navigation = styled.nav `
