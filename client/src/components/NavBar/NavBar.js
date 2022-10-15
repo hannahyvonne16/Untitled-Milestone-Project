@@ -77,10 +77,27 @@ const Navigation = styled.nav `
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 600;
+    width: 100%;
 `;
 
 const List = styled.ul `
     position: absolute;
+    list-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+`;
+
+const ItemLink = styled(NavLink) `
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: ${COLORS.primaryLight};
+    padding: 1rem 2rem;
 `;
 
 function Navbar() {
@@ -96,9 +113,24 @@ function Navbar() {
             <Navigation onClick={handleClick}>
                 <List>
                     <li>
-                        <NavLink onClick={handleClick}>
+                        <ItemLink onClick={handleClick}>
                             Home
-                        </NavLink>
+                        </ItemLink>
+                    </li>
+                    <li>
+                        <ItemLink onClick={handleClick}>
+                            Account
+                        </ItemLink>
+                    </li>
+                    <li>
+                        <ItemLink onClick={handleClick}>
+                            Project
+                        </ItemLink>
+                    </li>
+                    <li>
+                        <ItemLink onClick={handleClick}>
+                            Team
+                        </ItemLink>
                     </li>
                 </List>
 
