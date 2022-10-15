@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/Pages/Home';
+import Account from './components/Pages/Account';
+import Project from './components/Pages/Project';
+import Team from './components/Pages/Team';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
  
 
 function App() {
@@ -9,9 +13,19 @@ function App() {
     <div className="App">
         <Router>
           <NavBar />
+
+          <div className="pages">
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/account" element={<Account />} />
+              <Route path="/project" element={<Project />} />
+              <Route path="/team" element={<Team />} />
+            </Routes>
+          </div>
         </Router>
     </div>
   );
 }
 
 export default App;
+

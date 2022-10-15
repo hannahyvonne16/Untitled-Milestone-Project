@@ -81,7 +81,7 @@ const Navigation = styled.nav `
     width: ${ props => props.clicked ? '100%' : '0'};
     opacity: ${ props => props.clicked ? '1' : '0'};
 
-    transition: width 0.8s;
+    transition: width 0.8s, opacity 0.8s;
 `;
 
 const List = styled.ul `
