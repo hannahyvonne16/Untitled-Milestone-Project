@@ -30,7 +30,7 @@ app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`)
 })
 
-// for sign-up and maybe log-in???
+// for sign-up and maybe log-in??? (Shane)
 app.post('/post', async (req, res) => {
     console.log(req.body);
     const { data } = req.body;
