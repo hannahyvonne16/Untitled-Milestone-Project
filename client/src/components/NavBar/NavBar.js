@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const COLORS= {
@@ -71,6 +72,17 @@ const Icon = styled.span `
     }
 `; 
 
+const Navigation = styled.nav `
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+`;
+
+const List = styled.ul `
+    position: absolute;
+`;
+
 function Navbar() {
     const [click, setClick] = useState(false);
     const handleClick= () => setClick(!click);
@@ -80,6 +92,17 @@ function Navbar() {
                 <Icon clicked={click}>&nbsp;</Icon>
             </MenuLabel>
             <NavBackground clicked={click}>&nbsp;</NavBackground>
+
+            <Navigation onClick={handleClick}>
+                <List>
+                    <li>
+                        <NavLink onClick={handleClick}>
+                            Home
+                        </NavLink>
+                    </li>
+                </List>
+
+            </Navigation>
         </>
     )
 }
