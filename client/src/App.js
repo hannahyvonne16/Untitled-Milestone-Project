@@ -6,6 +6,7 @@ import Account from './components/Pages/Account';
 import Project from './components/Pages/Project';
 import Team from './components/Pages/Team';
 import SignUp from './components/Pages/signup_component';
+import Login from './components/Pages/login_registration';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
  
 
@@ -21,7 +22,8 @@ function App() {
               <Route path="/account" element={<Account />} />
               <Route path="/project" element={<Project />} />
               <Route path="/team" element={<Team />} />
-              <Route path='/register' element={<SignUp />} />
+              <Route path='/sign-up' element={<SignUp />} />
+              <Route path='/login-user' element={<Login />} />
             </Routes>
           </div>
         </Router>
