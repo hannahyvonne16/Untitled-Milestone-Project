@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const COLORS= {
@@ -133,22 +133,22 @@ function Navbar() {
                 <List>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            Home
+                            <Link to='/'>Home</Link>
                         </ItemLink>
                     </li>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            Account
+                            <Link to='/account'>Account</Link>
                         </ItemLink>
                     </li>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            Project
+                            <Link to='/project'>Project</Link>
                         </ItemLink>
                     </li>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            Team
+                            <Link to='/team'>Team</Link>
                         </ItemLink>
                     </li>
                 </List>
