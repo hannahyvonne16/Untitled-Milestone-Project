@@ -98,6 +98,20 @@ const ItemLink = styled(NavLink) `
     text-decoration: none;
     color: ${COLORS.primaryLight};
     padding: 1rem 2rem;
+
+    background-image: linear-gradient(
+        transparent 0%,
+        transparent 50%,
+        #fff 50%
+    );
+    background-size: 200%;
+
+    &:hover, 
+    &:active {
+        background-position: 100%;
+        color: ${COLORS.primaryDark};
+        transform: translateX(1rem);
+    }
 `;
 
 function Navbar() {
