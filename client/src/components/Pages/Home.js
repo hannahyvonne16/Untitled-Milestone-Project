@@ -14,6 +14,11 @@ const mapContainerStyle = {
   height: '100vh',
 }
 
+const center = {
+  lat: 33.781528,
+  lng: -118.109680, 
+}
+
 export default function Home(){
   const {isLoaded, loadError} = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
@@ -24,6 +29,6 @@ export default function Home(){
   if (!isLoaded) return 'Loading Maps';
 
   return <div>
-    <GoogleMap mapContainerStyle={mapContainerStyle}></GoogleMap>
+    <GoogleMap mapContainerStyle={mapContainerStyle} zoom={8} center={center}></GoogleMap>
   </div>;
 }
