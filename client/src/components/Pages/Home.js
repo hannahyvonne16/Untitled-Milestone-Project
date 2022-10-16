@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+/*import { useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
  function Home() {
@@ -20,4 +20,4 @@ function Map() {
   );
 }
 
-export default Home;
+export default Home;*/
