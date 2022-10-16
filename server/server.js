@@ -2,10 +2,14 @@ const express = require('express')
 const path =require('path')
 const PORT = process.env.PORT || 4000
 const app = express();
-// need to install mongoose
-    // const mongoose = require('mongoose');
+const cors =require('cors')
 
-// Connection to mongoDB database
+// need to install mongoose
+    const mongoose = require('mongoose');
+
+mongoose.connect("mongodb+srv://dumpy3000:toiletpaper69@plants.dgy4w.mongodb.net/?retryWrites=true&w=majority"
+).then(() => console.log('MongoDB connection is successful')).catch((err) => console.err(err));
+
     // const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
 
     // mongoose.connect(mongoUrl, {
