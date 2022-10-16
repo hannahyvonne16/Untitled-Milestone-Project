@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignUp from './signup_component';
 
 export default class Login extends Component {
   constructor(props) {
@@ -15,7 +13,7 @@ export default class Login extends Component {
     e.preventDefault();
     const { email, password } = this.state;
     console.log(email, password);
-    fetch('http://localhost:3000/login-user', {
+    fetch('http://localhost:4000/login-user', {
       method: 'POST',
       crossDomain: true,
       headers: {
@@ -31,7 +29,7 @@ export default class Login extends Component {
       .then((res) => res.json())
       .then((data) => {
         console.log(data, 'userRegister');
-        if (data.status == 'ok') {
+        if (data.status === 'ok') {
           alert('login successful');
           window.localStorage.setItem('token', data.data);
           window.location.href = './userDetails';
@@ -43,7 +41,7 @@ export default class Login extends Component {
       <form onSubmit={this.handleSubmit}>
         <h3>Sign In</h3>
 
-        <div className='mb-3'>
+        <div>
           <label>Email address</label>
           <input
             type='email'
@@ -53,7 +51,7 @@ export default class Login extends Component {
           />
         </div>
 
-        <div className='mb-3'>
+        <div>
           <label>Password</label>
           <input
             type='password'
@@ -63,12 +61,12 @@ export default class Login extends Component {
           />
         </div>
 
-        <div className='d-grid'>
+        <div>
           <button type='submit' className='btn btn-primary'>
             Submit
           </button>
         </div>
-        <p className='forgot-password text-right'>
+        <p>
         <a href='/sign-up'>Sign up</a>
         </p>
       </form>

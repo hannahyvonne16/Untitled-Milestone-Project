@@ -15,7 +15,7 @@ export default class SignUp extends Component {
     e.preventDefault();
     const { fname, lname, email, password } = this.state;
     console.log(fname, lname, email, password);
-    fetch('http://localhost:5000/sign-up', {
+    fetch('http://localhost:4000/sign-up', {
       method: 'POST',
       crossDomain: true,
       headers: {
@@ -40,7 +40,7 @@ export default class SignUp extends Component {
       <form onSubmit={this.handleSubmit}>
         <h3>Sign Up</h3>
 
-        <div className='mb-3'>
+        <div>
           <label>First name</label>
           <input
             type='text'
@@ -50,7 +50,7 @@ export default class SignUp extends Component {
           />
         </div>
 
-        <div className='mb-3'>
+        <div>
           <label>Last name</label>
           <input
             type='text'
@@ -60,7 +60,7 @@ export default class SignUp extends Component {
           />
         </div>
 
-        <div className='mb-3'>
+        <div>
           <label>Email address</label>
           <input
             type='email'
@@ -70,7 +70,7 @@ export default class SignUp extends Component {
           />
         </div>
 
-        <div className='mb-3'>
+        <div>
           <label>Password</label>
           <input
             type='password'
@@ -80,12 +80,12 @@ export default class SignUp extends Component {
           />
         </div>
 
-        <div className='d-grid'>
+        <div>
           <button type='submit' className='btn btn-primary'>
             Sign Up
           </button>
         </div>
-        <p className='forgot-password text-right'>
+        <p>
           Already registered <a href='/login-user'>sign in?</a>
         </p>
       </form>
