@@ -2,15 +2,11 @@ const express = require('express')
 const path =require('path')
 const PORT = process.env.PORT || 4000
 const app = express();
-app.use(express.json());
 // need to install mongoose
-const mongoose = require('mongoose');
-// possibly need cors installation
-    // const cors = require('cors');
-    // app.use(cors());
+    // const mongoose = require('mongoose');
 
-// Connection to mongoDB database for signup and login (Shane)
-    const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
+// Connection to mongoDB database
+    // const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
 
     mongoose.connect(mongoUrl, {
         useNewUrlParser: true

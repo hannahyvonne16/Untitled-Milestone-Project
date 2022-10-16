@@ -8,6 +8,7 @@ import Team from './components/Pages/Team';
 import SignUp from './components/Pages/signup_component';
 import Login from './components/Pages/login_registration';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
  
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
         <Router>
           <NavBar />
-
+          <Home />
           <div className="pages">
             <Routes>
               <Route exact path="/" element={<Home />} />
