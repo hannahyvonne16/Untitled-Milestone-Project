@@ -1,9 +1,13 @@
+require('dotenv').config()
 const express = require('express')
 const path =require('path')
 const PORT = process.env.PORT || 4000
 const app = express();
 // need to install mongoose
-    // const mongoose = require('mongoose');
+    const mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGO_URI
+).then(() => console.log('MongoDB connection is successful')).catch((err) => console.err(err));
 
 // Connection to mongoDB database
     // const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
