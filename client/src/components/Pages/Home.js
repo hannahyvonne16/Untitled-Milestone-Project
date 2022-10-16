@@ -9,6 +9,10 @@ import { formatRelative } from 'date-fns';
 
 
 const libraries = ['places']
+const mapContainerStyle = {
+  width: '100vw',
+  height: '100vh',
+}
 
 export default function Home(){
   const {isLoaded, loadError} = useLoadScript({
@@ -18,5 +22,8 @@ export default function Home(){
 
   if (loadError) return 'Error loading maps';
   if (!isLoaded) return 'Loading Maps';
-  return <div>Map</div>;
+
+  return <div>
+    <GoogleMap mapContainerStyle={mapContainerStyle}></GoogleMap>
+  </div>;
 }
