@@ -1,13 +1,17 @@
 const express = require('express')
+const cors = require('cors');
+const axios = require('axios');
 const path =require('path')
 const PORT = process.env.PORT || 4000
 const app = express();
+const mongoose = require('mongoose')
 // need to install mongoose
     // const mongoose = require('mongoose');
 
 // Connection to mongoDB database
-    // const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
+     const mongoUrl = process.env.MONGO_URI
 
+    app.listen(4000, ()=> console.log(`Server is running on ${PORT}`))
     mongoose.connect(mongoUrl, {
         useNewUrlParser: true
     }).then(() => {console.log('connected to database');
