@@ -11,7 +11,7 @@ import ReactMapGL from 'react-map-gl';
   })
 
   return <div>
-    <ReactMapGL {...viewport}>Map Here</ReactMapGL>
+    <ReactMapGL {...viewport} mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}>Map Here</ReactMapGL>
   </div>
 }
 
