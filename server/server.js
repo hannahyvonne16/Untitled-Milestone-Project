@@ -59,6 +59,14 @@ app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`)
 })
 
+app.get('/', (req, res) => {
+    res.json('hi')
+})
+
+app.get('/', (req, res) => {
+    res.json('Hello API')
+})
+
 // for sign-up and maybe log-in??? (Shane)
 // app.post('/post', async (req, res) => {
 //     console.log(req.body);
