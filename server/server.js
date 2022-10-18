@@ -2,11 +2,10 @@ const express = require('express')
 const path =require('path')
 const PORT = process.env.PORT || 4000
 const app = express();
-// need to install mongoose
-    // const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 // Connection to mongoDB database
-    // const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
+    const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
 
     mongoose.connect(mongoUrl, {
         useNewUrlParser: true
@@ -16,11 +15,12 @@ const app = express();
 
     require('./userDetails');
 
+    // code for sign up 
     const User = mongoose.model('UserInfo');
     app.post('/sign-up', async(req, res) => {
         const {fname, lname, email, password} = req.body;
         try {
-            const oldUser = User.findOne({ email });
+            const oldUser = await User.findOne({ email });
             if(oldUser) {
                 res.send({error: 'User exists'});
             }
@@ -33,6 +33,21 @@ const app = express();
                 res.send({status: 'ok'});
         } catch (error) {
             res.send({status: 'error'});
+        }
+    });
+
+    // code for log in
+
+    app.post('/login-user', async (req, res) => {
+        const { email, password } = req.body;
+
+        // To find if user has email/password
+        const user = await User.findOne({ email });
+        if (!user) {
+            return res.json({ error: 'User Not Found' });
+        } 
+        if (!password) {
+            return res.json({ status: 'error', error: 'Invalid Password'});
         }
     });
 
