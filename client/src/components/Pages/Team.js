@@ -1,9 +1,10 @@
 import { React } from 'react';
+import ImageSlider from '../Slider';
 function Team() {
     return(
-        <>
-            <h1>Team</h1>
-        </>
+        <div>
+            
+        </div>
     );
 }
 
