@@ -4,19 +4,10 @@ const axios = require('axios');
 const path =require('path')
 const PORT = process.env.PORT || 4000
 const app = express();
-<<<<<<< HEAD
 const mongoose = require('mongoose');
 
 // Connection to mongoDB database
-    const mongoUrl = 'mongodb+srv://finalproject:theshit@finalproject.mcyoudd.mongodb.net/test';
-=======
-const mongoose = require('mongoose')
-// need to install mongoose
-    // const mongoose = require('mongoose');
-
-// Connection to mongoDB database
-     const mongoUrl = process.env.MONGO_URI
->>>>>>> 64bf4e4a48eb898612af98e81b1357c920603956
+    const mongoUrl = 'mongodb+srv://mrdumpy5000:everyBodyPoopsEvengirls420@plants.dgy4w.mongodb.net/?';
 
     app.listen(4000, ()=> console.log(`Server is running on ${PORT}`))
     mongoose.connect(mongoUrl, {
