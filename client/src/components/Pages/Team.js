@@ -3,7 +3,7 @@ import ImageSlider from '../Slider';
 function Team() {
     return(
         <div>
-            
+            <ImageSlider />
         </div>
     );
 }
