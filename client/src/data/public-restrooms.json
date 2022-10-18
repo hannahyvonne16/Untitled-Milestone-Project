@@ -1,0 +1,1065 @@
+{
+    "meta" : {
+      "view" : {
+        "id" : "hjae-yuav",
+        "name" : "Directory Of Toilets In Public Parks",
+        "assetType" : "dataset",
+        "attribution" : "Department of Parks and Recreation (DPR)",
+        "attributionLink" : "http://www.nycgovparks.org/facilities/bathrooms",
+        "averageRating" : 0,
+        "category" : "Recreation",
+        "createdAt" : 1359063597,
+        "description" : "Directory of Toilets in Public Parks",
+        "displayType" : "table",
+        "downloadCount" : 3931,
+        "hideFromCatalog" : false,
+        "hideFromDataJson" : false,
+        "indexUpdatedAt" : 1536596608,
+        "newBackend" : true,
+        "numberOfComments" : 1,
+        "oid" : 4141225,
+        "provenance" : "official",
+        "publicationAppendEnabled" : false,
+        "publicationDate" : 1371846496,
+        "publicationGroup" : 634175,
+        "publicationStage" : "published",
+        "rowClass" : "",
+        "rowsUpdatedAt" : 1371846494,
+        "rowsUpdatedBy" : "5fuc-pqz2",
+        "tableId" : 933058,
+        "totalTimesRated" : 0,
+        "viewCount" : 8759,
+        "viewLastModified" : 1625077590,
+        "viewType" : "tabular",
+        "approvals" : [ {
+          "reviewedAt" : 1371846496,
+          "reviewedAutomatically" : true,
+          "state" : "approved",
+          "submissionId" : 1064661,
+          "submissionObject" : "public_audience_request",
+          "submissionOutcome" : "change_audience",
+          "submittedAt" : 1371846496,
+          "workflowId" : 2285,
+          "submissionDetails" : {
+            "permissionType" : "READ"
+          },
+          "submissionOutcomeApplication" : {
+            "failureCount" : 0,
+            "status" : "success"
+          },
+          "submitter" : {
+            "id" : "5fuc-pqz2",
+            "displayName" : "NYC OpenData"
+          }
+        } ],
+        "clientContext" : {
+          "clientContextVariables" : [ ],
+          "inheritedVariables" : { }
+        },
+        "columns" : [ {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "id",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":id",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "position",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":position",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 75771921,
+          "name" : "Name",
+          "dataTypeName" : "text",
+          "fieldName" : "name",
+          "position" : 1,
+          "renderTypeName" : "text",
+          "tableColumnId" : 7218190,
+          "width" : 234,
+          "cachedContents" : {
+            "non_null" : "616",
+            "largest" : "Zimmerman Playground",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Shore Road Park",
+              "count" : "4"
+            }, {
+              "item" : "Coney Island Beach",
+              "count" : "4"
+            }, {
+              "item" : "Coney Island",
+              "count" : "3"
+            }, {
+              "item" : "Bushwick Playground & Pool",
+              "count" : "2"
+            }, {
+              "item" : "Com. John Barry Park & Playground",
+              "count" : "2"
+            }, {
+              "item" : "Baisley Pond Park",
+              "count" : "2"
+            }, {
+              "item" : "Morningside Park",
+              "count" : "2"
+            }, {
+              "item" : "Orchard Beach Pavilion",
+              "count" : "2"
+            }, {
+              "item" : "Jackie Robinson Park",
+              "count" : "2"
+            }, {
+              "item" : "Cadman Plaza & Brooklyn War Memorial",
+              "count" : "2"
+            }, {
+              "item" : "Prospect Park (Willink Hill)",
+              "count" : "2"
+            }, {
+              "item" : "Linden Park",
+              "count" : "2"
+            }, {
+              "item" : "Parkside Playground",
+              "count" : "2"
+            }, {
+              "item" : "McDonald Playground",
+              "count" : "2"
+            }, {
+              "item" : "Rockaway Beach",
+              "count" : "2"
+            }, {
+              "item" : "Columbus Park",
+              "count" : "2"
+            }, {
+              "item" : "Red Hook Park",
+              "count" : "2"
+            }, {
+              "item" : "St. Nicholas Park",
+              "count" : "2"
+            }, {
+              "item" : "Haffen Park",
+              "count" : "2"
+            }, {
+              "item" : "Roy Wilkins Recreation Center",
+              "count" : "2"
+            } ],
+            "smallest" : "100% Playground",
+            "count" : "616",
+            "cardinality" : "589"
+          },
+          "format" : { }
+        }, {
+          "id" : 75771922,
+          "name" : "Location",
+          "dataTypeName" : "text",
+          "fieldName" : "location",
+          "position" : 2,
+          "renderTypeName" : "text",
+          "tableColumnId" : 7218191,
+          "width" : 333,
+          "cachedContents" : {
+            "non_null" : "615",
+            "largest" : "Yellowstone Boulevard between 68 Avenue & 68 Road",
+            "null" : "1",
+            "top" : [ {
+              "item" : "Bruckner Boulevard, Eastchester Bay, Hutchinson",
+              "count" : "6"
+            }, {
+              "item" : "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South",
+              "count" : "4"
+            }, {
+              "item" : "Richmond Parkway & Moravian Cemetery at Rockland Avenue",
+              "count" : "4"
+            }, {
+              "item" : "South of Flushing Avenue",
+              "count" : "3"
+            }, {
+              "item" : "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard",
+              "count" : "3"
+            }, {
+              "item" : "Brooklyn, St. Mark's, Kingston avenues, Park Place",
+              "count" : "2"
+            }, {
+              "item" : "Central Park",
+              "count" : "2"
+            }, {
+              "item" : "Boardwalk, Surf, Sea Breeze avenues, Ocean Parkway",
+              "count" : "2"
+            }, {
+              "item" : "West 239 Street & Van Cortlandt East",
+              "count" : "2"
+            }, {
+              "item" : "Battery Place, State & Whitehall streets",
+              "count" : "2"
+            }, {
+              "item" : "Otsego, Bay, Hicks, Lorraine, Court, Halleck streets",
+              "count" : "2"
+            }, {
+              "item" : "Joline Avenue, Hylan Boulevard",
+              "count" : "2"
+            }, {
+              "item" : "Broadway, Henderson Avenue",
+              "count" : "2"
+            }, {
+              "item" : "Rockland, Manor and Brielle avenues, Forest Hill Road",
+              "count" : "2"
+            }, {
+              "item" : "West 129 Street, Amsterdam Avenue",
+              "count" : "2"
+            }, {
+              "item" : "Lincoln Road/Ocean Avenue/Willink Entrance/East Lake Drive",
+              "count" : "2"
+            }, {
+              "item" : "West 242nd Street & Broadway",
+              "count" : "2"
+            }, {
+              "item" : "Tillary, Cadman Plaza West, Cadman Plaza East, Prospect streets",
+              "count" : "2"
+            }, {
+              "item" : "Livonia, Dumont, Hopkinson, Blake avenues, Strauss Street",
+              "count" : "2"
+            }, {
+              "item" : "41 to 44 streets, 5 to 7 avenues",
+              "count" : "2"
+            } ],
+            "smallest" : "100th Street and Fifth Ave",
+            "count" : "616",
+            "cardinality" : "584"
+          },
+          "format" : { }
+        }, {
+          "id" : 75771923,
+          "name" : "Open Year-Round",
+          "dataTypeName" : "text",
+          "fieldName" : "open_year_round",
+          "position" : 3,
+          "renderTypeName" : "text",
+          "tableColumnId" : 7218192,
+          "width" : 128,
+          "cachedContents" : {
+            "non_null" : "589",
+            "largest" : "Yes",
+            "null" : "27",
+            "top" : [ {
+              "item" : "Yes",
+              "count" : "529"
+            }, {
+              "item" : "No",
+              "count" : "60"
+            } ],
+            "smallest" : "No",
+            "count" : "616",
+            "cardinality" : "2"
+          },
+          "format" : { }
+        }, {
+          "id" : 75771924,
+          "name" : "Handicap Accessible",
+          "dataTypeName" : "text",
+          "fieldName" : "handicap_accessible",
+          "position" : 4,
+          "renderTypeName" : "text",
+          "tableColumnId" : 7218193,
+          "width" : 161,
+          "cachedContents" : {
+            "non_null" : "129",
+            "largest" : "Yes",
+            "null" : "487",
+            "top" : [ {
+              "item" : "Yes",
+              "count" : "129"
+            } ],
+            "smallest" : "Yes",
+            "count" : "616",
+            "cardinality" : "1"
+          },
+          "format" : { }
+        }, {
+          "id" : 75771925,
+          "name" : "Borough",
+          "dataTypeName" : "text",
+          "fieldName" : "borough",
+          "position" : 5,
+          "renderTypeName" : "text",
+          "tableColumnId" : 7218194,
+          "width" : 99,
+          "cachedContents" : {
+            "non_null" : "616",
+            "largest" : "Staten Island",
+            "null" : "0",
+            "top" : [ {
+              "item" : "Brooklyn",
+              "count" : "170"
+            }, {
+              "item" : "Queens",
+              "count" : "161"
+            }, {
+              "item" : "Manhattan",
+              "count" : "129"
+            }, {
+              "item" : "Bronx",
+              "count" : "118"
+            }, {
+              "item" : "Staten Island",
+              "count" : "38"
+            } ],
+            "smallest" : "Bronx",
+            "count" : "616",
+            "cardinality" : "5"
+          },
+          "format" : { }
+        }, {
+          "id" : 75771926,
+          "name" : "Comments",
+          "dataTypeName" : "text",
+          "fieldName" : "comments",
+          "position" : 6,
+          "renderTypeName" : "text",
+          "tableColumnId" : 7218195,
+          "width" : 170,
+          "cachedContents" : {
+            "non_null" : "8",
+            "largest" : "This facility is currently closed. ",
+            "null" : "608",
+            "top" : [ {
+              "item" : "This facility is currently closed",
+              "count" : "6"
+            }, {
+              "item" : "Closed from 7:30 - 3:30p during the schoolyear.",
+              "count" : "1"
+            }, {
+              "item" : "This facility is currently closed. ",
+              "count" : "1"
+            } ],
+            "smallest" : "Closed from 7:30 - 3:30p during the schoolyear.",
+            "count" : "616",
+            "cardinality" : "3"
+          },
+          "format" : { }
+        } ],
+        "grants" : [ {
+          "inherited" : false,
+          "type" : "viewer",
+          "flags" : [ "public" ]
+        } ],
+        "metadata" : {
+          "rdfSubject" : "0",
+          "rdfClass" : "",
+          "attachments" : [ {
+            "filename" : "DigitalMedia_DirectoryOfToiletsInPublicParks_DataDictionary_20171024.xlsx",
+            "assetId" : "c3b3df69-5de7-4663-a9ea-9c9ef29532dd",
+            "blobId" : "",
+            "name" : "DigitalMedia_DirectoryOfToiletsInPublicParks_DataDictionary_20171024.xlsx"
+          } ],
+          "custom_fields" : {
+            "Update" : {
+              "Automation" : "No",
+              "Date Made Public" : "1/24/2013",
+              "Update Frequency" : "As needed"
+            },
+            "Dataset Information" : {
+              "Agency" : "Department of Parks and Recreation (DPR)"
+            }
+          },
+          "rowIdentifier" : "0",
+          "rowLabel" : "Toilet"
+        },
+        "owner" : {
+          "id" : "5fuc-pqz2",
+          "displayName" : "NYC OpenData",
+          "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+          "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+          "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+          "screenName" : "NYC OpenData",
+          "type" : "interactive",
+          "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+        },
+        "query" : { },
+        "rights" : [ "read" ],
+        "tableAuthor" : {
+          "id" : "8b43-zkvh",
+          "displayName" : "Ram S.",
+          "screenName" : "Ram S.",
+          "type" : "interactive"
+        },
+        "tags" : [ "dpr", "recreation", "park", "public", "toilet", "healthy living" ],
+        "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+      }
+    },
+    "data" : [ [ "row-utxx_afgz-297t", "00000000-0000-0000-FA95-D628B1D2227B", 0, 1425757680, null, 1425757680, null, "{ }", "100% Playground", "Glenwood Road, East 100 & East 101 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-8i4j.my7h-3y56", "00000000-0000-0000-5759-40B9EF85DC5B", 0, 1425757680, null, 1425757680, null, "{ }", "174th Street Playground", "East 174 Street, Stratford Avenue, Bronx River Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-csxb_w6xd~svyg", "00000000-0000-0000-0731-D02A50F882D3", 0, 1425757680, null, 1425757680, null, "{ }", "227 Street Playground", "Bronx Boulevard between East 226 and East 228 streets", "Yes", "Yes", "Bronx", null ]
+  , [ "row-kqa5.4nxx.nyf3", "00000000-0000-0000-E628-713BFEB843CB", 0, 1425757680, null, 1425757680, null, "{ }", "Abe Lincoln", "East 135 Street, between Madison & 5 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-6mg2-6xi9.gw2v", "00000000-0000-0000-108E-FC31C0C8A958", 0, 1425757680, null, 1425757680, null, "{ }", "Abigail Playground", "East 156 Street, Tinton Avenue", "No", null, "Bronx", null ]
+  , [ "row-cgeu_3yhh.bps8", "00000000-0000-0000-9F96-75BF981C0B45", 0, 1425757680, null, 1425757680, null, "{ }", "Agnes Haywood Playground", "East 215 Street, Barnes Avenue, East 216 Street", "Yes", null, "Bronx", null ]
+  , [ "row-stwx_ri7e.dqhd", "00000000-0000-0000-0220-DFA3BDCF163F", 0, 1425757680, null, 1425757680, null, "{ }", "Albemarle Park", "Albermarle Road & Dahill Road", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-8axw.hkmq_a49h", "00000000-0000-0000-9747-BFB4BBAB1669", 0, 1425757680, null, 1425757680, null, "{ }", "Albert J. Parham Playground", "Adelphi Street, Clermont, DeKalb & Willoughby avenues", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-xjae.38qb-at66", "00000000-0000-0000-5F4E-7544B107DDFB", 0, 1425757680, null, 1425757680, null, "{ }", "Alexander Hamilton Playground", "Hamilton Place, West 140 to West 141 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-nwjp-hi5s-4u6i", "00000000-0000-0000-F33D-DC3647E76BA6", 0, 1425757680, null, 1425757680, null, "{ }", "Alfred E. Smith Park", "Catherine Slip, Madison & South streets", "Yes", null, "Manhattan", null ]
+  , [ "row-edap-y2y5-jxns", "00000000-0000-0000-5CAC-686E6FDA0B2A", 0, 1425757680, null, 1425757680, null, "{ }", "Alice Kornegay Triangle", "Lexington Avenue, East 128 & East 129 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-8t2b-qjm3~xmbq", "00000000-0000-0000-B9B4-6683B7F30BDD", 0, 1425757680, null, 1425757680, null, "{ }", "Allerton Playground", "Anrow Avenue, Bouck Avenue, Throop Avenue, Streetedman Place, Allerton Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-8a4m_uwa6~yfyy", "00000000-0000-0000-E609-21D9FDD3A2AF", 0, 1425757680, null, 1425757680, null, "{ }", "Alley Park (PS 213)", "67 Avenue & 230 Street", "Yes", null, "Queens", null ]
+  , [ "row-2thc.2n3v~pusz", "00000000-0000-0000-BFED-0B8BB04AE2B0", 0, 1425757680, null, 1425757680, null, "{ }", "Alley Pond Park", "Entrance off Grand Central Parkway, includes athletic fields and picnic areas", "Yes", null, "Queens", null ]
+  , [ "row-nwuj.pm7f~yv39", "00000000-0000-0000-4ED9-18B3476352EF", 0, 1425757680, null, 1425757680, null, "{ }", "Alley Pond Park (Alley Athletic Field)", "Grand Central Parkway, Winchester Boulevard, &Union Turnpike", "Yes", null, "Queens", null ]
+  , [ "row-epts.hqsz~gpif", "00000000-0000-0000-462B-DF3E4A3CB5CA", 0, 1425757680, null, 1425757680, null, "{ }", "Alley Pond Park (Alley Pond Spring)", "Springfield Boulevard, 73rd Avenue, 76th Avenue to tree line & natural area", "Yes", null, "Queens", null ]
+  , [ "row-cjqs_xz2b_kmx4", "00000000-0000-0000-DED3-29B277DF336D", 0, 1425757680, null, 1425757680, null, "{ }", "Alley Pond Park (Horatio Playground)", "Horatio Parkway and 50 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-8z9h_qjh7~tm2i", "00000000-0000-0000-8742-61B68A73E748", 0, 1425757680, null, 1425757680, null, "{ }", "Alstyne Playground", "Alystine Avenue & 102 Street", "Yes", null, "Queens", null ]
+  , [ "row-z8pz~efxt~sys4", "00000000-0000-0000-4F51-71B9AECFE7F1", 0, 1425757680, null, 1425757680, null, "{ }", "American Playground", "Noble, Franklin Milton Streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-t25a~h3rz.3yk5", "00000000-0000-0000-E3DC-F5E9FA9C8FA9", 0, 1425757680, null, 1425757680, null, "{ }", "Ampere Playground (PS 64)", "101 Avenue & 82 Street", "Yes", null, "Queens", null ]
+  , [ "row-65mu-85ce.bdfv", "00000000-0000-0000-C2F9-6F223FE321EE", 0, 1425757680, null, 1425757680, null, "{ }", "Andrews Playground", "49 Avenue, Vernon Boulevard, 5 Street", "No", null, "Queens", null ]
+  , [ "row-wsy9_5khw~y443", "00000000-0000-0000-CAA3-28F5A9752AB9", 0, 1425757680, null, 1425757680, null, "{ }", "Annandale Playground (PS 175)", "Yellowstone Boulevard, 65 Road, 65 Avenue", "Yes", "Yes", "Queens", null ]
+  , [ "row-rfnf.6hcv~26tr", "00000000-0000-0000-5B38-1F6F30D81565", 0, 1425757680, null, 1425757680, null, "{ }", "Annunciation Park", "Convent and Amsterdam Av, W 135 St", null, "Yes", "Manhattan", null ]
+  , [ "row-9s8a_6qnq-6ahn", "00000000-0000-0000-5DA7-A1E8574FEB48", 0, 1425757680, null, 1425757680, null, "{ }", "Arcilla Playground", "Teller Avenue, Park Avenue, Clay Avenue, East 64 Street", "Yes", "Yes", "Bronx", null ]
+  , [ "row-zgd2~i5yy_x3t6", "00000000-0000-0000-7B1F-70D40361DF58", 0, 1425757680, null, 1425757680, null, "{ }", "Arrochar Playground", "Sand Lane, Major Avenue, McFarland Avenue", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-2v5a-ixkf.2qaz", "00000000-0000-0000-6E7F-0F55A8FB5501", 0, 1425757680, null, 1425757680, null, "{ }", "Arrow Community Garden", "35th Street, between 35th and 36th Avenue", "Yes", null, "Queens", null ]
+  , [ "row-ewwh~h32q~pzir", "00000000-0000-0000-21DE-DE69F2D9DC6F", 0, 1425757680, null, 1425757680, null, "{ }", "Asser Levy", "Asser Levy Place & East 24-25 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-jiui~pbvz.udri", "00000000-0000-0000-42AB-6A364CAAE77A", 0, 1425757680, null, 1425757680, null, "{ }", "Asser Levy Park", "Boardwalk, Surf, Sea Breeze avenues, Ocean Parkway", "Yes", null, "Brooklyn", null ]
+  , [ "row-xte7-pa4m-yfn4", "00000000-0000-0000-DC10-B7CEA37D59BD", 0, 1425757680, null, 1425757680, null, "{ }", "Asser Levy Park (Performance Space)", "Boardwalk, Surf, Sea Breeze avenues, Ocean Parkway", "Yes", null, "Brooklyn", null ]
+  , [ "row-x2pe-t79z_eptt", "00000000-0000-0000-67EB-5ABA5ED1273F", 0, 1425757680, null, 1425757680, null, "{ }", "Astoria Heights Playground", "30 Road, 45 to 46 streets", "Yes", null, "Queens", null ]
+  , [ "row-fi39.yy6a.r4um", "00000000-0000-0000-9A56-F689C440671E", 0, 1425757680, null, 1425757680, null, "{ }", "Astoria Park (Charybdis Playground)", "Shore Boulevard opposite 23 Road", "Yes", null, "Queens", null ]
+  , [ "row-2uz4.p34s.ryyr", "00000000-0000-0000-59F0-11D354BE61F4", 0, 1425757680, null, 1425757680, null, "{ }", "Athens Sq (PS 17)", "29 Street, 30 Street, 30 Avenue, Newtown Avenue", "Yes", "Yes", "Queens", null ]
+  , [ "row-qk6g.7q8j-na4c", "00000000-0000-0000-9554-1A881C78294B", 0, 1425757680, null, 1425757680, null, "{ }", "Aubondale Playground", "170-171 streets, 33-35 avenues", "Yes", null, "Queens", null ]
+  , [ "row-qy29~wzsp-t9rg", "00000000-0000-0000-0916-F7AF59D04804", 0, 1425757680, null, 1425757680, null, "{ }", "Audubon Playground", "West 170 Street & Audubon Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-kueb~icrz_p3rk", "00000000-0000-0000-C70B-B1CC7F2B9CA4", 0, 1425757680, null, 1425757680, null, "{ }", "Augustus St. Gaudens", "East 19 to East 20 streets, 2 Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-iijx-zi5m-xt9s", "00000000-0000-0000-3602-F3FEE338620A", 0, 1425757680, null, 1425757680, null, "{ }", "Bailey Playground", "Bailey Avenue, Weast 233-West 238 streets", "Yes", null, "Bronx", null ]
+  , [ "row-yvyp~bphg_tadm", "00000000-0000-0000-F148-8613B2039DC5", 0, 1425757680, null, 1425757680, null, "{ }", "Baisley Pond Park", "Rockaway Boulevard, 125th Avenue, & Baisley Boulevard South", "Yes", null, "Queens", null ]
+  , [ "row-pnjm~nx6v-j97s", "00000000-0000-0000-D822-103E6E05E985", 0, 1425757680, null, 1425757680, null, "{ }", "Baisley Pond Park", "150th Street, Rockaway Boulevard, Baisley Boulevard South, & North Conduit Avenue", "Yes", null, "Queens", null ]
+  , [ "row-gwxd~qv7k.5vgn", "00000000-0000-0000-B75B-213224131D05", 0, 1425757680, null, 1425757680, null, "{ }", "Baisley Pond Park (157th Street Playground)", "157 Street & 116 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-kwtg-q6uh-fh8r", "00000000-0000-0000-8204-B15F5971351B", 0, 1425757680, null, 1425757680, null, "{ }", "Bartlett Playground", "Bartlett Street & Throop Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-fsgk~w7iw.s9zm", "00000000-0000-0000-04D5-5C14E9E7D820", 0, 1425757680, null, 1425757680, null, "{ }", "Battery Park (Battery Gardens)", "Battery Place, State & Whitehall streets", "Yes", null, "Manhattan", null ]
+  , [ "row-2cdn~4ah9-yqp8", "00000000-0000-0000-09A3-3087A61DFDDE", 0, 1425757680, null, 1425757680, null, "{ }", "Battery Park Comfort Station", "Battery Place, State & Whitehall streets", "Yes", null, "Manhattan", null ]
+  , [ "row-knvg.cf74.4ka2", "00000000-0000-0000-A980-6E7395A9BFB3", 0, 1425757680, null, 1425757680, null, "{ }", "Bay Terrace Playground (PS 169)", "23 Avenue & 212 Street", "Yes", null, "Queens", null ]
+  , [ "row-ckpn-ecwq-72ji", "00000000-0000-0000-55E5-3447911AD5CB", 0, 1425757680, null, 1425757680, null, "{ }", "Bayside Fields", "204 Street & 29 Avenue, Clearview Expressway", "Yes", "Yes", "Queens", null ]
+  , [ "row-iw7m-zhms~jsbc", "00000000-0000-0000-1C0D-D33465E6483D", 0, 1425757680, null, 1425757680, null, "{ }", "Bayside Playground (JHS 180)", "Beach Channel Drive & Seaside Avenue", "No", null, "Queens", null ]
+  , [ "row-ntdz.cw2m-g42y", "00000000-0000-0000-612C-11A257DE3B71", 0, 1425757680, null, 1425757680, null, "{ }", "Bayview Playground", "Seaview Avenue & East 99 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-84ba-tvpj-vr5d", "00000000-0000-0000-37C9-BFE7D7DF300C", 0, 1425757680, null, 1425757680, null, "{ }", "Bedford Playground", "Bedford Avenue & South 9 Street, Division Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-nisd-xvvp.mp5v", "00000000-0000-0000-CF96-AF6D9B016F9B", 0, 1425757680, null, 1425757680, null, "{ }", "Behagen Playground", "Tinton Avenue, East 165 Street, Union Avenue, East 166 Street", "Yes", "Yes", "Bronx", null ]
+  , [ "row-u7nn~pa3f~7fb9", "00000000-0000-0000-9CC7-C694D916A413", 0, 1425757680, null, 1425757680, null, "{ }", "Bellaire Playground", "89 Avenue, 207 & 208 streets", "Yes", null, "Queens", null ]
+  , [ "row-9ehf~x4kn_ztes", "00000000-0000-0000-E988-0A2BF8FD0528", 0, 1425757680, null, 1425757680, null, "{ }", "Belmont Playground", "Crotona Avenue, East 181 Street", "Yes", "Yes", "Bronx", null ]
+  , [ "row-2ug7~ct7p-z2qi", "00000000-0000-0000-757E-8EDC5E5A60C9", 0, 1425757680, null, 1425757680, null, "{ }", "Bendheim Playground", "100th Street and Fifth Ave", null, "Yes", "Manhattan", null ]
+  , [ "row-yt6g-qvzn~xawi", "00000000-0000-0000-8C9A-F396DDD8AE3E", 0, 1425757680, null, 1425757680, null, "{ }", "Bennett Park", "West 185 Street, Ft Washington Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-es5u.rsy2.xtcu", "00000000-0000-0000-EA22-2597EDC156C2", 0, 1425757680, null, 1425757680, null, "{ }", "Benson Playground", "Bath Avenue between Bay 22 & Bay 23 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-j6sv_ncg4_ra3i", "00000000-0000-0000-2EFE-3E94B3454079", 0, 1425757680, null, 1425757680, null, "{ }", "Bensonhurst Park", "Gravesend Bay, 21 & Cropsey avenues, Bay Parkway", "Yes", null, "Brooklyn", null ]
+  , [ "row-2hrq~ku6a~627i", "00000000-0000-0000-13B8-CC849917A15E", 0, 1425757680, null, 1425757680, null, "{ }", "Betsy Head Playground", "Livonia, Dumont, Hopkinson, Blake avenues, Strauss Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-72a2.thv4~pq27", "00000000-0000-0000-11EB-F8E6C17D189E", 0, 1425757680, null, 1425757680, null, "{ }", "Betsy Head Playground (Administration Building)", "Livonia, Dumont, Hopkinson, Blake avenues, Strauss Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-hy6z~yt65_5bcv", "00000000-0000-0000-E190-AFC0F01CE284", 0, 1425757680, null, 1425757680, null, "{ }", "Big Bush Park", "61 Street, north and south of Brooklyn-Queens Expressway", "Yes", null, "Queens", null ]
+  , [ "row-rsbe~6gaf-7z9e", "00000000-0000-0000-88BF-F03132658B59", 0, 1425757680, null, 1425757680, null, "{ }", "Bildersee Playground", "Flatlands Avenue between East 81 & East 82 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-nqvw.b45a.2gww", "00000000-0000-0000-820F-74D933EEDC09", 0, 1425757680, null, 1425757680, null, "{ }", "Bill Brown Memorial Playground", "Bedford Avenue, Avenue X to Avenue Y, E 24 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-9bxd-yvyw.qezi", "00000000-0000-0000-09E4-18D842EB6250", 0, 1425757680, null, 1425757680, null, "{ }", "Bleecker Playground", "Hudson & West 11 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-xuw8~nqsp-4t6k", "00000000-0000-0000-2C02-8D5992227E98", 0, 1425757680, null, 1425757680, null, "{ }", "Blood Root Valley (Greenbelt Nature Center)", "Rockland, Manor and Brielle avenues, Forest Hill Road", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-w27a~edu3-vi44", "00000000-0000-0000-FDEE-29142C50AC52", 0, 1425757680, null, 1425757680, null, "{ }", "Blood Root Valley (Park House)", "Rockland, Manor and Brielle avenues, Forest Hill Road", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-hat6.ne7p_xsj3", "00000000-0000-0000-92E2-0FC07BD36988", 0, 1425757680, null, 1425757680, null, "{ }", "Bloomingdale Park", "Richmond Pkwy, Bloomingdale Rd., Lenevar Ave", null, "Yes", "Staten Island", null ]
+  , [ "row-u7ag_wdyx-imyk", "00000000-0000-0000-4A71-6D9FF7275710", 0, 1425757680, null, 1425757680, null, "{ }", "Bloomingdale Playground", "Amsterdam Avenue, West 104 & West 105 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-wvqh_g4w9.s8dh", "00000000-0000-0000-B3C9-F3B7BC4A9223", 0, 1425757680, null, 1425757680, null, "{ }", "Blue Heron Park Preserve (Nature Center)", "Poillon Avenue", "Yes", "Yes", "Staten Island", "This facility is currently closed" ]
+  , [ "row-izf5.iqdr_z9hf", "00000000-0000-0000-9D12-5424D1990453", 0, 1425757680, null, 1425757680, null, "{ }", "Bowne Park", "159 Street, 29 Avenue, 155 Street, 32 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-645e~ri95~7pq9", "00000000-0000-0000-90AF-2E2906251A7B", 0, 1425757680, null, 1425757680, null, "{ }", "Bowne Playground", "Union Street and Sanford Avenue", "Yes", null, "Queens", null ]
+  , [ "row-fzkp.5daw.erek", "00000000-0000-0000-B169-523754A42C40", 0, 1425757680, null, 1425757680, null, "{ }", "Breininger Park", "Braddock Avenue & 240 Street", "Yes", null, "Queens", null ]
+  , [ "row-t5sw-nkjn_rs5a", "00000000-0000-0000-0909-5039523362A2", 0, 1425757680, null, 1425757680, null, "{ }", "Breukelen Playground", "Louisiana & Flatlands Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-ejip.x4vn-drvv", "00000000-0000-0000-4B44-DD079E4C3F4D", 0, 1425757680, null, 1425757680, null, "{ }", "Brevoort Playground", "Ralph Avenue & Chauncy Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-jiac_umxx~2tx7", "00000000-0000-0000-A368-2819684286DE", 0, 1425757680, null, 1425757680, null, "{ }", "Bridge Park 2", "Bridge & Prospect streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-zase.zfbm~wz8b", "00000000-0000-0000-E91A-BBED655E4FD1", 0, 1425757680, null, 1425757680, null, "{ }", "Broadway Malls", "Broadway, Columbus Circle to West 110 Street", "Yes", null, "Manhattan", null ]
+  , [ "row-m7zm.9zp9-6a47", "00000000-0000-0000-1821-97C1CC9F262A", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (Ben Abrams Playground)", "Lydig Avenue & Bronx Park East", "Yes", null, "Bronx", null ]
+  , [ "row-6rwa.auy2-az7y", "00000000-0000-0000-BEF8-BFE6A5D5C9FB", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (Brady Playground)", "Bronx Park East between Bronxdale Avenue and Unionport Road", "Yes", null, "Bronx", null ]
+  , [ "row-ae2d.ypnc_5hi9", "00000000-0000-0000-BE86-FA1203BDF22D", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (French Charley's Playground)", "East 204 Street & W/S Bronx Park", "Yes", null, "Bronx", null ]
+  , [ "row-n2xf_h6dc~9sst", "00000000-0000-0000-0CFE-B9AAF0692C9E", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (Olinville Playground)", "East 219 Street & Bronx River Parkway", "Yes", null, "Bronx", null ]
+  , [ "row-f6wb~3ipp_4d64", "00000000-0000-0000-B726-E0C515CA70D9", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (Ranaqua)", "Southern Boulevard, Webster, Burke avenues, Bronx Park East, 180 Street", "Yes", null, "Bronx", null ]
+  , [ "row-r5mk.8q57~rxpt", "00000000-0000-0000-EAD7-72CDD80FFD2F", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (River Park Playground)", "East 180th Street, Boston Road", "Yes", "Yes", "Bronx", null ]
+  , [ "row-dme3.bpte_v3bj", "00000000-0000-0000-67CE-A504307A3FBA", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (Rosewood Playground)", "Bronx River Parkway & Rosewood Street", "Yes", null, "Bronx", null ]
+  , [ "row-5spm-v4a3.3rs4", "00000000-0000-0000-9596-B4C2367A0901", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx Park (Waring Playground)", "Bronx Park East between Waring Avenure and Thwaites Place", "Yes", null, "Bronx", null ]
+  , [ "row-nsi3_34na.puve", "00000000-0000-0000-1B31-95A20EF94A4C", 0, 1425757680, null, 1425757680, null, "{ }", "Bronx River Parkway (Parque de los Ninos)", "Bronx River Parkway, Bronx Park, Westchester/NYC City Line.", "Yes", "Yes", "Bronx", null ]
+  , [ "row-m9j5-5g6r~jhzk", "00000000-0000-0000-B33A-6F208FE909AD", 0, 1425757680, null, 1425757680, null, "{ }", "Brookville Park", "Conduit Avenue, Brookville Boulevard, 144th Avenue, 233rd Street", "Yes", null, "Queens", null ]
+  , [ "row-u8xd_4x9c-92wd", "00000000-0000-0000-AB15-AB7A9240B1C9", 0, 1425757680, null, 1425757680, null, "{ }", "Brower Park", "Brooklyn, St. Mark's, Kingston avenues, Park Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-c4ha-mi3r~dxhi", "00000000-0000-0000-EA52-74FF08F9B41B", 0, 1425757680, null, 1425757680, null, "{ }", "Brower Park (Museum)", "Brooklyn, St. Mark's, Kingston avenues, Park Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-wsyk~zejk~hmys", "00000000-0000-0000-3E1F-621E1E8365D9", 0, 1425757680, null, 1425757680, null, "{ }", "Brownsville Playground", "Linden Boulevard & Hegeman Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-heri~mfyt_85zt", "00000000-0000-0000-8BC6-FBE86B1E42CF", 0, 1425757680, null, 1425757680, null, "{ }", "Bufano Playground", "La Salle Avenue, Edison Avenue, Bradford Avenue, Waterbury Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-v8zc~335z.e5j5", "00000000-0000-0000-382E-5AB517692D5A", 0, 1425757680, null, 1425757680, null, "{ }", "Bushwick Playground & Pool", "Flushing Avenue, Bushwick Avenue & Humboldt Street", "No", null, "Brooklyn", null ]
+  , [ "row-i9ga_vrvm-nkd5", "00000000-0000-0000-22DB-CF465A548099", 0, 1425757680, null, 1425757680, null, "{ }", "Bushwick Playground & Pool", "Flushing & Bushwick Avenue between Garden & Beaver", "Yes", null, "Brooklyn", null ]
+  , [ "row-gute-mgxh.pw69", "00000000-0000-0000-8D2C-82BB567A10CB", 0, 1425757680, null, 1425757680, null, "{ }", "Cabbell Park/Cambria Playground", "121 Avenue & 220 Street", "Yes", null, "Queens", null ]
+  , [ "row-qdut_zfiy~q8pa", "00000000-0000-0000-B078-96891C1750C4", 0, 1425757680, null, 1425757680, null, "{ }", "Cadman Plaza & Brooklyn War Memorial", "Tillary, Cadman Plaza West, Cadman Plaza East, Prospect streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-nkyu~dwz9~qkif", "00000000-0000-0000-DE33-46751DC22009", 0, 1425757680, null, 1425757680, null, "{ }", "Cadman Plaza & Brooklyn War Memorial", "Tillary, Cadman Plaza West, Cadman Plaza East, Prospect streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-pr5h.mewe_vtt6", "00000000-0000-0000-16F9-6997B07AAB47", 0, 1425757680, null, 1425757680, null, "{ }", "Campiz Playground", "Hope Street & Metropolitan Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-z7xk_ctxy.6crn", "00000000-0000-0000-080E-AB381468D491", 0, 1425757680, null, 1425757680, null, "{ }", "Canarsie Park", "Paerdegat Avenue, Seaview Avenue, East 93rd Street, Skidmore Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-39d9~2wxt.5ezi", "00000000-0000-0000-DA5E-94ABA2EA7434", 0, 1425757680, null, 1425757680, null, "{ }", "Capt. Rivera Playground", "East 156 Street, Forest Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-sayd_se9h-4k9e", "00000000-0000-0000-136B-50C6C5276562", 0, 1425757680, null, 1425757680, null, "{ }", "Capt. Tilly Park", "Highland Avenue, Upland Parkway, Gothic Parkway, 85 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-3g5r_jrbw_z4e6", "00000000-0000-0000-9CC3-2A8DC8DE27BF", 0, 1425757680, null, 1425757680, null, "{ }", "Captain Mario Fajardo Park", "Kissena Boulevard & Booth Memorial Avenue", "Yes", null, "Queens", null ]
+  , [ "row-h79i.vtsr-canh", "00000000-0000-0000-E15C-A8ADA1B44060", 0, 1425757680, null, 1425757680, null, "{ }", "Carl Schurz Park", "East 84 Street & East End Avenue", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-mquw-cgey~fpbw", "00000000-0000-0000-8E5B-4A05AC05C6EA", 0, 1425757680, null, 1425757680, null, "{ }", "Carl Schurz Promenade", "Stone Wall to East River, East 84 to East 90 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-qa9f_zwwa~q4ma", "00000000-0000-0000-17D4-95F5D8316611", 0, 1425757680, null, 1425757680, null, "{ }", "Carmansville Playground", "Amsterdam Avenue, West 151 to West 152 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-et6r.rv2i_tu2k", "00000000-0000-0000-E8A7-2C10860BDDE8", 0, 1425757680, null, 1425757680, null, "{ }", "Carroll Park", "Court & Smith Streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-tv9q.s5s7-kgmq", "00000000-0000-0000-73BB-859F9E1BC46F", 0, 1425757680, null, 1425757680, null, "{ }", "Carver Playground", "Ralph Avenue & Sumpter Street", "No", null, "Brooklyn", null ]
+  , [ "row-mj3x.zxgv_sn4x", "00000000-0000-0000-C745-E3C373D26268", 0, 1425757680, null, 1425757680, null, "{ }", "Caserta Playground", "St. Raymond Avenue, Puroy Street", "Yes", null, "Bronx", null ]
+  , [ "row-mhw7~vumb-7c3i", "00000000-0000-0000-2666-6805247E3939", 0, 1425757680, null, 1425757680, null, "{ }", "Castle Hill Playground", "Parker Street, Castle Hill Avenue, Puroy Street", "Yes", null, "Bronx", null ]
+  , [ "row-abd2-5kbs-3f5j", "00000000-0000-0000-8140-C5BDE1845203", 0, 1425757680, null, 1425757680, null, "{ }", "Castlewood Playground (PS 186)", "Little Neck Parkway & 72 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-zw3p.aqb4-yvnz", "00000000-0000-0000-1ACF-80FFF2694D41", 0, 1425757680, null, 1425757680, null, "{ }", "Cauldwell Playground", "Caldwell Avenue, East 163 Street, East 161 Street", "Yes", null, "Bronx", null ]
+  , [ "row-7k63-rx9p.68nd", "00000000-0000-0000-6AAA-83A2D5B53FEC", 0, 1425757680, null, 1425757680, null, "{ }", "Cavanaugh Triangle (Angelo Campanero Playground)", "East Gun Hill Road, Eastchest Road, & O'Neil Place", "Yes", "Yes", "Bronx", null ]
+  , [ "row-sitv.fydd~jcau", "00000000-0000-0000-9A1D-B5D347EC521A", 0, 1425757680, null, 1425757680, null, "{ }", "Cedar Playground", "West 179 Street, West Burnside Avenue, Major Deegan Expressway, Sedgewick Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-2fyq-zgfx.gmtm", "00000000-0000-0000-0753-84A015BF2548", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Ancient Playground)", "85 ST & 5TH AVE", null, "Yes", "Manhattan", null ]
+  , [ "row-8vnn~r7ze~5m6s", "00000000-0000-0000-0F5A-9B180DF65117", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Arsenal)", "5th Avenue from 60th Street to 65th Street", "Yes", null, "Manhattan", null ]
+  , [ "row-h8gt_q352.yqfn", "00000000-0000-0000-F011-75BC9ABE1826", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Bethesda Terrace)", null, null, null, "Manhattan", null ]
+  , [ "row-rqss~nr9t~sejq", "00000000-0000-0000-2ECD-503B69DDDEC2", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Conservatory Garden)", "5th Avenue, 103rd Street to 106th Street", "Yes", null, "Manhattan", null ]
+  , [ "row-cr8s.w3ks-gf8s", "00000000-0000-0000-1F66-9CD3074C90AF", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Dana Discovery Center)", "110th Street between Fifth Avenue and Malcolm X Boulevard", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-w9x5.87js_9c2m", "00000000-0000-0000-D199-953DF74DDF76", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Heckscher Playground)", "62 ST, BET WEST & CENTER DRS", null, null, "Manhattan", null ]
+  , [ "row-a2av_wnhe~vaam", "00000000-0000-0000-A597-B3221B37C48B", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Kerbs Boathouse)", "74th Street near Fifth Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-7iyx~e4qc_bjrq", "00000000-0000-0000-0EEE-1D32EE89059D", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Lasker)", "Central Park at 107th Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-645e~vt7q~k5qm", "00000000-0000-0000-65B0-E770DAF92F4F", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Loeb Boathouse)", "East Side between 74th and 75th streets", "Yes", null, "Manhattan", null ]
+  , [ "row-icc4-jrqp_qmes", "00000000-0000-0000-F81F-902043E855B1", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (North Meadow Recreation Center)", "Mid-park at 97th Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-jnj8_9skv~u9f4", "00000000-0000-0000-4E30-DDE6386426D4", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Ramble)", "Central Park", null, null, "Manhattan", null ]
+  , [ "row-ke2z~miva~wc4b", "00000000-0000-0000-1A7A-E265B90644C7", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Sheep Meadow, Mineral Springs)", "Mid-park at 69th Street", "No", "Yes", "Manhattan", null ]
+  , [ "row-3f2d_3j9y.7d54", "00000000-0000-0000-3296-7D61CC79EED7", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Tavern on The Green)", "Central Park", null, null, "Manhattan", null ]
+  , [ "row-ezyi~p4dg.ta9n", "00000000-0000-0000-15DB-192C9BB28338", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Tennis Courts)", "93d Street near the West Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-idn4-widc~923m", "00000000-0000-0000-41EC-7908472924A4", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (The Great Hill)", "West Side from 103rd to 107th streets", "No", null, "Manhattan", null ]
+  , [ "row-rsbs~tqai.e542", "00000000-0000-0000-996B-3672AF1FB1FB", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (The Metropolitan Museum of Art)", "Fifth Avenue at 82nd Street", "Yes", null, "Manhattan", null ]
+  , [ "row-hxvw~f9f8.c3mk", "00000000-0000-0000-005D-655BE5D79242", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (West 61st)", "West Drive, Central Park West, & 65th Street Transverse", "No", null, "Manhattan", null ]
+  , [ "row-ycs7_ujgi.bfdq", "00000000-0000-0000-E61D-0D98BD5E4817", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park (Wollman Rink)", "Center Drive to East Drive (including Gapstow Bridge)", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-8y33~vfdg-f69g", "00000000-0000-0000-35A8-DE4AAC41A65E", 0, 1425757680, null, 1425757680, null, "{ }", "Central Park Delacorte Comfort Station", "Mid-Park at 80th Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-66j9-mddz.8kar", "00000000-0000-0000-9C1A-3665C6FB4477", 0, 1425757680, null, 1425757680, null, "{ }", "Century Playground", "Brighton Beach Avenue & West 2 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-3g89-u938_6jid", "00000000-0000-0000-424B-9A9D5060D487", 0, 1425757680, null, 1425757680, null, "{ }", "Challenge Playground (PS 187) 251 Street Playground", "251 Street & 63 Avenue", "No", null, "Queens", null ]
+  , [ "row-j6r7~4unc~emqq", "00000000-0000-0000-C350-0B399C5E5E0D", 0, 1425757680, null, 1425757680, null, "{ }", "Chelsea Park", "West 27 Street & 9 Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-iday.rd39~tmfh", "00000000-0000-0000-C379-3C422F13DAB5", 0, 1425757680, null, 1425757680, null, "{ }", "Chelsea Recreation Center", "South of West 25 Street, 9 to 10 avenues", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-59ct.88q3.ufk2", "00000000-0000-0000-29E5-CF043016298D", 0, 1425757680, null, 1425757680, null, "{ }", "Cherry Tree (Washington) Playground", "99 to 100 streets, 3 Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-zmcg-taqs.ff2z", "00000000-0000-0000-BF80-9EE3FB4B44A0", 0, 1425757680, null, 1425757680, null, "{ }", "Chester Playground", "Chester Street, Sutter Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-iktf.92ce_n32p", "00000000-0000-0000-202D-5EA66E726F78", 0, 1425757680, null, 1425757680, null, "{ }", "Ciccarone Park Playground", "Arthur Avenue, East 188 Street", "Yes", null, "Bronx", null ]
+  , [ "row-9wi6~6wzp.xzm9", "00000000-0000-0000-6BD9-A68303171763", 0, 1425757680, null, 1425757680, null, "{ }", "City Line Park", "Atlantic & Fountain avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-f7nb-cybz_qsaj", "00000000-0000-0000-7312-92E1CC6CFF60", 0, 1425757680, null, 1425757680, null, "{ }", "Claremont Park", "Mount Eden Parkway & Morris Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-4thd~9pj2~d9ci", "00000000-0000-0000-60E9-76467AD4BF5A", 0, 1425757680, null, 1425757680, null, "{ }", "Claremont Park Playground", "E 170 Street & Teller Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-ypuu_t865~c8ej", "00000000-0000-0000-470F-4923D5388B02", 0, 1425757680, null, 1425757680, null, "{ }", "Clark Playground", "3 Avenue, East 144 Street, East 146 Street", "Yes", "Yes", "Bronx", null ]
+  , [ "row-b5hn.ihfj-v47t", "00000000-0000-0000-388A-AA38ECFD9B65", 0, 1425757680, null, 1425757680, null, "{ }", "Clement Clark Moore Park", "Broadway & 83 Street", "Yes", null, "Queens", null ]
+  , [ "row-h5mb-k43n.c5cz", "00000000-0000-0000-6A5D-9499C76B0E43", 0, 1425757680, null, 1425757680, null, "{ }", "Clintonville Playground (JHS 194)", "Clintonville Street, 17 Road & 17 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-rjsp-6q57-ivzn", "00000000-0000-0000-0ECD-88989EA44E90", 0, 1425757680, null, 1425757680, null, "{ }", "Col. Charles Young Playground", "West 144 Street & Lenox Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-efvt~z2st.zt3f", "00000000-0000-0000-39B4-56B192D58DB8", 0, 1425757680, null, 1425757680, null, "{ }", "Col. David Marcus Memorial Playground", "Ocean Parkway, Avenue P, East 3 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-vx2i-k9gf~f4ze", "00000000-0000-0000-A5B0-E2A2CDB451DD", 0, 1425757680, null, 1425757680, null, "{ }", "Coleman Square Playground", "Between Cherry & Monroe streets", "Yes", null, "Manhattan", null ]
+  , [ "row-txab~neve~v5dk", "00000000-0000-0000-45CC-4F51DAF32503", 0, 1425757680, null, 1425757680, null, "{ }", "College Point Park", "130th Street & 23rd Avenue", "Yes", null, "Queens", null ]
+  , [ "row-hn4g.ib3r~2rvc", "00000000-0000-0000-162D-2ABDEF832717", 0, 1425757680, null, 1425757680, null, "{ }", "Colucci Playground", "Hutchinson River Parkway, Wilkinson Avenue, Mayflower Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-3ae4-zhii-qr2y", "00000000-0000-0000-37E4-C74F2F030073", 0, 1425757680, null, 1425757680, null, "{ }", "Columbus Park", "Adams, Johnson, Fulton, Joralemon streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-whyg-vm9b_i9fd", "00000000-0000-0000-6878-F68B4750C8F5", 0, 1425757680, null, 1425757680, null, "{ }", "Columbus Park", "Baxter, Mulberry, Bayard & Worth streets", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-zyhc~enkt~ezjj", "00000000-0000-0000-FAFA-72436F678B20", 0, 1425757680, null, 1425757680, null, "{ }", "Com. John Barry Park & Playground", "South of Flushing Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-m6f2-rcvf~s89x", "00000000-0000-0000-60BB-D8551AF4F0C1", 0, 1425757680, null, 1425757680, null, "{ }", "Com. John Barry Park & Playground", "South of Flushing Avenue", "No", null, "Brooklyn", null ]
+  , [ "row-5run_eyzh-yddc", "00000000-0000-0000-A20D-60D248A43E27", 0, 1425757680, null, 1425757680, null, "{ }", "Com. John Barry Park & Playground (Athletic Area)", "South of Flushing Avenue", "No", null, "Brooklyn", null ]
+  , [ "row-bywg-zv3s~6tnd", "00000000-0000-0000-3179-E1E5DA0F2AFC", 0, 1425757680, null, 1425757680, null, "{ }", "Comm. Eugene S. Sarsfield Playground", "East 38 Street & Ryder Street, Avenue M", "Yes", null, "Brooklyn", null ]
+  , [ "row-3u4a_44s5~k4a2", "00000000-0000-0000-0BA7-AD1C7D718DE9", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island", "Brighton 2nd", null, "Yes", "Brooklyn", null ]
+  , [ "row-vvu3.p3ab~6uqn", "00000000-0000-0000-749F-71DAA5A218C3", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island", "W 27 ST.", null, "Yes", "Brooklyn", null ]
+  , [ "row-ph8g_yyaz.mcnk", "00000000-0000-0000-A79B-C4E6580737A8", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island", "W 33 St.", null, "Yes", "Brooklyn", null ]
+  , [ "row-zzbw.nkzg~c93f", "00000000-0000-0000-3E3C-FFEA8472797B", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island Beach", "Corbin Place to Coney Island Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-nkp8~6zdq~acqt", "00000000-0000-0000-8247-57A8075795DF", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island Beach", "Stillwell Avenue", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-2q5n~n8gi-j6na", "00000000-0000-0000-DCDF-CA9615F18471", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island Beach", "West 16th Street", "No", "Yes", "Brooklyn", null ]
+  , [ "row-69fd~r4z5~pyum", "00000000-0000-0000-D95B-0471716EF2C8", 0, 1425757680, null, 1425757680, null, "{ }", "Coney Island Beach", "W 22 ST.", "No", "Yes", "Brooklyn", null ]
+  , [ "row-n2he.6igi~m4a3", "00000000-0000-0000-85A8-64AD8729B346", 0, 1425757680, null, 1425757680, null, "{ }", "Conference House Park", "Pittsville St,Hylan Blvd.,Surf,Richard Aves", null, "Yes", "Staten Island", "This facility is currently closed" ]
+  , [ "row-wa8q.vvpk-8ijv", "00000000-0000-0000-6921-B03E3EC37381", 0, 1425757680, null, 1425757680, null, "{ }", "Cooper Park", "Sharon, Olive streets, Maspeth & Morgan avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-h3e5_4uwp.cdic", "00000000-0000-0000-CE1B-5897E879C13A", 0, 1425757680, null, 1425757680, null, "{ }", "Corona Golf Playground", "109 Street between 46-47 avenues", "Yes", null, "Queens", null ]
+  , [ "row-p2ek-v7kd~vq4w", "00000000-0000-0000-A3BB-E709237835A5", 0, 1425757680, null, 1425757680, null, "{ }", "Corporal John A. Seravalli Playground", "Hudson & Horatio streets", "Yes", null, "Manhattan", null ]
+  , [ "row-2iq2.5dbg_sfu8", "00000000-0000-0000-94AC-666F20E3C4DA", 0, 1425757680, null, 1425757680, null, "{ }", "Corporal Thompson Park", "Broadway, Henderson Avenue", "No", null, "Staten Island", null ]
+  , [ "row-zu2f.xs2p~pd4b", "00000000-0000-0000-8CD3-8C8C2CE867A3", 0, 1425757680, null, 1425757680, null, "{ }", "Corporal Thompson Park/West Brighton Pool", "Broadway, Henderson Avenue", "No", "Yes", "Staten Island", null ]
+  , [ "row-k6be.jbxr-6pui", "00000000-0000-0000-5DDF-32CE82D85076", 0, 1425757680, null, 1425757680, null, "{ }", "Crocheron Park Field House", "34th Avenue, 214th Place, 34th Road, 214th Lane, 35th Avenue, & 216th Street", "Yes", null, "Queens", null ]
+  , [ "row-c2tf_7jt4~vs2p", "00000000-0000-0000-0B4A-BF3916EC1143", 0, 1425757680, null, 1425757680, null, "{ }", "Crotona Park (Martin Van Buren Playground)", "Crotona East & Claremont Parkway", "Yes", null, "Bronx", null ]
+  , [ "row-6kqd_vd33-zjih", "00000000-0000-0000-C1A9-142D2F6A4631", 0, 1425757680, null, 1425757680, null, "{ }", "Crotona Park (Playground of the Stars)", "Fulton Avenue & Crotona Park South", "Yes", null, "Bronx", null ]
+  , [ "row-n3ej_w6v2-6f37", "00000000-0000-0000-3711-85BFED5084F3", 0, 1425757680, null, 1425757680, null, "{ }", "Crotona Park (Pool House)", "173rd Street and Fulton Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-yi6t~mw6b~63vp", "00000000-0000-0000-41FE-B1160ACE0B1D", 0, 1425757680, null, 1425757680, null, "{ }", "Crotona Park Environmental Center", "Crotona Park North, Crotona Park South, Crotona Park East, Fulton Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-mm9h-tnp8~q5ph", "00000000-0000-0000-8866-9A38AFD74F6E", 0, 1425757680, null, 1425757680, null, "{ }", "Crowley Playground", "57 Avenue & 83 Street", "Yes", null, "Queens", null ]
+  , [ "row-pbim.emmv.59wp", "00000000-0000-0000-0E3C-0DE116401956", 0, 1425757680, null, 1425757680, null, "{ }", "Cunningham Park", "Union Turnpike, Clearview Expressway, 73rd Avenue, Francis Lewis Boulevard", "Yes", null, "Queens", null ]
+  , [ "row-ghdx~rzii~x47w", "00000000-0000-0000-156E-53FAC24D2555", 0, 1425757680, null, 1425757680, null, "{ }", "Cunningham Park (210th Street Playground)", "210 Street & 73 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-4kvk_hnny-23cs", "00000000-0000-0000-A20E-958CFBE8ECBC", 0, 1425757680, null, 1425757680, null, "{ }", "Cunningham Park (HQ8)", "South of Union Turnpike, between Francis Lewis Boulevard & 193rd Street", "Yes", "Yes", "Queens", null ]
+  , [ "row-d5ai-vizs-vuvc", "00000000-0000-0000-3B6A-9F362A7ED48E", 0, 1425757680, null, 1425757680, null, "{ }", "Cypress Hills Park", "Blake & Euclid avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-mhvb~eq38_s8v2", "00000000-0000-0000-D23C-06156F56BB0C", 0, 1425757680, null, 1425757680, null, "{ }", "Daniel M. O'Connell Playground", "113 Avenue & 196 Street", "Yes", null, "Queens", null ]
+  , [ "row-9g5s-6ged~h8pw", "00000000-0000-0000-0F6B-BC42FA32F650", 0, 1425757680, null, 1425757680, null, "{ }", "De Witt Clinton Park", "West 52 to West 54 streets, 11 to 12 avenues", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-4bub.syzc.zkxn", "00000000-0000-0000-8957-F8F3F66DDEF8", 0, 1425757680, null, 1425757680, null, "{ }", "Dematti Playground", "Tompkins Avenue, Chestnut Avenue", "Yes", null, "Staten Island", null ]
+  , [ "row-a72b~ymux~gw5x", "00000000-0000-0000-F943-3FEB1B0FF5D1", 0, 1425757680, null, 1425757680, null, "{ }", "Detective Keith L. Williams Park", "106 Avenue, 173 Street, Liberty Avenue, 172 Street", "Yes", null, "Queens", null ]
+  , [ "row-w2q4.63fp-fyqc", "00000000-0000-0000-43B0-8377A88BA024", 0, 1425757680, null, 1425757680, null, "{ }", "Devoe Park", "West Fordham Road, University Avenue, Sedgwick Avenue, Father Zeiser Place", "Yes", null, "Bronx", null ]
+  , [ "row-u39f-a6bs_yzkj", "00000000-0000-0000-5E80-04AA92E445BA", 0, 1425757680, null, 1425757680, null, "{ }", "Digilio Playground", "McDonald Avenue & Avenue F", "Yes", null, "Brooklyn", null ]
+  , [ "row-tsd6_5sym.6cue", "00000000-0000-0000-518B-DE75CED2BD65", 0, 1425757680, null, 1425757680, null, "{ }", "Dimattina Playground", "Hicks & Rapelye streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-7u5t_s9zn-hb86", "00000000-0000-0000-0317-5B88B09EEF91", 0, 1425757680, null, 1425757680, null, "{ }", "Ditmars Park Playground", "23 Avenue to Ditmars Boulevard", "Yes", null, "Queens", null ]
+  , [ "row-s94g.ebtc~639b", "00000000-0000-0000-D6C7-770B2A0C0623", 0, 1425757680, null, 1425757680, null, "{ }", "Double Nickel Playground", "Osborne Street and Preston Avenue", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-74xk.3qaf_iea2", "00000000-0000-0000-7C28-418F0C72D859", 0, 1425757680, null, 1425757680, null, "{ }", "Downing Street Playground", "Downing to Carmine streets, Avenue of the Americas", "Yes", null, "Manhattan", null ]
+  , [ "row-5uev_7i78-rzm2", "00000000-0000-0000-C206-5D892303E6DA", 0, 1425757680, null, 1425757680, null, "{ }", "Dr. Charles R. Drew Memorial Park", "Van Wyck Expressway, 116 Avenue, 140 Street, 115 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-p4tm.ynin~niju", "00000000-0000-0000-38AD-A068BFA3BBC0", 0, 1425757680, null, 1425757680, null, "{ }", "Dr. Martin Luther King Jr. Park", "Dumont, Blake, Miller avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-6wxh.nhjs~53fm", "00000000-0000-0000-5DAE-ACFFC78A0820", 0, 1425757680, null, 1425757680, null, "{ }", "Dr. Richard Greene Playground", "Mother Gaston Boulevard (Stone Avenue) & Sutter avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-xpxn.ng9w_js9i", "00000000-0000-0000-D662-18A1F14D17B8", 0, 1425757680, null, 1425757680, null, "{ }", "Drew Playground", "Fulton Avenue, East 169 Street", "Yes", null, "Bronx", null ]
+  , [ "row-aiu3_egqj-fwsx", "00000000-0000-0000-6708-29E8ABC3C919", 0, 1425757680, null, 1425757680, null, "{ }", "Dry Dock Playground", "East 10 Street & Szold Place, Avenue D", "No", null, "Manhattan", null ]
+  , [ "row-hqzi_nkfx_7bfz", "00000000-0000-0000-44A2-B3AD41BE6D02", 0, 1425757680, null, 1425757680, null, "{ }", "Dugan Playground", "Mill Road & Tysens Lane", "Yes", null, "Staten Island", null ]
+  , [ "row-nedu.z5ms~vdjm", "00000000-0000-0000-07F3-F414174C62CF", 0, 1425757680, null, 1425757680, null, "{ }", "Dutch Kills Playground (PS 112)", "Crescent-28 streets, 36 Avenue, 37 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-8if6~2kar_xm6k", "00000000-0000-0000-96C5-4529CB0BA2A4", 0, 1425757680, null, 1425757680, null, "{ }", "Dyckman House Museum", "Broadway & West 204 Street", "Yes", null, "Manhattan", null ]
+  , [ "row-45wc-3x4u-gn96", "00000000-0000-0000-7D82-6617DA77C1B5", 0, 1425757680, null, 1425757680, null, "{ }", "Dyker Beach Park", "Shore Parkway, 86 Street, 7 to 14 avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-ukhx_4uq7-biwx", "00000000-0000-0000-5BFC-EA2127E5B1F9", 0, 1425757680, null, 1425757680, null, "{ }", "East Elmhurst Playground (PS 127)", "25 Avenue & 98 Street", "Yes", "Yes", "Queens", null ]
+  , [ "row-uvis_fzjc~dcsr", "00000000-0000-0000-A235-F572CC8A58EC", 0, 1425757680, null, 1425757680, null, "{ }", "East River Park (10th Street)", "Northern extreme of park", "Yes", null, "Manhattan", null ]
+  , [ "row-fmzm.mirb-kwrr", "00000000-0000-0000-5088-DC39359D1351", 0, 1425757680, null, 1425757680, null, "{ }", "East River Park (Tennis Courts)", "East River Park at Broome Street", "Yes", null, "Manhattan", null ]
+  , [ "row-a4md-itnv~hkxz", "00000000-0000-0000-E561-0699BC7647DC", 0, 1425757680, null, 1425757680, null, "{ }", "East River Park (Track Building)", "East 6 Street & FDR Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-rx9p.3st5~nzdb", "00000000-0000-0000-05A5-0FEE1CBC9735", 0, 1425757680, null, 1425757680, null, "{ }", "East River Playground", "FDR Drive, East 106 to East 107 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-3aet-9q8h-as66", "00000000-0000-0000-9B92-D6A5EB583976", 0, 1425757680, null, 1425757680, null, "{ }", "East Springfield Playground", "115 Road between 218 & 219 streets", "Yes", null, "Queens", null ]
+  , [ "row-sd84_zh9q~d6m5", "00000000-0000-0000-502B-E59D10DFF4FD", 0, 1425757680, null, 1425757680, null, "{ }", "Eastchester Playground", "Adee Avenue, Tenbroeck Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-dmhi~eikm_8as7", "00000000-0000-0000-B455-9428A59D725B", 0, 1425757680, null, 1425757680, null, "{ }", "Edenwald Playground", "East 226 Drive, Schieffelin Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-s948-yzfc.dfn4", "00000000-0000-0000-7813-EC8ED074FC26", 0, 1425757680, null, 1425757680, null, "{ }", "Ederle Comfort Station", "Flushing Meadows Corona Park", null, "Yes", "Queens", null ]
+  , [ "row-jmwh-jfn6.2fsr", "00000000-0000-0000-CA31-9DDB5C2661C2", 0, 1425757680, null, 1425757680, null, "{ }", "Edmonds Playground", "DeKalb Avenue, Adelphi Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-wvzf_rgzn_haqi", "00000000-0000-0000-1D10-72DF9C2D98CA", 0, 1425757680, null, 1425757680, null, "{ }", "Electric Playground", "164 Street, south of 65 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-yj4k_hr6y~74fn", "00000000-0000-0000-8F44-0B951042CD91", 0, 1425757680, null, 1425757680, null, "{ }", "Emerald Playground (PS 200)", "164 Street between Jewel & 71 avenues", "Yes", null, "Queens", null ]
+  , [ "row-q7uy~bfnt-9nmh", "00000000-0000-0000-3A89-A0AF582D8417", 0, 1425757680, null, 1425757680, null, "{ }", "Equity Park", "90 Street, 88 & 89 avenues", "Yes", null, "Queens", null ]
+  , [ "row-i7te-stt9_wb8b", "00000000-0000-0000-61F8-7F7657948FDE", 0, 1425757680, null, 1425757680, null, "{ }", "Ethan Allen Playground", "New Jersey Avenue & Vermont Street/Worthman", "Yes", null, "Brooklyn", null ]
+  , [ "row-i6yh~qx53~3jqh", "00000000-0000-0000-0856-FB53A1E0EFE3", 0, 1425757680, null, 1425757680, null, "{ }", "Farm Playground", "73 Avenue, 195 Street & 196 Place", "Yes", null, "Queens", null ]
+  , [ "row-e8tf~cesp~q3te", "00000000-0000-0000-EE85-ADF8A54C7C8C", 0, 1425757680, null, 1425757680, null, "{ }", "Fermi Playground", "Troutman Street & Central Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-u63z-4a9x.kz8t", "00000000-0000-0000-97D7-DF1B6C121EF0", 0, 1425757680, null, 1425757680, null, "{ }", "Fisher Pool", "32 Avenue, 99 Street", "No", null, "Queens", null ]
+  , [ "row-8nzg-pzjx.3y3g", "00000000-0000-0000-156E-4262368B9410", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Fields (Leonardo Ingravallo Playground)", "Bayside Avenue, 25 Avenue, 149 to 150 streets", "Yes", null, "Queens", null ]
+  , [ "row-iprh~5pmt~ptam", "00000000-0000-0000-F70C-5A4CF27DF78F", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Albert H. Mauro Playground)", "Park Drive East & 73 Terrace", "Yes", null, "Queens", null ]
+  , [ "row-gvxm~ig8q~wd7d", "00000000-0000-0000-955A-23452B7079B9", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Lawrence Playground)", "College Point Boulevard and Lawrence Street", "Yes", null, "Queens", null ]
+  , [ "row-ags9~y75e~htqt", "00000000-0000-0000-22B8-01BCB36BF96A", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Meadow Lake North)", "Long Island Expressway to Meadow Lake to Van Wyck Expressway Extension to Grand Central Parkway", "Yes", null, "Queens", null ]
+  , [ "row-fwrk~czya.9yyg", "00000000-0000-0000-6398-6057124FFC23", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Passerelle)", "Unisphere Fountain to pool, at Meridian Road", "Yes", "Yes", "Queens", null ]
+  , [ "row-4erg-uvsx~mebi", "00000000-0000-0000-5BAB-8F4AC0E93620", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Playground for All Children)", "111 Street and Corona Avenue", "Yes", "Yes", "Queens", null ]
+  , [ "row-g9rk_tqpp.83hp", "00000000-0000-0000-E95E-C11D41029C44", 0, 1425757680, null, 1425757680, null, "{ }", "Hansborough Recreation Center", "35 West 134 Street", "Yes", null, "Manhattan", null ]
+  , [ "row-iskr.6jmt.7tmd", "00000000-0000-0000-F197-D4DFECAE14CA", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Worlds Fair Playground)", "Grand Central Parkway, Van Wyck Expressway", "Yes", null, "Queens", null ]
+  , [ "row-tp59_c53k-2xdv", "00000000-0000-0000-0F9E-79EBB69C5094", 0, 1425757680, null, 1425757680, null, "{ }", "Flushing Meadows Corona Park (Zoo, Ballfields)", "Grand Central Parkway to 111th Street to Heckscher Children Farm to Playground for All Children", "Yes", "Yes", "Queens", null ]
+  , [ "row-pftm_rrpf.a4ju", "00000000-0000-0000-1666-AE89469E75AE", 0, 1425757680, null, 1425757680, null, "{ }", "Flynn Playground", "3 Avenue, East 158 Street, Brook Avenue, East 157 Street", "Yes", null, "Bronx", null ]
+  , [ "row-tdz7.kync_92af", "00000000-0000-0000-9060-3CCE8ED7F3E4", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Dry Harbour Playground)", "80 Street & Myrtle Avenue", "Yes", null, "Queens", null ]
+  , [ "row-383e_qiqd.cbbt", "00000000-0000-0000-C691-A46A0FE39278", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Jackson Pond Playground)", "108 Street and Park Lane South", "Yes", null, "Queens", null ]
+  , [ "row-72mt-4yc7-pfda", "00000000-0000-0000-6B91-962A9A8C1AF9", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Seuffert Bandshell)", "West Main Drive to eastern side of golf course", "No", null, "Queens", null ]
+  , [ "row-4e55.hm2s~wvjt", "00000000-0000-0000-BEC7-982C1F5020D4", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Sobelsohn Playground, The Overlook)", "Park Lane South and Abingdon Road", "Yes", null, "Queens", null ]
+  , [ "row-nne7~c5ii-ehhp", "00000000-0000-0000-459D-93D47ACE487B", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Tennis Courts -Forest Parkway)", "Park Lane South to north of tennis courts", "Yes", null, "Queens", null ]
+  , [ "row-5dxa-i5hs-dybk", "00000000-0000-0000-59A1-601FA420E8B0", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (The Overlook)", "Park Lane (to east and south) to Metropolitan Avenue", "Yes", null, "Queens", null ]
+  , [ "row-j9tj-eh89_4q5f", "00000000-0000-0000-347F-3CE402A25592", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Victory Field)", "Long Island Railroad to Woodhaven Boulevard. to Myrtle Avenue to 96th Street", "Yes", null, "Queens", null ]
+  , [ "row-ztgn_r7pa_3epp", "00000000-0000-0000-8F65-3EF11355996E", 0, 1425757680, null, 1425757680, null, "{ }", "Forest Park (Visitor Center, near the Carousel)", "Woodhaven Boulevard and Forest Park Drive", "Yes", null, "Queens", null ]
+  , [ "row-qfia-h7vn~a5dn", "00000000-0000-0000-A0B5-5BACD9018906", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Greene Park", "South of Myrtle Avenue to Willoughby Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-5vp8~ar65_k3f6", "00000000-0000-0000-2D60-7F788F7974F4", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Greene Playground", "Myrtle Avenue & St. Edwards Plaza", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-3cxz_328v.mdqs", "00000000-0000-0000-4872-C98698EBC16E", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Independence Playground", "Stevenson Place, West 238 Street, Sedgwick Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-g844-kq43~tdst", "00000000-0000-0000-3F05-9D13C2CE2B89", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Tryon Park (Anne Loftus Playground)", "Broadway & Dyckman Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-3tig-3vvd_pah2", "00000000-0000-0000-7F43-35B141C49538", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Tryon Park (Café)", "One Margaret Corbin Drive", "No", null, "Manhattan", null ]
+  , [ "row-gj4m_bism~7rrx", "00000000-0000-0000-F0AB-CD3E6B353F08", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Tryon Park (The Cloisters)", "Riverside Drive to Broadway, West 192 to Dyckman streets", "Yes", null, "Manhattan", null ]
+  , [ "row-mb35_s5gf.ez3g", "00000000-0000-0000-8639-5D87BAEAAE49", 0, 1425757680, null, 1425757680, null, "{ }", "Fort Washington Park (Lily Brown Playground)", "West 162 Street, east of Riverside Drive", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-jmsv~ju4j.55xc", "00000000-0000-0000-2C0D-8F4ED3AF1678", 0, 1425757680, null, 1425757680, null, "{ }", "Fox Playground", "Avenue H, East 54 to E 55 streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-85np-d3pk-7hig", "00000000-0000-0000-D2A7-88D838C568A6", 0, 1425757680, null, 1425757680, null, "{ }", "Francis Lewis Playground", "3 Avenue and Bronx Whitestone Bridge", "Yes", null, "Queens", null ]
+  , [ "row-vdxj.yi2q~3x63", "00000000-0000-0000-49A2-B61F02CCBC33", 0, 1425757680, null, 1425757680, null, "{ }", "Frank D. O'Connor Playground", "Broadway & 78 Street", "Yes", null, "Queens", null ]
+  , [ "row-fgfv_68w4~dngv", "00000000-0000-0000-72F1-1A474D7D8133", 0, 1425757680, null, 1425757680, null, "{ }", "Frank Golden Park", "132 to 138 streets, 14 Road", "Yes", null, "Queens", null ]
+  , [ "row-4s3g~ht4c_7wgz", "00000000-0000-0000-FDA5-B7EC64DA3868", 0, 1425757680, null, 1425757680, null, "{ }", "Franz Sigel Park", "East 153 Street, Gerard Avenue, East 151 Street, Walton Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-je44~epzb-2qwv", "00000000-0000-0000-D853-72822DE7B1FF", 0, 1425757680, null, 1425757680, null, "{ }", "Frederick B. Judge Memorial Playground", "111 Avenue, 134 & 135 streets, Lincoln Street", "Yes", null, "Queens", null ]
+  , [ "row-krjy_6w65_y2br", "00000000-0000-0000-F34E-DBE8B6276118", 0, 1425757680, null, 1425757680, null, "{ }", "Frederick Douglass Playground", "West 100-101 Street Amsterdam Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-mih6-adxz.xhg3", "00000000-0000-0000-1FBF-E586FA389056", 0, 1425757680, null, 1425757680, null, "{ }", "Frederick E. Samuel Playground", "Lenox Avenue, West 139 to West 140 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-3tfd_jgr9~prj8", "00000000-0000-0000-06D5-9F9754F0E243", 0, 1425757680, null, 1425757680, null, "{ }", "Frederick Johnson Park", "7 Avenue, West 150-151 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-8rm5_sxpe_d5zv", "00000000-0000-0000-4A72-09FF0CA5D271", 0, 1425757680, null, 1425757680, null, "{ }", "Fresh Meadows Playground (PS 173)", "67 Avenue & 173 Street", "Yes", null, "Queens", null ]
+  , [ "row-935d.bixv~4p5u", "00000000-0000-0000-38C0-4743AC785FB0", 0, 1425757680, null, 1425757680, null, "{ }", "Friends Field", "Avenue L, East 4 Street, McDonald Avenue, Avenue M", "Yes", null, "Brooklyn", null ]
+  , [ "row-hq86.gyq8-wr56", "00000000-0000-0000-E594-E1481ABE293A", 0, 1425757680, null, 1425757680, null, "{ }", "Fulton Park", "Fulton, Chauncey streets, Stuyvesant, Lewis avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-56d7-jvx2.ryzt", "00000000-0000-0000-D2E7-48B3F3076CCC", 0, 1425757680, null, 1425757680, null, "{ }", "Galapo Playground", "Bedford Avenue, Gravesend Neck Road", "Yes", null, "Brooklyn", null ]
+  , [ "row-en7g.dddb.f597", "00000000-0000-0000-78C3-4C97602DC53A", 0, 1425757680, null, 1425757680, null, "{ }", "Garibaldi Playground", "82 to 83 Street at 18 Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-p5j5-k3it.3y2f", "00000000-0000-0000-13B9-8D409E4BFAD0", 0, 1425757680, null, 1425757680, null, "{ }", "General Douglas MacArthur Park", "East 49 Street & East River Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-rsqj_a82t-zajq", "00000000-0000-0000-32D7-EBED9D683EA4", 0, 1425757680, null, 1425757680, null, "{ }", "Glenwood Playground", "Ralph Avenue & Farragut Road", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-mn8u-3xs6~ajfy", "00000000-0000-0000-CD30-2CBBB90053D3", 0, 1425757680, null, 1425757680, null, "{ }", "Gorman Playground", "30 Avenue between 84 & 85 streets", "Yes", null, "Queens", null ]
+  , [ "row-9gmc.bjxt.rt25", "00000000-0000-0000-FA46-A54AE01D39CB", 0, 1425757680, null, 1425757680, null, "{ }", "Gouverneur Playground", "3rd Avenue, St. Paul's Place, East 170 Street", "Yes", null, "Bronx", null ]
+  , [ "row-xq7m-x4qf-j5ng", "00000000-0000-0000-8E56-A7459D95C767", 0, 1425757680, null, 1425757680, null, "{ }", "Gowanus Playground", "Wyckoff Street between Bond & Hoyt streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-xnjz.zs4i-b3b9", "00000000-0000-0000-A01B-A74854CA28E0", 0, 1425757680, null, 1425757680, null, "{ }", "Grandview Playground", "Grandview Avenue, Continental Place", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-2hb9.p5rr~fsik", "00000000-0000-0000-5760-1FFD30285CE0", 0, 1425757680, null, 1425757680, null, "{ }", "Gravesend Park", "18 Avenue & 56 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-uzdm.f9hh-dpwh", "00000000-0000-0000-01B5-E7C7F0962231", 0, 1425757680, null, 1425757680, null, "{ }", "Greencroft Playground (PS 53)", "Redgrave, Ainsworth & Durant avenues", "Yes", null, "Staten Island", null ]
+  , [ "row-4tn2~smfz-6pk3", "00000000-0000-0000-098D-10B5AA89E87A", 0, 1425757680, null, 1425757680, null, "{ }", "Greene Playground", "Greene & Washington avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-rbt5_22ds-6yf3", "00000000-0000-0000-C668-C7181EE29650", 0, 1425757680, null, 1425757680, null, "{ }", "Greenwood Playground", "Fort Hamilton Parkway, Greenwood, East 5 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-cme6-vud8.ymp3", "00000000-0000-0000-6350-462604458CA9", 0, 1425757680, null, 1425757680, null, "{ }", "Grove Hill Playground", "East 158 Street, Caldwell Avenue, Eagle Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-tg2j-8w96_wf3b", "00000000-0000-0000-C45A-D9B699FD7458", 0, 1425757680, null, 1425757680, null, "{ }", "Grover Cleveland Park", "Rene Court, Grandview Avenue, Stanjope Street & Fairview Avenue", "Yes", null, "Queens", null ]
+  , [ "row-j9kq-x2k4~juzg", "00000000-0000-0000-5101-B9E3E0401295", 0, 1425757680, null, 1425757680, null, "{ }", "Gun Hill Playground", "Holland Avenue, Magenta Street, Cueger Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-6v52.mcqt~pm7k", "00000000-0000-0000-604D-909C2FB7070E", 0, 1425757680, null, 1425757680, null, "{ }", "Gunn Park (PS 18)", "Hillside Avenue, east of 235 Court", "No", null, "Queens", null ]
+  , [ "row-ga9r_hi8n-z9zr", "00000000-0000-0000-91C5-82295A370ECC", 0, 1425757680, null, 1425757680, null, "{ }", "Haffen Park", "Burke Avenue, Hammersley Avenue, Gunther Avenue, Ely Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-erzk-hv6f_3xhx", "00000000-0000-0000-78C8-600E5985BFB1", 0, 1425757680, null, 1425757680, null, "{ }", "Haffen Park", "Burke Avenue, Hammersley Avenue, Gunther Avenue, Ely Avenue", "No", null, "Bronx", null ]
+  , [ "row-4v5n~r3m7_bzjd", "00000000-0000-0000-37E5-44BD21E2549C", 0, 1425757680, null, 1425757680, null, "{ }", "Haggerty Park", "202 Street & Jamaica Avenue", "No", "Yes", "Queens", null ]
+  , [ "row-qk8f_z7qq.m7dd", "00000000-0000-0000-AECF-007C0206DAFF", 0, 1425757680, null, 1425757680, null, "{ }", "Hallets Cove Playground", "Hallets Cove, Vernon Boulevard", "Yes", null, "Queens", null ]
+  , [ "row-e9q2.agrj_uex4", "00000000-0000-0000-892E-EC9324BF28CD", 0, 1425757680, null, 1425757680, null, "{ }", "Hamilton Fish Park (Recreation Center)", "Between East Houston & Stanton streets", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-s55r_5jrz_7n9m", "00000000-0000-0000-326E-9CF48D65B24A", 0, 1425757680, null, 1425757680, null, "{ }", "Hamilton-Metz Field", "Albany, East New York, Lefferts avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-idaz_xngd-36s6", "00000000-0000-0000-BC30-4D83A75FB2EF", 0, 1425757680, null, 1425757680, null, "{ }", "Hammel Playground", "Rockaway Beach Blvd. Bet. Beach 84 St. And Beach 81 St.", null, "Yes", "Queens", null ]
+  , [ "row-jm8t~dgx4-ejua", "00000000-0000-0000-4731-EC51B7AD9336", 0, 1425757680, null, 1425757680, null, "{ }", "Happy Warrior Playground", "West 98 Street & Amsterdam Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-83i9.7hyt_qjqq", "00000000-0000-0000-3707-5138988C84A5", 0, 1425757680, null, 1425757680, null, "{ }", "Harold Schneiderman Playground (PS 232)", "155 Avenue & 83 Street", "Yes", "Yes", "Queens", null ]
+  , [ "row-bady-uuqj_6ifv", "00000000-0000-0000-3A8E-040F1CD0E05D", 0, 1425757680, null, 1425757680, null, "{ }", "Harris Park", "West 205 Street, Paul Avenue, Bedford Pk B, Goulden Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-7qxi~uapt-tvv4", "00000000-0000-0000-73FC-33A1E6907CC1", 0, 1425757680, null, 1425757680, null, "{ }", "Harry Maze Memorial Park", "Avenue D between East 56 & East 57 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-r5ju-ycr3_24xw", "00000000-0000-0000-A7E7-FF8C2351A2F9", 0, 1425757680, null, 1425757680, null, "{ }", "Hart Playground", "37 Avenue, west of 69 Street", "Yes", null, "Queens", null ]
+  , [ "row-bppy-bidw~pkt9", "00000000-0000-0000-1DCD-CD22630626D2", 0, 1425757680, null, 1425757680, null, "{ }", "Harvey Park", "15 to 20 avenues, East of Whitestone Expressway", "Yes", null, "Queens", null ]
+  , [ "row-9frc.izjh_dskm", "00000000-0000-0000-106B-19523C57199C", 0, 1425757680, null, 1425757680, null, "{ }", "Hattie Carthan Playground", "East of Marcy Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-7sch_kg93.kyg2", "00000000-0000-0000-0719-5AA6D6CA6C23", 0, 1425757680, null, 1425757680, null, "{ }", "Havemeyer Playground", "Watson Avenue, Havenuemeyer Avenue, Cross Bronx Expressway", "No", null, "Bronx", null ]
+  , [ "row-qmui-gc2d-4nby", "00000000-0000-0000-C5D8-9F00080E27D8", 0, 1425757680, null, 1425757680, null, "{ }", "Heckscher Playground", "Grove Street to Linden Street", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-uiw9_34rs_re2u", "00000000-0000-0000-4B79-4FF041495573", 0, 1425757680, null, 1425757680, null, "{ }", "Henry Hudson Park", "Palisade Avenue, Kappock Street & Independence Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-f3qg_qti5~6awv", "00000000-0000-0000-EF32-B9D75346384D", 0, 1425757680, null, 1425757680, null, "{ }", "Herbert Von King Park", "Greene, Marcy, Lafayette, Tompkins avenues", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-nw4u-hbfq-fkur", "00000000-0000-0000-65AC-5E2B10ACCB51", 0, 1425757680, null, 1425757680, null, "{ }", "Herman Dolgon Playground", "Avenue V & Nostrand Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-4cs3.epgm-57zv", "00000000-0000-0000-8FF9-ABB877D72543", 0, 1425757680, null, 1425757680, null, "{ }", "Hermon MacNeil Park", "East of paved path running north from 119th Street", "Yes", null, "Queens", null ]
+  , [ "row-jv39-a2pq.4t64", "00000000-0000-0000-52E1-497B241D8E11", 0, 1425757680, null, 1425757680, null, "{ }", "High Rock Park", "Richmond Parkway & Moravian Cemetery at Rockland Avenue", "Yes", null, "Staten Island", null ]
+  , [ "row-6t8b~csv2_ax4n", "00000000-0000-0000-1BED-55790D68C6E2", 0, 1425757680, null, 1425757680, null, "{ }", "High Rock Park (Education Building)", "Richmond Parkway & Moravian Cemetery at Rockland Avenue", "Yes", null, "Staten Island", null ]
+  , [ "row-yyit~jatr.hid9", "00000000-0000-0000-7310-C29C81F129C0", 0, 1425757680, null, 1425757680, null, "{ }", "High Rock Park (McArthur Park)", "Richmond Parkway & Moravian Cemetery at Rockland Avenue", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-znnp-un5x-ymau", "00000000-0000-0000-5988-92FDDD4BAE6E", 0, 1425757680, null, 1425757680, null, "{ }", "High Rock Park (Visitor Center)", "Richmond Parkway & Moravian Cemetery at Rockland Avenue", "Yes", null, "Staten Island", null ]
+  , [ "row-t8kh_2zjw_zeys", "00000000-0000-0000-9349-5E6BA951178C", 0, 1425757680, null, 1425757680, null, "{ }", "Highbridge Park (Quisqueya Playground)", "West 180 Street & Amsterdam Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-wgh5~44an_kw9g", "00000000-0000-0000-B08D-2E2B65D21B92", 0, 1425757680, null, 1425757680, null, "{ }", "Highbridge Park (Recreation Center)", "West 155 & Dyckman streets, Edgecombe & Amsterdam avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-jb9d~m5cg-hm8g", "00000000-0000-0000-3A3B-A9E418DC7606", 0, 1425757680, null, 1425757680, null, "{ }", "Highbridge Park (Wallenberg Playground)", "West 188 Street & Amsterdam Avenue", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-hr9f.ghab~z52m", "00000000-0000-0000-DC1F-F46A247AA0AA", 0, 1425757680, null, 1425757680, null, "{ }", "Highbridge Park-Wallenberg Playground", "W 189 St & Amsterdam Ave", null, "Yes", "Manhattan", null ]
+  , [ "row-iu7f-rgw3_azny", "00000000-0000-0000-86DF-B4EE30C82B8F", 0, 1425757680, null, 1425757680, null, "{ }", "Highland Park", "Jackie Robinson Parkway to Highland Boulevard", "Yes", null, "Queens", null ]
+  , [ "row-i3jv.9hhc-ppn7", "00000000-0000-0000-23EE-8DDE287F6D2F", 0, 1425757680, null, 1425757680, null, "{ }", "Hoffman Park", "Hoffman Drive west of Queens Boulevard", "Yes", null, "Queens", null ]
+  , [ "row-7nyz~q75m_wskx", "00000000-0000-0000-BE58-BB4E52DCBCE2", 0, 1425757680, null, 1425757680, null, "{ }", "Holcombe Rucker", "West 155 Street, 8 Avenue to Harlem River Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-f3n6.vtgq-p6sz", "00000000-0000-0000-CCC8-7486795A3391", 0, 1425757680, null, 1425757680, null, "{ }", "Hollis Playground (JHS 192)", "205 Street & Hollis Avenue", "No", null, "Queens", null ]
+  , [ "row-prkt_mvtr_bdgs", "00000000-0000-0000-F7BF-F2647E293A0E", 0, 1425757680, null, 1425757680, null, "{ }", "Holy Cow Playground (PS 179)", "Peck Avenue & Harding Boulevard", "No", null, "Queens", null ]
+  , [ "row-54wc~43db-cf3g", "00000000-0000-0000-1C70-6713EA88BF9D", 0, 1425757680, null, 1425757680, null, "{ }", "Hoover Playground", "Manton Street & 83 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-kica~7u54_imr3", "00000000-0000-0000-C666-8BDA3AD1B790", 0, 1425757680, null, 1425757680, null, "{ }", "Horace Harding Playground (PS 206)", "62 Drive between 97 Place & 98 Street", "Yes", null, "Queens", null ]
+  , [ "row-gsk5.ebmy_eftf", "00000000-0000-0000-831F-F126A53E7F7C", 0, 1425757680, null, 1425757680, null, "{ }", "Horseshoe Playground", "Hall Place, Rogers Place, East 165 Street", "Yes", null, "Bronx", null ]
+  , [ "row-72jt.tunb~pfck", "00000000-0000-0000-1436-7FB9B686AFB7", 0, 1425757680, null, 1425757680, null, "{ }", "Howard Bennett Playground", "West 135 to West 136 streets, Lenox to 5 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-p8p2~awix.8p2c", "00000000-0000-0000-FFC3-210C80FF07A7", 0, 1425757680, null, 1425757680, null, "{ }", "Hunts Point Playground", "Spofford Avenue, Hunts Point Avenue, Faile Street", "Yes", null, "Bronx", null ]
+  , [ "row-exfi_95h6~8vwf", "00000000-0000-0000-AFD6-9DF7B4AE10C3", 0, 1425757680, null, 1425757680, null, "{ }", "Inwood Hill Park (Nature Center)", "Gaelic Field and Area around Salt Marsh West of Indian Road (at 218th Street)", "Yes", null, "Manhattan", null ]
+  , [ "row-rthv_4rxa~555w", "00000000-0000-0000-1EB4-0AB61BBF7E7F", 0, 1425757680, null, 1425757680, null, "{ }", "Inwood Hill Park (Payson Playground)", "Payson & Dyckman streets", "Yes", null, "Manhattan", null ]
+  , [ "row-utfz.wxz2-ja6d", "00000000-0000-0000-C30F-DCB3833F9BB9", 0, 1425757680, null, 1425757680, null, "{ }", "Inwood Hill Park (Tennis Courts)", "Tennis courts & ballfields along Seaman Avenue from 207th Street to 214th Street", "Yes", null, "Manhattan", null ]
+  , [ "row-zt4q~6mp7~c8bs", "00000000-0000-0000-4FE2-39E43C151D4A", 0, 1425757680, null, 1425757680, null, "{ }", "J. Hood Wright Park", "Ft. Washington & Haven avenues, West 173 Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-m8ia~9ggm_uxnr", "00000000-0000-0000-2616-559EF19960F0", 0, 1425757680, null, 1425757680, null, "{ }", "J.J. Byrne Memorial Park", "3 to 4 streets, 4 to 5 avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-8ixm_ytc3.6dx7", "00000000-0000-0000-2A0A-97D6C33C6865", 0, 1425757680, null, 1425757680, null, "{ }", "Jackie Robinson Park", "Malcolm X Boulevard between Chauncey and Marion streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-vqfb~b7cd~kjke", "00000000-0000-0000-BA29-8B1A98EB272D", 0, 1425757680, null, 1425757680, null, "{ }", "Jackie Robinson Park", "West 149 Street & Bradhurst Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-3kjv-nhu3-mqtg", "00000000-0000-0000-31E8-8FC3D199D5FE", 0, 1425757680, null, 1425757680, null, "{ }", "Jackie Robinson Park (Playground One Fifty Two CLII)", "West 152 Street & Bradhurst Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-5fua~jscu.bxig", "00000000-0000-0000-23AD-A3A70DA3E3A9", 0, 1425757680, null, 1425757680, null, "{ }", "Jackie Robinson Park (Recreation Center)", "Bradhurst & Edgecombe avenues,West 145 to West 155 streets", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-np4x~pgr8-vshx", "00000000-0000-0000-97D1-A5BD5D447B4F", 0, 1425757680, null, 1425757680, null, "{ }", "Jackie Robinson Playground", "Sullivan Place & Franklin Avenue, Montgomery Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-ggc5.sn68_w24q", "00000000-0000-0000-0B92-70C948F65F89", 0, 1425757680, null, 1425757680, null, "{ }", "Jacob Schiff Playground (PS 192)", "Amsterdam Avenue, West 136 Street", "Yes", null, "Manhattan", null ]
+  , [ "row-sbsc_dt7v_f6z4", "00000000-0000-0000-A59F-A3FDD9E51882", 0, 1425757680, null, 1425757680, null, "{ }", "James J. Walker Park (Carmine Recreation Center)", "Hudson, Leroy, Clarkson Streets, 7 Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-8fbt-5ezb_ycqz", "00000000-0000-0000-F6CE-2C68C217F9B5", 0, 1425757680, null, 1425757680, null, "{ }", "Jesse Owens Playground", "Stuyvesant & Lafayette avenues", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-j5vy-c4mm_htnx", "00000000-0000-0000-EC18-3584BA0765DA", 0, 1425757680, null, 1425757680, null, "{ }", "John Golden Park", "215 Place, south of 32 Avenue", "No", "Yes", "Queens", null ]
+  , [ "row-yejd-czm5~6t9i", "00000000-0000-0000-98A9-3232CB225EEC", 0, 1425757680, null, 1425757680, null, "{ }", "John J. Carty Park", "Fort Hamilton Parkway, 94-95 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-3e9n_hmue.hjnx", "00000000-0000-0000-6EFE-6E340A83FC43", 0, 1425757680, null, 1425757680, null, "{ }", "John Jay Park & Pool", "East 76-East 78 streets & Cherokee Place", "Yes", null, "Manhattan", null ]
+  , [ "row-ajpe.mncg_sktg", "00000000-0000-0000-D738-7F9CD61A4259", 0, 1425757680, null, 1425757680, null, "{ }", "John Paul Jones Park", "Shore Parkway, Fort Hamilton Parkway, 101 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-mf45-e5mp_75ae", "00000000-0000-0000-677D-69D9A9F2A34A", 0, 1425757680, null, 1425757680, null, "{ }", "Joline Pool Playground (Modular Equipment)", "Joline Avenue, Hylan Boulevard", "No", null, "Staten Island", null ]
+  , [ "row-ft24.ysw3.wv8t", "00000000-0000-0000-41FC-59CA47C94C48", 0, 1425757680, null, 1425757680, null, "{ }", "Joline Pool Playground (Modular Equipment)", "Joline Avenue, Hylan Boulevard", "No", "Yes", "Staten Island", null ]
+  , [ "row-vqjk~49ph_ygz6", "00000000-0000-0000-24F8-F177C653DE27", 0, 1425757680, null, 1425757680, null, "{ }", "Joseph Austin Playground", "Grand Central Parkway & 164 Place", "Yes", null, "Queens", null ]
+  , [ "row-4cw6-hrwk~fpjf", "00000000-0000-0000-4D69-51AAC9CDC248", 0, 1425757680, null, 1425757680, null, "{ }", "Joseph F. Mafera Park", "65 Place & Catalpa Avenue & 68 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-t8g4.i4ar.fcya", "00000000-0000-0000-8FAD-D5473C312C3C", 0, 1425757680, null, 1425757680, null, "{ }", "Julio Carballo Field", "Lafayette Avenue, Manda Street", "Yes", null, "Bronx", null ]
+  , [ "row-fhe9_qdc8_er79", "00000000-0000-0000-004C-6CFBB0C1F4EE", 0, 1425757680, null, 1425757680, null, "{ }", "Juniper Valley Park", "Lutheran Avenue; North and South Juniper boulevards; and the pathway from 76th Street on north end to 75th Street on south end", "Yes", "Yes", "Queens", null ]
+  , [ "row-u8tu~2yg6~gvpa", "00000000-0000-0000-EEB2-4C6FF71C8970", 0, 1425757680, null, 1425757680, null, "{ }", "Juniper Valley Park (North Playground Tennis)", "62nd Avenue & 80th Street", "Yes", null, "Queens", null ]
+  , [ "row-93m5_z2k9_pbbx", "00000000-0000-0000-6310-38156E78A581", 0, 1425757680, null, 1425757680, null, "{ }", "K.L. Williams Playground (Tennis)", "Liberty Avenue, 172-173 streets", "Yes", null, "Queens", null ]
+  , [ "row-k95q~d8iv~99yd", "00000000-0000-0000-677B-195EC0A4A203", 0, 1425757680, null, 1425757680, null, "{ }", "Kaiser Park", "South of Gravesend Bay, southeast of Path, northeast of Neptune Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-xs3x-xkn9-9nm7", "00000000-0000-0000-8D7F-6E9F6E9CDB57", 0, 1425757680, null, 1425757680, null, "{ }", "Katzman Playground", "Yellowstone Boulevard between 68 Avenue & 68 Road", "Yes", null, "Queens", null ]
+  , [ "row-t7cu-8n7z~uu2k", "00000000-0000-0000-6907-22039052428C", 0, 1425757680, null, 1425757680, null, "{ }", "Kennedy King Playground", "East 93 Street & Lenox Road", "Yes", null, "Brooklyn", null ]
+  , [ "row-eyf3.3wbt_4jgt", "00000000-0000-0000-9862-1E4CEBBE801D", 0, 1425757680, null, 1425757680, null, "{ }", "Kennedy Playground", "Corp. Kennedy Street & 33 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-253d~9ah2-sbwi", "00000000-0000-0000-D15D-43782249944D", 0, 1425757680, null, 1425757680, null, "{ }", "Kissena Corridor East (Underhill Playground)", "Peck Avenue & 188 Street", "Yes", null, "Queens", null ]
+  , [ "row-yz6u_g4fp~c8qf", "00000000-0000-0000-E416-3FB1CE86227A", 0, 1425757680, null, 1425757680, null, "{ }", "Kissena Park", "Oak Avenue, 104th Street, & Kissena Lake Area", "Yes", null, "Queens", null ]
+  , [ "row-ivgw~xabf~jn28", "00000000-0000-0000-F731-48CE05896AD0", 0, 1425757680, null, 1425757680, null, "{ }", "Kissena Park (Tennis Courts)", "Rose & Oak avenues", "Yes", null, "Queens", null ]
+  , [ "row-vfdz_bvb5.6mhn", "00000000-0000-0000-12F1-5B55DE2953F9", 0, 1425757680, null, 1425757680, null, "{ }", "La Guardia Playground West", "Havemeyer, Roebling streets & South 4", "Yes", null, "Brooklyn", null ]
+  , [ "row-zgst.iice.gtp5", "00000000-0000-0000-FB21-377DF7E2DD61", 0, 1425757680, null, 1425757680, null, "{ }", "Lawerence Virgilio Playground", "39 Drive & 54 Street", "Yes", "Yes", "Queens", null ]
+  , [ "row-6x2y~954x_vkgi", "00000000-0000-0000-C9D8-511F868BB8E4", 0, 1425757680, null, 1425757680, null, "{ }", "Leif Ericson Park & Square", "CLF behind CS adjacent to 5th Avenue to 7th Avenue(Highway) between 66th and 67th Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-tt62-ijr8_vkwn", "00000000-0000-0000-A4EB-8C69DFC728D5", 0, 1425757680, null, 1425757680, null, "{ }", "Levy Playground", "Jewett & Castleton avenues", "Yes", null, "Staten Island", null ]
+  , [ "row-kwvz_ittv-d2f9", "00000000-0000-0000-667E-C647F3E8C24C", 0, 1425757680, null, 1425757680, null, "{ }", "Liberty Pool", "173rd Street and 106th Avenue", null, "Yes", "Queens", null ]
+  , [ "row-yqy8_ec3e_42q2", "00000000-0000-0000-BEF5-82D3B5556D48", 0, 1425757680, null, 1425757680, null, "{ }", "Lincoln Terrace Park", "Buffalo Avenue/Protal Street/New York Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-m5vq-492n.7hep", "00000000-0000-0000-75CE-1B6E55DB324F", 0, 1425757680, null, 1425757680, null, "{ }", "Lincoln Terrace Park (Arthur S. Somers Playground)", "East New York, Rochester avenues, Eastern Parkway,Buffalo Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-bsih-e6mg_bbzc", "00000000-0000-0000-40AC-4EE3E776E7F2", 0, 1425757680, null, 1425757680, null, "{ }", "Linden Park", "Stanley Avenue, Linden Boulevard", "Yes", null, "Brooklyn", null ]
+  , [ "row-maxb~48ue.8h7y", "00000000-0000-0000-DDED-90868B446DA0", 0, 1425757680, null, 1425757680, null, "{ }", "Linden Park", "104 Street & 41 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-ivb6~uv9d~s6rh", "00000000-0000-0000-E38E-49FC3C21E50B", 0, 1425757680, null, 1425757680, null, "{ }", "Lindower Park", "Mill & Strickland avenues, 60 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-btqk~rnje.jy68", "00000000-0000-0000-9CEB-6944856370C3", 0, 1425757680, null, 1425757680, null, "{ }", "Little Flower Playground", "Madison Street opposite Jefferson Street", "No", "Yes", "Manhattan", null ]
+  , [ "row-yjin.asr4.jsaa", "00000000-0000-0000-7485-A8107925D103", 0, 1425757680, null, 1425757680, null, "{ }", "London Planetree Playground", "88 Street, Atlantic-95 avenues", "Yes", null, "Queens", null ]
+  , [ "row-xsw3.wum4.bpup", "00000000-0000-0000-BE97-6DA7C586C85F", 0, 1425757680, null, 1425757680, null, "{ }", "Loreto Park Playground", "Morris Park Avenue, Haight Avenue, Tomlinson Avenue, Van Nest Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-x62y~aftb_hrpm", "00000000-0000-0000-8253-5E48DF283E3C", 0, 1425757680, null, 1425757680, null, "{ }", "Loring Field", "North Conduit & 149 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-cm5k.rbxn~7cxz", "00000000-0000-0000-FD94-9F72FCDE7545", 0, 1425757680, null, 1425757680, null, "{ }", "Lost Battalion Hall", "Queens Boulevard between 62 Avenue & 62 Road", "Yes", null, "Queens", null ]
+  , [ "row-8e6y~axdi~yfz2", "00000000-0000-0000-4B35-5BC2FB11513D", 0, 1425757680, null, 1425757680, null, "{ }", "Lou Lodati Playground", "Skillman Avenue & 43 Street", "Yes", null, "Queens", null ]
+  , [ "row-62xa_pqxe-gjkv", "00000000-0000-0000-E328-977EC9328686", 0, 1425757680, null, 1425757680, null, "{ }", "Louis Armstrong Playground (PS 143)", "37 Avenue between 112 & 113 streets", "No", "Yes", "Queens", null ]
+  , [ "row-sy88-qmbb.57rv", "00000000-0000-0000-CD61-0E84637A3D09", 0, 1425757680, null, 1425757680, null, "{ }", "Louis Pasteur Park", "248 Street & 51 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-n4i5-6s6t.mknt", "00000000-0000-0000-C6D1-702415530BAA", 0, 1425757680, null, 1425757680, null, "{ }", "Lozada Playground", "East 135 Street, Willis Avenue, Alexander Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-d6ts-f3ua~ag93", "00000000-0000-0000-34D4-5C8BE9E5616D", 0, 1425757680, null, 1425757680, null, "{ }", "Luna Park Playground", "West 12 Street & Surf Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-9wuw~pfxg.2mqj", "00000000-0000-0000-3B97-E875D26E0740", 0, 1425757680, null, 1425757680, null, "{ }", "Lyons Pool", "Pier 6, Victory Boulevard", "No", "Yes", "Staten Island", null ]
+  , [ "row-vvs6~rmr4_7ntn", "00000000-0000-0000-DF79-0CC72062C7AD", 0, 1425757680, null, 1425757680, null, "{ }", "Macombs Dam Park", "East 161th Street & Ruppert Place", "Yes", null, "Bronx", null ]
+  , [ "row-a2sx~ys2g~yggs", "00000000-0000-0000-00CE-82F5AFCEB38B", 0, 1425757680, null, 1425757680, null, "{ }", "Magenta Playground", "Olinville Avenue, Rosewood Street", "Yes", "Yes", "Bronx", null ]
+  , [ "row-9au5-ccfg-b5gn", "00000000-0000-0000-DED0-1A7720ED0972", 0, 1425757680, null, 1425757680, null, "{ }", "Mahoney Playground", "Beechwood & Cleveland avenues", "Yes", null, "Staten Island", null ]
+  , [ "row-8nzv.kry4-wnfi", "00000000-0000-0000-4F78-D186D8D6A827", 0, 1425757680, null, 1425757680, null, "{ }", "Mapes Pool", "East 180 Street, Mapes & Prospect avenues", "Yes", null, "Bronx", null ]
+  , [ "row-v8ti~jn66~qvvk", "00000000-0000-0000-FB2C-5DF467C15CED", 0, 1425757680, null, 1425757680, null, "{ }", "Maple Playground", "Kissena Boulevard & Maple Avenue", "No", "Yes", "Queens", null ]
+  , [ "row-532u.pmtr~mvx9", "00000000-0000-0000-49A0-C077AD66E39F", 0, 1425757680, null, 1425757680, null, "{ }", "Marble Hill Playground", "Marble Hill Avenue, West 230 Street, West 228 Street", "No", null, "Bronx", null ]
+  , [ "row-m47h_iy2g-qdmf", "00000000-0000-0000-2B5F-FDC10D4E4CCA", 0, 1425757680, null, 1425757680, null, "{ }", "Marconi Park", "109 Avenue & 155 Street", "Yes", null, "Queens", null ]
+  , [ "row-rnf6.6r2i_cxe5", "00000000-0000-0000-6E1E-3F03FCAF81CC", 0, 1425757680, null, 1425757680, null, "{ }", "Marc's & Jason's Playground", "Sterling Street & Empire Boulevard", "Yes", null, "Brooklyn", null ]
+  , [ "row-wysk.uq5r.gm8d", "00000000-0000-0000-4894-BC87D7EFEC01", 0, 1425757680, null, 1425757680, null, "{ }", "Marcus Garvey Park (Pelham Fritz Recreation Center)", "18 Mount Morris Park West", "Yes", null, "Manhattan", null ]
+  , [ "row-9jwy_inbp~hkyt", "00000000-0000-0000-FA6E-A40542BBB0FA", 0, 1425757680, null, 1425757680, null, "{ }", "Marcus Garvey Park (Pool)", "Madison Avenue, East 120 to East 124 streets", "No", null, "Manhattan", null ]
+  , [ "row-fcut.mq3a.753j", "00000000-0000-0000-1CF4-6DD155B47CB8", 0, 1425757680, null, 1425757680, null, "{ }", "Maria Hernandez Park", "Knickerbocker to Irving avenues, Starr to Suydam Streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-9wdp-qznt_seah", "00000000-0000-0000-13DD-421D25F3D051", 0, 1425757680, null, 1425757680, null, "{ }", "Marie Curie Park (JHS 158)", "211 & Oceana streets, 46 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-nvy6_5pfe_j9e6", "00000000-0000-0000-F4F2-0E1643BBCE16", 0, 1425757680, null, 1425757680, null, "{ }", "Marine Park", "Burnett Street between Avenue U and Avenue X/west of East 33rd Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-6mtf~7tiv.mw43", "00000000-0000-0000-908F-8A906E5D103E", 0, 1425757680, null, 1425757680, null, "{ }", "Marine Park Nature Center", "East 33rd Street and Avenue U", null, "Yes", "Brooklyn", null ]
+  , [ "row-vwrw_jrbi-wzwx", "00000000-0000-0000-583E-5EE01E3A6831", 0, 1425757680, null, 1425757680, null, "{ }", "Marion-Hopkinson Playground", "Hopkinson Avenue & Marion Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-v8rb.qrpt.hdf2", "00000000-0000-0000-9F81-BE0A961503FD", 0, 1425757680, null, 1425757680, null, "{ }", "Markham Playground", "Willowbrook Parkway, Forest Avenue & Houston Street", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-vik8-hk6h-qu9q", "00000000-0000-0000-3E86-224ADDD4BF39", 0, 1425757680, null, 1425757680, null, "{ }", "Martin Luther King Houses", "Lenox Avenue, West 113 to West 114 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-2ndj.kvuv.3vzj", "00000000-0000-0000-C786-749738C33C44", 0, 1425757680, null, 1425757680, null, "{ }", "Martinez Playground", "Scholes Street, Graham Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-r8nj-zj6t-5gjr", "00000000-0000-0000-7C25-6578AE4EB3E9", 0, 1425757680, null, 1425757680, null, "{ }", "Mathew Muliner Playground", "Delancy Place, Muliner Avenue, Matthews Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-n9r5.adpv-dzmb", "00000000-0000-0000-9066-6256381C5731", 0, 1425757680, null, 1425757680, null, "{ }", "Maurice A. Fitzgerald Playground", "Atlantic Avenue & 106 Street", "Yes", null, "Queens", null ]
+  , [ "row-s98v-gsg2~gy74", "00000000-0000-0000-6B57-A204AC67D867", 0, 1425757680, null, 1425757680, null, "{ }", "Maurice Park", "Maurice, Borden, 54 avenues, 63 Street", "Yes", null, "Queens", null ]
+  , [ "row-is7x_f7ge-8fxx", "00000000-0000-0000-5BBD-4C6F19DC9497", 0, 1425757680, null, 1425757680, null, "{ }", "May Matthews Playground", "West 45 Street between 9 & 10 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-urzn.a7qe.3awx", "00000000-0000-0000-0DDD-2E248D454338", 0, 1425757680, null, 1425757680, null, "{ }", "Mazzei Playground", "Mace Avenue, Williamsbridge Road", "Yes", null, "Bronx", null ]
+  , [ "row-akut-nt9w_6gva", "00000000-0000-0000-C4C4-8C4547BC9193", 0, 1425757680, null, 1425757680, null, "{ }", "McCaffrey Playground", "West 43 Street, 8 & 9 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-ku3u~akfr_mx5a", "00000000-0000-0000-7621-0659D07E82A1", 0, 1425757680, null, 1425757680, null, "{ }", "McCarren Park", "12th Street/Driggs Avenue/Lorimer Street/Bedford Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-awxh~yg3a~a8td", "00000000-0000-0000-0D36-6410D7062E99", 0, 1425757680, null, 1425757680, null, "{ }", "McDonald Playground", "Mcdonald Avenue, between avenues S & T", "Yes", null, "Brooklyn", null ]
+  , [ "row-agfk~967n_33gt", "00000000-0000-0000-23FE-CD76F7CDC167", 0, 1425757680, null, 1425757680, null, "{ }", "McDonald Playground", "Forest Avenue, Myrtle Avenue between Broadway & Burgher", "Yes", null, "Staten Island", null ]
+  , [ "row-er72.deau-my39", "00000000-0000-0000-51C7-F8982E61FF8C", 0, 1425757680, null, 1425757680, null, "{ }", "McKinley Park", "Fort Hamilton Parkway, 73 to 78 streets, 7 Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-hfmc~jpsi~qx7a", "00000000-0000-0000-EA29-CF4E9E6B52D6", 0, 1425757680, null, 1425757680, null, "{ }", "McKinley Playground", "Avenue A, East 3-East 4 streets", "No", null, "Manhattan", null ]
+  , [ "row-cxft~72va-6vnx", "00000000-0000-0000-59AE-D50EE7DC1AE7", 0, 1425757680, null, 1425757680, null, "{ }", "McLaughlin Park", "Tillary Street, Jay Street, Cathedral Place, Bridge Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-ej43-sshk.c6by", "00000000-0000-0000-C8D1-FE040A912D56", 0, 1425757680, null, 1425757680, null, "{ }", "Mellett Playground", "Avenue V between East 13 & East 14 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-bh4y.fa7x-d2df", "00000000-0000-0000-74B0-F475BDD9A803", 0, 1425757680, null, 1425757680, null, "{ }", "Metropolitan Pool", "Southeast corner of Bedford & Metropolitan avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-tarx_nrjc~usdx", "00000000-0000-0000-84AA-6076A6B0E911", 0, 1425757680, null, 1425757680, null, "{ }", "Michaelis-Bayswater Park", "Beach Channel Drive, B 32 Street, Dwight Avenue, Norton Avenue", "Yes", "Yes", "Queens", null ]
+  , [ "row-9yuu-sbv4_z5mk", "00000000-0000-0000-8819-F5FC767CB2C1", 0, 1425757680, null, 1425757680, null, "{ }", "Midland Beach & Boardwalk", "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard", "Yes", "Yes", "Staten Island", "This facility is currently closed" ]
+  , [ "row-hdrt~ggn5-w2an", "00000000-0000-0000-B184-54FAEF25CC64", 0, 1425757680, null, 1425757680, null, "{ }", "Midland Field", "Midland Avenue & Mason Avenue", null, "Yes", "Staten Island", "Closed from 7:30 - 3:30p during the schoolyear." ]
+  , [ "row-wz7u.m8hn_f9xq", "00000000-0000-0000-A69A-B94DA035C8F1", 0, 1425757680, null, 1425757680, null, "{ }", "Midland Playground", "Lincoln & Mason avenues", "Yes", null, "Staten Island", null ]
+  , [ "row-ksaf.y6vn_ezun", "00000000-0000-0000-F1B9-3EBB65D1EA09", 0, 1425757680, null, 1425757680, null, "{ }", "Millbrook Playground", "East 135 Street, Cypress Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-y5v7~irb2_hss2", "00000000-0000-0000-040D-C1C996BC8162", 0, 1425757680, null, 1425757680, null, "{ }", "Monsignor Mcgolrick Park", "Driggs to Nassau avenues, Russell to Monitor streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-gk8t-u4bs-xech", "00000000-0000-0000-6371-0D76F4064907", 0, 1425757680, null, 1425757680, null, "{ }", "Montbellier Park", "Springfield Boulevard & 139 Avenue", "No", null, "Queens", null ]
+  , [ "row-dfig-jcmm_y6ig", "00000000-0000-0000-94DA-C93D3DA8619F", 0, 1425757680, null, 1425757680, null, "{ }", "Morningside Park", "West 123 Street & Morningside Avenue", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-wngp~izsx~mux6", "00000000-0000-0000-CCE5-AE22F6AD60C1", 0, 1425757680, null, 1425757680, null, "{ }", "Morningside Park", "Athletic Fields and Lawns from 114th Street to 110th Street along Manhattan Avenue, East of Upper Path", "Yes", null, "Manhattan", null ]
+  , [ "row-97ns~xq59~zaxj", "00000000-0000-0000-B3D8-3F1C8850A968", 0, 1425757680, null, 1425757680, null, "{ }", "Morningside Playground", "West 117 Street & Morningside Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-6ky6~a2ig-bjg5", "00000000-0000-0000-0C8A-AF3B72E3AC53", 0, 1425757680, null, 1425757680, null, "{ }", "Mosholu Playground (PS 8)", "Mosholu Pkwy, Bainbridge Avenue, Briggs Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-64ib.pf3t_m5jg", "00000000-0000-0000-CB4C-7013C6A81801", 0, 1425757680, null, 1425757680, null, "{ }", "Mott Playground", "Morris Avenue, College Avenue, Mc Clellan Street", "Yes", null, "Bronx", null ]
+  , [ "row-nq9s~kj98_murm", "00000000-0000-0000-235F-D26380D88854", 0, 1425757680, null, 1425757680, null, "{ }", "Msgnr. Kett", "West 204 Street & Nagle Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-bivf~ibpp-4pwm", "00000000-0000-0000-CA73-80A701FC0DB5", 0, 1425757680, null, 1425757680, null, "{ }", "Mt. Prospect Park", "Eastern Parkway, Underhill Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-k7qk-vb9f_e99d", "00000000-0000-0000-3D2B-D2F9E8D81299", 0, 1425757680, null, 1425757680, null, "{ }", "Mullaly Park (Skate Building)", "East 164 Street, Jerome Avenue, Macombs Dam Bridge, East 162 Street, River Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-rb84~67e4-xa8j", "00000000-0000-0000-CC8D-C6B223230519", 0, 1425757680, null, 1425757680, null, "{ }", "Murray Playground", "21 Street, 45 Avenue, 11 Street, 45 Road", "No", null, "Queens", null ]
+  , [ "row-67pd~nen5.a7g7", "00000000-0000-0000-820D-688D4B107DC6", 0, 1425757680, null, 1425757680, null, "{ }", "Nautilus Playground", "Merrick & Baisley boulevards", "Yes", null, "Queens", null ]
+  , [ "row-8h3s~nf2s~5fr5", "00000000-0000-0000-3D5B-8281B1134D74", 0, 1425757680, null, 1425757680, null, "{ }", "Nelson Playground", "West 166 Street, Nelson Avenue, Woodycrest Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-jyps-wgjd.sav6", "00000000-0000-0000-6C07-73A431130F33", 0, 1425757680, null, 1425757680, null, "{ }", "Newport Playground", "Newport Avenue & Osborn Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-28hi.rv23-peye", "00000000-0000-0000-6B1E-4F40331DA2F8", 0, 1425757680, null, 1425757680, null, "{ }", "Noble Playground", "Nobel Avenue, Bronx River Avenue, Bronx River Parkway, Cross Bronx Expressway", "No", null, "Bronx", null ]
+  , [ "row-ge2j.pgtu_njvt", "00000000-0000-0000-6137-8FCBFF0C367E", 0, 1425757680, null, 1425757680, null, "{ }", "Noonan Playground", "Greenpoint & 47 avenues, 43 Street", "Yes", null, "Queens", null ]
+  , [ "row-w4di.nn4p-brer", "00000000-0000-0000-00E2-9F5412DC267F", 0, 1425757680, null, 1425757680, null, "{ }", "North Rochdale Playground (PS 30)", "Baisley Boulevard & Bedell Street", "Yes", null, "Queens", null ]
+  , [ "row-vbhd-yuph~bghy", "00000000-0000-0000-25AE-333981990C17", 0, 1425757680, null, 1425757680, null, "{ }", "Nostrand Playground", "Nostrand & Foster avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-4vc7.47a6.m75g", "00000000-0000-0000-6677-010F74B527D7", 0, 1425757680, null, 1425757680, null, "{ }", "Ocean Hill Playground", "Bergen Street, Rockaway Avenue, Dean Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-2mr7.xvq2_pt97", "00000000-0000-0000-4FE5-2D32F791A5D7", 0, 1425757680, null, 1425757680, null, "{ }", "Old Town Playground", "Parkinson Avenue, Kramer Street", "Yes", null, "Staten Island", null ]
+  , [ "row-x9pw_x4vh_mxfr", "00000000-0000-0000-5912-28FCB6FD1388", 0, 1425757680, null, 1425757680, null, "{ }", "Oracle Playground", "Adelphi & Myrtle avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-fg5j.qxm3.88bv", "00000000-0000-0000-AF56-18CF90C19B57", 0, 1425757680, null, 1425757680, null, "{ }", "Orchard Beach Pavilion", "Bruckner Boulevard, Eastchester Bay, Hutchinson", "No", null, "Bronx", null ]
+  , [ "row-xnm6.petd~fxdf", "00000000-0000-0000-08D5-B4BD0719ED0C", 0, 1425757680, null, 1425757680, null, "{ }", "Orchard Beach Pavilion", "Bruckner Boulevard, Eastchester Bay, Hutchinson", "Yes", "Yes", "Bronx", null ]
+  , [ "row-5hm4~fdnf-benq", "00000000-0000-0000-B5A0-1C43FDD5DC02", 0, 1425757680, null, 1425757680, null, "{ }", "Orville & Wilbur Playground", "West 156 Street & St. Nicholas Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-q7fv.cumf_w6yh", "00000000-0000-0000-9292-3A3559C4BE27", 0, 1425757680, null, 1425757680, null, "{ }", "Osborn Playground", "Linden Boulevard & Osborn Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-6arp-ji9k~usqb", "00000000-0000-0000-F2E2-1923D88CAA25", 0, 1425757680, null, 1425757680, null, "{ }", "Owen Dolen Recreation Center", "Westchester Avenue, Lane Avenue, East Tremont Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-sn3m.keng~5ndr", "00000000-0000-0000-AB77-BD0FA35CDF65", 0, 1425757680, null, 1425757680, null, "{ }", "P.O. Nicholas Demutis Playground", "102 Street & Liberty Avenue", "Yes", null, "Queens", null ]
+  , [ "row-ty8v_3ybk~3fhw", "00000000-0000-0000-EBDD-3544ED0438B6", 0, 1425757680, null, 1425757680, null, "{ }", "P.O. Serrano Playground", "Turnbull Avenue, Olmstead Avenue, Lafayette Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-5w6h~rq6a.hpmx", "00000000-0000-0000-23FF-F366717D68B6", 0, 1425757680, null, 1425757680, null, "{ }", "Paerdegat Park", "Foster Avenue, East 40-41 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-4ycw_xwav.gm9x", "00000000-0000-0000-DFE4-695FA4738C59", 0, 1425757680, null, 1425757680, null, "{ }", "Painters Playground (PS 174)", "Alderton Street from Dieterle to Elwell Crescents", "Yes", null, "Queens", null ]
+  , [ "row-n96i.zga4-v565", "00000000-0000-0000-A4C5-C1445097D303", 0, 1425757680, null, 1425757680, null, "{ }", "Park Slope Playground", "Berkeley Street & Lincoln Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-rjh2-up9e.qyfu", "00000000-0000-0000-D6DD-97BC2D04A18D", 0, 1425757680, null, 1425757680, null, "{ }", "Parkside Playground", "Arnow Avenue, Adee Avenue, Olinville Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-r5r2_b4rn_dkzz", "00000000-0000-0000-E6C0-B76A7D74CF8C", 0, 1425757680, null, 1425757680, null, "{ }", "Parkside Playground", "Parkside, Bedford & Rogers avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-ng2x-i9aj-uvpt", "00000000-0000-0000-1FC2-E35D2C9C16EC", 0, 1425757680, null, 1425757680, null, "{ }", "Pat Perlato Playground", "Falmouth Street & Oriental Avenue", "Yes", null, "Brooklyn", "This facility is currently closed. " ]
+  , [ "row-a2en-fux7.cbaz", "00000000-0000-0000-8169-D4DE6AC46881", 0, 1425757680, null, 1425757680, null, "{ }", "Paul W. Kolbert Park/Rachel Haber Cohen Playground", "Avenue L, East 17 to East 18 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-zxc3~thb7-htnm", "00000000-0000-0000-A39C-9A7F8155D1DE", 0, 1425757680, null, 1425757680, null, "{ }", "Pelham Bay Park (Bruckner Boulevard and Wilkinson Avenue)", "Bruckner Boulevard, Eastchester Bay, Hutchinson", "Yes", null, "Bronx", null ]
+  , [ "row-qfwn~6ara-ryi8", "00000000-0000-0000-0CDA-8B7EACF09075", 0, 1425757680, null, 1425757680, null, "{ }", "Pelham Bay Park (Bruckner CS)", "Bruckner Boulevard, Eastchester Bay, Hutchinson", "Yes", null, "Bronx", null ]
+  , [ "row-2vrf-d3mx.2sjp", "00000000-0000-0000-D838-61018E11355C", 0, 1425757680, null, 1425757680, null, "{ }", "Pelham Bay Park (Hunter Island Picnic Area)", "Bruckner Boulevard, Eastchester Bay, Hutchinson", "Yes", "Yes", "Bronx", null ]
+  , [ "row-k85g~z4h6_f885", "00000000-0000-0000-7E07-F70006F14E24", 0, 1425757680, null, 1425757680, null, "{ }", "Pelham Bay Park (Playground for All Children)", "Bruckner Expressway & Buhre Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-vjy8-vzeh.qnvi", "00000000-0000-0000-48E3-835DD1C32157", 0, 1425757680, null, 1425757680, null, "{ }", "Pelham South Park Headquarters", "Bruckner Boulevard, Eastchester Bay, Hutchinson", "Yes", null, "Bronx", null ]
+  , [ "row-s58m.kngk~u2br", "00000000-0000-0000-C490-1C10177CBF14", 0, 1425757680, null, 1425757680, null, "{ }", "People's Park Playground", "Brook Avenue, East 141 Street", "Yes", null, "Bronx", null ]
+  , [ "row-mwwq~armx.c49v", "00000000-0000-0000-D2AA-D7C9D3A909D2", 0, 1425757680, null, 1425757680, null, "{ }", "Peter's Field", "183 Place & Henderson Avenue", "Yes", null, "Queens", null ]
+  , [ "row-7zbn~pvnu~2si3", "00000000-0000-0000-9DBB-1AC4C729030E", 0, 1425757680, null, 1425757680, null, "{ }", "PFC Thomas Norton Memorial Playground", "Nostrand Avenue & Marine Parkway", "Yes", null, "Brooklyn", null ]
+  , [ "row-sem3_ihnd_nsn6", "00000000-0000-0000-9833-12D68C5BDD76", 0, 1425757680, null, 1425757680, null, "{ }", "Pierrepont Playground", "Furman Street, Pierrepont Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-3tv8_eafx.vn9h", "00000000-0000-0000-5488-2546ED3C4F70", 0, 1425757680, null, 1425757680, null, "{ }", "Pink Playground", "Stanley Avenue & Eldert Lane", "Yes", null, "Brooklyn", null ]
+  , [ "row-eqyt~gzbh-wt3f", "00000000-0000-0000-5AC6-2B6769F28C1B", 0, 1425757680, null, 1425757680, null, "{ }", "Playground 62 (PS 220)", "Yellowstone Boulevard between 62 Avenue & 62 Road", "Yes", null, "Queens", null ]
+  , [ "row-dbix.nidg~x9ne", "00000000-0000-0000-64DC-AD33F691010A", 0, 1425757680, null, 1425757680, null, "{ }", "Playground 70", "West End Avenue & West 70 Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-y29a~x662~iy48", "00000000-0000-0000-5DC2-8F26B4935C4B", 0, 1425757680, null, 1425757680, null, "{ }", "Playground 90/PS 148 Playground", "Northern Boulevard & 90 Street", "Yes", null, "Queens", null ]
+  , [ "row-fa6i_wtnx_nxag", "00000000-0000-0000-0B41-B38980F4DA6F", 0, 1425757680, null, 1425757680, null, "{ }", "Playground Fifty-Two", "Kelly Street, St. John's Avenue, Beck Street", "Yes", null, "Bronx", null ]
+  , [ "row-ubjt-grup_zvcj", "00000000-0000-0000-5C36-EC520BDB0B01", 0, 1425757680, null, 1425757680, null, "{ }", "Playground Ninety Six (XCVI)", "2 Avenue, East 96 to East 97 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-w4b5_sfk7~u3y5", "00000000-0000-0000-B06D-F6ABFA2FE8E2", 0, 1425757680, null, 1425757680, null, "{ }", "Playground Seventy-Five (PS 154)", "160 Street & 75 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-a4xs.es5s_ywnr", "00000000-0000-0000-38C5-1FA4614CC1D1", 0, 1425757680, null, 1425757680, null, "{ }", "Police Officer Reinaldo Salgado Playground", "Madison Street & Patchen Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-p69p~j8w3~bir5", "00000000-0000-0000-424B-E3EA823DAF47", 0, 1425757680, null, 1425757680, null, "{ }", "Poor Richard's Playground", "East 109 Street between 2 & 3 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-ef44.wq4c.myt9", "00000000-0000-0000-0FC1-27CF2A2890EA", 0, 1425757680, null, 1425757680, null, "{ }", "Potomac Playground", "Tompkins Avenue & Halsey Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-ent5~7r25.a69h", "00000000-0000-0000-C14C-8962968E88E7", 0, 1425757680, null, 1425757680, null, "{ }", "Pratt Playground", "Willoughby Avenue, Emerson Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-snfh-6tib-ivax", "00000000-0000-0000-0FB0-A8E0C1B96688", 0, 1425757680, null, 1425757680, null, "{ }", "Prescott Playground", "Hylan Boulevard & Huguenot Avenue", "Yes", null, "Staten Island", null ]
+  , [ "row-a2hj_4k4i.h9qn", "00000000-0000-0000-7BDC-4BA6E2B58EAA", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (East Parade Grounds)", "Argyle Road/Parade Place./Parkside Avenue/Caton Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-7aw8-7hp5_p3kn", "00000000-0000-0000-3306-1C143CBEF05E", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (Litchfield Villa)", "Prospect Park West/3rd Street/7th Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-z6tx.cc3a.h46k", "00000000-0000-0000-95A1-5F7755AD885B", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (Middle Long Meadow)", "Picnic House", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-c9mp~aeyz.rzrk", "00000000-0000-0000-6B2C-3EF2DC5719D8", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (The Bandshell)", "Prospect Park West/7th Street/15th Street", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-d52f.2vpi-cnmn", "00000000-0000-0000-A5EE-1972D46EE976", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (West Parade Grounds)", "Coney Island Avenue/Arglye Road/Parkside Avenue/Caton Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-ywny-6g8v~py7h", "00000000-0000-0000-8D0A-A1861AC55192", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (Willink Hill)", "Lincoln Road/Ocean Avenue/Willink Entrance/East Lake Drive", "Yes", null, "Brooklyn", null ]
+  , [ "row-xs3m~e23h_9t2x", "00000000-0000-0000-DA18-A84E4F3F92D4", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (Willink Hill)", "Lincoln Road/Ocean Avenue/Willink Entrance/East Lake Drive", "No", null, "Brooklyn", null ]
+  , [ "row-242y.bm8h.vkm6", "00000000-0000-0000-1EBE-374FA104196A", 0, 1425757680, null, 1425757680, null, "{ }", "Prospect Park (Wollman Rink & Flower Garden)", "Prospect Lake/East Lake Drive/south of Breeze Hill/Parking Lot", null, null, "Brooklyn", null ]
+  , [ "row-7my2-k24u.tbgc", "00000000-0000-0000-A1FD-899E4FD9BADB", 0, 1425757680, null, 1425757680, null, "{ }", "PS 1 Playground", "46 & 47 streets, 3 Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-cr4b_3tim-6er9", "00000000-0000-0000-E5CE-95FAB6292D24", 0, 1425757680, null, 1425757680, null, "{ }", "PS 155 Playground", "East 117 to East 118 streets, 1 to 2 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-utd6_m875.kvkr", "00000000-0000-0000-26A9-298185003935", 0, 1425757680, null, 1425757680, null, "{ }", "PS 286 Playground", "Avenue Y, between Brown & Haring streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-tixd~cnt4-k8c9", "00000000-0000-0000-047E-45E7FFFDEDF9", 0, 1425757680, null, 1425757680, null, "{ }", "PS 59 Sumner Playground", "Throop, Park, Mytrle avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-nwgx-b9pn_2t2i", "00000000-0000-0000-7174-223224ED8789", 0, 1425757680, null, 1425757680, null, "{ }", "Quarry Ballfields", "Quarry Road, East 181 Street, Oak Place & Hughes Avenue", "No", "Yes", "Bronx", null ]
+  , [ "row-h2yk~fkht.ux4a", "00000000-0000-0000-7E84-E807C582EB16", 0, 1425757680, null, 1425757680, null, "{ }", "Queens Farm Museum", "Little Neck Parkway, Commonwealth Boulevard, south of Grand Central Parkway", "Yes", null, "Queens", null ]
+  , [ "row-n574.idw8~mmke", "00000000-0000-0000-EA14-9C5A6E9DCA1F", 0, 1425757680, null, 1425757680, null, "{ }", "Queensbridge Park", "21 Street, Bridge Plaza, Vernon Boulevard, East River", "Yes", null, "Queens", null ]
+  , [ "row-6xn2~5drg-qv97", "00000000-0000-0000-FDB5-D9042740058C", 0, 1425757680, null, 1425757680, null, "{ }", "Railroad Playground", "Ditmas Avenue between East 91 & East 92 streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-ri75.3ce5-qpf7", "00000000-0000-0000-B0A8-CAD1357AB47E", 0, 1425757680, null, 1425757680, null, "{ }", "Rainey Park", "Dawson Street, Beck Street, Kelly Street, Intervale Avenue, Longwood Avenue", "No", null, "Bronx", null ]
+  , [ "row-d5n4.7djr~veua", "00000000-0000-0000-A714-2790D003B91A", 0, 1425757680, null, 1425757680, null, "{ }", "Rainey Park", "Vernon Boulevard, 33 Road, 34 Street, East River", "Yes", null, "Queens", null ]
+  , [ "row-kmq9~ftf3_cgzc", "00000000-0000-0000-BBAC-8F8C5D3D38D5", 0, 1425757680, null, 1425757680, null, "{ }", "Randall Playground", "Randall Avenue, Castle Hill Avenue", "No", null, "Bronx", null ]
+  , [ "row-fkfn_azgh_8bq6", "00000000-0000-0000-0390-917A80B74C82", 0, 1425757680, null, 1425757680, null, "{ }", "Rappaport Playground", "52-53 streets, Fort Hamilton Parkway", "Yes", null, "Brooklyn", null ]
+  , [ "row-y43y_gjfc_z63d", "00000000-0000-0000-3440-AB5BEA4E9599", 0, 1425757680, null, 1425757680, null, "{ }", "Real Good Park (Lie Playground)", "LIE, 99 Street & 62 Avenue", "Yes", "Yes", "Queens", null ]
+  , [ "row-ckau.z8w7-46c7", "00000000-0000-0000-73BC-B7199688BE3F", 0, 1425757680, null, 1425757680, null, "{ }", "Red Hook Park", "Otsego, Bay, Hicks, Lorraine, Court, Halleck streets", "No", null, "Brooklyn", null ]
+  , [ "row-iy4p_fuw9.zvii", "00000000-0000-0000-8B6A-0DC1C70F718B", 0, 1425757680, null, 1425757680, null, "{ }", "Red Hook Park", "Columbia and Bay streets, southeast of \"Halleck Street\" Sidewalk and northeast of \"Henry Street\" Sidewalk", "Yes", null, "Brooklyn", null ]
+  , [ "row-46mh~k6xg-pbpk", "00000000-0000-0000-64FA-E1F661A3C454", 0, 1425757680, null, 1425757680, null, "{ }", "Red Hook Park (Coffey Park Playground)", "King, Richards, & Dwight Streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-vdde.yf9t-gduf", "00000000-0000-0000-9CC1-3AEE6E0821BF", 0, 1425757680, null, 1425757680, null, "{ }", "Red Hook Park (Recreation Center)", "Otsego, Bay, Hicks, Lorraine, Court, Halleck streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-irm7~rrrw-kvwg", "00000000-0000-0000-55BA-6F4062DFC4A1", 0, 1425757680, null, 1425757680, null, "{ }", "Reiff Playground", "Fresh Pond Road, 63 Street, 59 Drive", "Yes", null, "Queens", null ]
+  , [ "row-tvtg.5wiq.tcwf", "00000000-0000-0000-74CD-3D20B11AF022", 0, 1425757680, null, 1425757680, null, "{ }", "Renaissance Playground", "West 144 Street, between 7 & 8 avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-rb4d~sgt9-uxme", "00000000-0000-0000-6701-595872CFC879", 0, 1425757680, null, 1425757680, null, "{ }", "Rev. Polite Playground", "Rev. James Polite Avenue, Intervale Avenue, East 167 Street", "Yes", null, "Bronx", null ]
+  , [ "row-j8z5.9zpb~e9c4", "00000000-0000-0000-B980-212D7A76EF70", 0, 1425757680, null, 1425757680, null, "{ }", "Richman (Echo) Park Playground", "East 178 Street & Ryer Avenue, Upper Level", "Yes", "Yes", "Bronx", null ]
+  , [ "row-vmxq_5pt9~vehd", "00000000-0000-0000-29B6-BDF419E1263C", 0, 1425757680, null, 1425757680, null, "{ }", "Rienzi Playground", "East 226 Street, Barnes Avenue, East 225 Street", "Yes", null, "Bronx", null ]
+  , [ "row-4iwv~pfed_rgtg", "00000000-0000-0000-F484-3D16F4561B10", 0, 1425757680, null, 1425757680, null, "{ }", "Riverbend Playground", "Bailey Avenue, West Kingsbridge Road", "Yes", "Yes", "Bronx", null ]
+  , [ "row-m98e_8giz-udgy", "00000000-0000-0000-57B9-6AD3D07757E6", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Boat Basin)", "Riverside Drive to Hudson River, West 59th Street to Clair Place", "No", null, "Manhattan", null ]
+  , [ "row-966j_5frd_2z28", "00000000-0000-0000-0559-2440A54DCECF", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Café)", "105th Street, next to Henry Hudson Parkway", "No", "Yes", "Manhattan", null ]
+  , [ "row-jsaw.vpzn_stwi", "00000000-0000-0000-537F-AAA403F2C623", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Claremont)", "West 124 Street & Riverside Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-bjfr_eugj_j3h5", "00000000-0000-0000-CA85-AB98F3503B73", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Classic Playground)", "72nd to 79th streets between Hudson River and Henry Hudson Parkway", "Yes", null, "Manhattan", null ]
+  , [ "row-6jn5_c9vc.vmdb", "00000000-0000-0000-7B84-895E133CE70B", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Dinosaur Playground)", "West 97 Street & Riverside Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-99rj~37wi-yn7j", "00000000-0000-0000-5409-C739C7A5C859", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Hippo Playground)", "West 91 Street & Riverside Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-vzex-5j8p-r552", "00000000-0000-0000-F1AB-16275AEBAAFC", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Neufeld Playground)", "West 76 Street & Riverside Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-ukea~nxni~resf", "00000000-0000-0000-38C9-E3BA4661C260", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (River Run Playground)", "West 83 Street & Riverside Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-5a64~yivv~b89x", "00000000-0000-0000-AF61-D1CF802A9493", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Riverbank Playground)", "West 142 Street & Riverside Drive", "Yes", null, "Manhattan", null ]
+  , [ "row-cvzf_r7vx~dbd6", "00000000-0000-0000-67D0-8934C1D4DDC1", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Ten Mile River Playground)", "West 148 Street & Hudson River", "No", null, "Manhattan", null ]
+  , [ "row-2akf-ip4d_fpf6", "00000000-0000-0000-0B8E-581EF789A06B", 0, 1425757680, null, 1425757680, null, "{ }", "Riverside Park (Tennis Courts)", "Riverside Drive & West 96th Street", "Yes", null, "Manhattan", null ]
+  , [ "row-jime~v2f4~3pmz", "00000000-0000-0000-954A-9EEFDCD0C45C", 0, 1425757680, null, 1425757680, null, "{ }", "Robert Moses Playground", "1 Avenue, East 41 to East 42 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-gudx_v7v4.j59m", "00000000-0000-0000-07E4-EE95A95ADAF3", 0, 1425757680, null, 1425757680, null, "{ }", "Rochdale Park", "Guy Brewer Boulevard, 134 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-y9it~qift-7nin", "00000000-0000-0000-CEE1-E22B22A474CE", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach", "Between 87th Street and 100th Street", "No", null, "Queens", null ]
+  , [ "row-c5x7-zcpf_wfk9", "00000000-0000-0000-0A52-A52A79674BB5", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach", "Between 100th Street and 110th Street", "No", null, "Queens", null ]
+  , [ "row-mwac_u2fz.9u3m", "00000000-0000-0000-0C40-C86F26CA05BF", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach & Boardwalk (Beach 59th Street Playground)", "Boardwalk & Beach 59-60 streets", "Yes", null, "Queens", null ]
+  , [ "row-gf4v-xb8j-83y2", "00000000-0000-0000-0767-ACFA796459A5", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach (Beach 116Th)", "Between 110th and 121st streets", "Yes", null, "Queens", "This facility is currently closed" ]
+  , [ "row-76bu_6yy2-vcrn", "00000000-0000-0000-6F1B-86FE3F43E6F3", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach 106 Comfort Station", "Beach 106 Street", null, "Yes", "Queens", null ]
+  , [ "row-6irf_u5mq.rv3d", "00000000-0000-0000-D25F-60FB2BE1F616", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach 117th L/G", "Beach 117 Street", null, "Yes", "Queens", null ]
+  , [ "row-d9m8~qtqy.d29z", "00000000-0000-0000-8CA4-79C45BA3D43E", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach 86 Comfort Station", "Beach 86 Street", null, "Yes", "Queens", null ]
+  , [ "row-92ni.uu5j~pu7t", "00000000-0000-0000-21B1-BE6BCEE4E561", 0, 1425757680, null, 1425757680, null, "{ }", "Rockaway Beach 97 Comfort Station", "Beach 97 Street", null, "Yes", "Queens", null ]
+  , [ "row-5rhu_ip4p~cdh4", "00000000-0000-0000-92F2-88AC984ECEC5", 0, 1425757680, null, 1425757680, null, "{ }", "Rodney Playground South", "Rodney, South 3 & South 4 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-ciuu_sdrx.cyey", "00000000-0000-0000-255B-A31567FFE684", 0, 1425757680, null, 1425757680, null, "{ }", "Roebling Playground", "Wilson & Lee avenues, Taylor Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-u23j_rw82-qcay", "00000000-0000-0000-B00A-3D776D1C866F", 0, 1425757680, null, 1425757680, null, "{ }", "Roger Morris Park (Morris Jumel Mansion)", "Jumel Terrace to Edgecombe Avenue, West 160 to West 162 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-7t2a-gir5_y8xq", "00000000-0000-0000-F7C7-4670152A5CD8", 0, 1425757680, null, 1425757680, null, "{ }", "Rolf Henry Playground", "New York & Clarkson avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-vwrc.s69u_3xhc", "00000000-0000-0000-8E5B-2972BE18FDEA", 0, 1425757680, null, 1425757680, null, "{ }", "Rose Hill Park", "Webster Avenue, Harlem River, East Fordham Road", "Yes", null, "Bronx", null ]
+  , [ "row-5myg~ij9b.r2a6", "00000000-0000-0000-33F6-09AF6856C645", 0, 1425757680, null, 1425757680, null, "{ }", "Rosemary's Playground (JHS 93)", "Woodward Avenue, Woodbine Street, Fairview Avenue", "Yes", null, "Queens", null ]
+  , [ "row-y9zw~b7fh.yuiw", "00000000-0000-0000-5792-B273110CF83E", 0, 1425757680, null, 1425757680, null, "{ }", "Roy Wilkins Recreation Center", "Northwest of fence running from 118th Road to hospital", "Yes", null, "Queens", null ]
+  , [ "row-ai5h_evr8-rzrg", "00000000-0000-0000-C96E-42187AE48205", 0, 1425757680, null, 1425757680, null, "{ }", "Roy Wilkins Recreation Center", "Southeast of fence running from 118th Road to hospital", "Yes", null, "Queens", null ]
+  , [ "row-hn8p.388n~bbma", "00000000-0000-0000-76B7-A59889CA6AC4", 0, 1425757680, null, 1425757680, null, "{ }", "Rudd Playground", "Aberdeen Street & Bushwick Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-xcvh.b5cy-2446", "00000000-0000-0000-07D5-EADEE437A6D8", 0, 1425757680, null, 1425757680, null, "{ }", "Rufus King Park", "Jamaica Avenue, 153 Street, 89 Avenue, 150 Street", "Yes", null, "Queens", null ]
+  , [ "row-zqcf~6zg7.hkvw", "00000000-0000-0000-2333-2CB212B90066", 0, 1425757680, null, 1425757680, null, "{ }", "Russell Pederson Playground", "Colonial Road, 83 to 85 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-8hm8.3fct_nkqa", "00000000-0000-0000-5456-7B7C7851CD33", 0, 1425757680, null, 1425757680, null, "{ }", "Russell Sage Playground (JHS 190)", "68 Avenue, Booth to Austin streets", "Yes", null, "Queens", null ]
+  , [ "row-6st3.4ap6_y3x4", "00000000-0000-0000-7398-5673DB7EA46F", 0, 1425757680, null, 1425757680, null, "{ }", "Sara D. Roosevelt Park", "East Houston Street to Canal Street", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-s4zu_evv3~6abr", "00000000-0000-0000-BC3C-6634F9A17BE2", 0, 1425757680, null, 1425757680, null, "{ }", "Saratoga Square Park", "Howard Avenue, Halsey, Macon streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-ynpt.ky2y-fjq5", "00000000-0000-0000-3C97-E9490285DCFB", 0, 1425757680, null, 1425757680, null, "{ }", "Schmul Park", "Wild Avenue, Pearson Street", "Yes", null, "Staten Island", null ]
+  , [ "row-e6ev_n94n~77gc", "00000000-0000-0000-FA24-813BC9430449", 0, 1425757680, null, 1425757680, null, "{ }", "Seaside Playground (PS 225)", "Rockaway Beach Boulevard, B109-B110 streets", "Yes", null, "Queens", null ]
+  , [ "row-6nfy_gn28~7fzx", "00000000-0000-0000-9B8C-15E8E2AFDB6C", 0, 1425757680, null, 1425757680, null, "{ }", "Seth Low Playground", "Avenue P, Bay Parkway, West 12 Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-hd7z.3tf3-sadw", "00000000-0000-0000-C2A3-D960BAD83224", 0, 1425757680, null, 1425757680, null, "{ }", "Seton Park", "West 135 Street, Independence Avenue, West 232 Street", "Yes", null, "Bronx", null ]
+  , [ "row-bm6x~reua-ngxy", "00000000-0000-0000-278E-DFE5DD4E0A2B", 0, 1425757680, null, 1425757680, null, "{ }", "Seton Park Playground", "West 235 Street & Douglas Avenue", "No", null, "Bronx", null ]
+  , [ "row-pcuv_5ycz-yzn6", "00000000-0000-0000-2F2B-869EB7F85DDD", 0, 1425757680, null, 1425757680, null, "{ }", "Sheltering Arms Park", "West 129 Street, Amsterdam Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-y75c.p9tk.imm4", "00000000-0000-0000-58EC-3CE293CC98EC", 0, 1425757680, null, 1425757680, null, "{ }", "Sheltering Arms Park (Pool)", "West 129 Street, Amsterdam Avenue", "No", null, "Manhattan", null ]
+  , [ "row-zwfw.hd2y-3hsv", "00000000-0000-0000-D2FB-D88395397175", 0, 1425757680, null, 1425757680, null, "{ }", "Shore Road Park", "Owl's Head Park to Fort Hamilton Parkway Narrows Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-5k3r.m3eu~yyg4", "00000000-0000-0000-1EF0-FB12F870E0C0", 0, 1425757680, null, 1425757680, null, "{ }", "Shore Road Park", "72nd Street to Harbor View", "Yes", null, "Brooklyn", null ]
+  , [ "row-rxn7~hq4m.zkqs", "00000000-0000-0000-300E-0C3F5AC326C1", 0, 1425757680, null, 1425757680, null, "{ }", "Shore Road Park", "92nd Street to 4 Avenue - lower half, by expressway", "Yes", null, "Brooklyn", null ]
+  , [ "row-txfn.yvha.3gzv", "00000000-0000-0000-105D-3112E555AD1A", 0, 1425757680, null, 1425757680, null, "{ }", "Shore Road Park", "92nd Street to 4 Avenue - upper half, by road", "No", null, "Brooklyn", null ]
+  , [ "row-2v6q.s8a5~jqsj", "00000000-0000-0000-4642-8F73B44BE0E7", 0, 1425757680, null, 1425757680, null, "{ }", "Silver Lake Park", "Victory Boulevard, Clove Road, Forest Avenue", "Yes", null, "Staten Island", null ]
+  , [ "row-wtfq.ig26.b43e", "00000000-0000-0000-E420-70421B12F253", 0, 1425757680, null, 1425757680, null, "{ }", "Slattery Playground", "East 183 Street, Ryer Avenue, Valentine Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-eb87.iw8v~gh3g", "00000000-0000-0000-6440-16BD173ACAC2", 0, 1425757680, null, 1425757680, null, "{ }", "Slope Park", "6 Avenue Bet 18 & 19 Sts", "Yes", null, "Brooklyn", null ]
+  , [ "row-2chv-hepy-2xam", "00000000-0000-0000-13B6-4025C613AA9F", 0, 1425757680, null, 1425757680, null, "{ }", "Smokey Oval", "125 Street & Atlantic Avenue", "Yes", null, "Queens", null ]
+  , [ "row-kcgt~dax6-sc4t", "00000000-0000-0000-5695-4A7C062E9E03", 0, 1425757680, null, 1425757680, null, "{ }", "Sol Bloom Playground", "Columbus Avenue, West 91 to West 92 streets, Central Park West", "Yes", null, "Manhattan", null ]
+  , [ "row-yd3a-2d6p~4epd", "00000000-0000-0000-DC73-B24C6FAA7633", 0, 1425757680, null, 1425757680, null, "{ }", "Sol Lain Playground", "Broadway, Henry Street, Samuel Dickstein Place", "No", null, "Manhattan", null ]
+  , [ "row-kr6p.2kvm-cpxs", "00000000-0000-0000-A2F5-F9D3E1F0A38D", 0, 1425757680, null, 1425757680, null, "{ }", "Soundview Park Playground", "Metcalf Avenue between Seward and Randall avenues", "No", null, "Bronx", null ]
+  , [ "row-htfg_fz2q-jaqp", "00000000-0000-0000-861B-85C0521CB59B", 0, 1425757680, null, 1425757680, null, "{ }", "South Beach", "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard", "Yes", null, "Staten Island", "This facility is currently closed" ]
+  , [ "row-n3rp_2s44-bcf9", "00000000-0000-0000-8936-FD015505821D", 0, 1425757680, null, 1425757680, null, "{ }", "South Beach (Saturn Playground)", "Natural Area and Boardwalk from Sands Lane to Vulcan Street, East of Father Capodanno Boulevard", "Yes", "Yes", "Staten Island", "This facility is currently closed" ]
+  , [ "row-b7en~p5cf~icbm", "00000000-0000-0000-084F-9F84E36DDEDE", 0, 1425757680, null, 1425757680, null, "{ }", "South Beach Wetlands", "Quintard St Bet. Quincy Ave & Father Capodanno Blvd", null, "Yes", "Staten Island", null ]
+  , [ "row-fn4m_tq3x.afrj", "00000000-0000-0000-E17F-723457A825AD", 0, 1425757680, null, 1425757680, null, "{ }", "Space Time Playground", "Streetory Avenue, Bolton Avenue, Lafayette Avenue, Underhill Avenue", "No", null, "Bronx", null ]
+  , [ "row-swmq~niew~krsk", "00000000-0000-0000-CA51-A5E0F109F77F", 0, 1425757680, null, 1425757680, null, "{ }", "Sperandeo Brothers Playground", "Atlantic Avenue & Elton Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-ps3k_nkw9~wuh3", "00000000-0000-0000-487F-5BA8B666EA0B", 0, 1425757680, null, 1425757680, null, "{ }", "Springfield Park", "149 Avenue, Springfield Boulevard, 145 Road, 148 Street", "Yes", null, "Queens", null ]
+  , [ "row-rz8i_adjt_axne", "00000000-0000-0000-2850-5777EF88A82C", 0, 1425757680, null, 1425757680, null, "{ }", "St Nicholas Park South", "West 129 & 7 Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-fvhr_syhw.crch", "00000000-0000-0000-C09D-8E95B8EF2BBE", 0, 1425757680, null, 1425757680, null, "{ }", "St. Albans Park (174 Street Playground)", "174 Street & 113 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-ybfn_jxgn_6qku", "00000000-0000-0000-04B8-3015AE1C2514", 0, 1425757680, null, 1425757680, null, "{ }", "St. Andrew's Playground", "Atlantic Avenue & Herkimer Street", "Yes", null, "Brooklyn", null ]
+  , [ "row-h8d6.wd9f_d24g", "00000000-0000-0000-6986-2CB8140D1DC4", 0, 1425757680, null, 1425757680, null, "{ }", "St. Catherine's Park", "East 67-68 streets, 1 Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-fxjh~9a98_efqa", "00000000-0000-0000-0110-D5EE01F52D1C", 0, 1425757680, null, 1425757680, null, "{ }", "St. Mary's Park (Recreation Center)", "450 St. Ann's Avenue", "Yes", "Yes", "Bronx", null ]
+  , [ "row-wtmr-xnsa-ytpt", "00000000-0000-0000-EEC2-52D42A817578", 0, 1425757680, null, 1425757680, null, "{ }", "St. Mary's Park West", "St. Anns Avenue & East 147 Street", "Yes", null, "Bronx", null ]
+  , [ "row-5rjp.n2za.npgb", "00000000-0000-0000-3A66-5FF8D12A2B8D", 0, 1425757680, null, 1425757680, null, "{ }", "St. Mary's Playground East Playground", "Jackson Avenue between East 144 and 145 streets", "Yes", "Yes", "Bronx", null ]
+  , [ "row-9kic_wbmv_5buq", "00000000-0000-0000-131D-B80B33B8F03C", 0, 1425757680, null, 1425757680, null, "{ }", "St. Nicholas Park", "West 133 Street & St. Nicholas Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-te73~gn3a.wgy2", "00000000-0000-0000-C4DF-5F4A556723EE", 0, 1425757680, null, 1425757680, null, "{ }", "St. Nicholas Park", "West 129 Street & St. Nicholas Terrace", "Yes", null, "Manhattan", null ]
+  , [ "row-xicj_bni4-p5d8", "00000000-0000-0000-C811-B4187AD3E0A2", 0, 1425757680, null, 1425757680, null, "{ }", "St. Nicholas Park (Arlington Edinboro Playground)", "West 140 Street & St. Nicholas Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-sqjm-jwx9~3sew", "00000000-0000-0000-4069-A2F5F5184F4D", 0, 1425757680, null, 1425757680, null, "{ }", "St. Vartan Park", "East 35-East 36 streets, between 1 & 2 avenues", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-x4p7.p9k3-abms", "00000000-0000-0000-FAE1-EA5EA7CB10C0", 0, 1425757680, null, 1425757680, null, "{ }", "Stanley Isaacs", "East 96-97 streets & FDR Drive", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-7bv7_pu84-fxiw", "00000000-0000-0000-0B2E-A0B60246C5D1", 0, 1425757680, null, 1425757680, null, "{ }", "Stapleton Playground", "Tompkins Avenue & Broad Street", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-aacs_q4zy.6m2q", "00000000-0000-0000-348F-64340901314A", 0, 1425757680, null, 1425757680, null, "{ }", "Star Spangled Banner Playground", "Franklin & Willoughby avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-j4uh~kejc-z4yb", "00000000-0000-0000-2B53-86F0BA231941", 0, 1425757680, null, 1425757680, null, "{ }", "Stars & Stripes Playground", "Baychester Avenue, Crawford Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-6ria.43um.m443", "00000000-0000-0000-3CA5-505DA13BE251", 0, 1425757680, null, 1425757680, null, "{ }", "Sternberg Park", "Montrose Avenue, Boerum, Lorimer, Leonard streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-iaj7~7dwz.zs8e", "00000000-0000-0000-021D-80D80EC10BB4", 0, 1425757680, null, 1425757680, null, "{ }", "Stockton Playground", "Marcy & Park avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-yge4-6zq9-mxpf", "00000000-0000-0000-92DC-A3DD269EC9F1", 0, 1425757680, null, 1425757680, null, "{ }", "Stroud Playground", "Classon Avenue & Sterling Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-yhi8_c2vw~kxsr", "00000000-0000-0000-7D37-69EB16113843", 0, 1425757680, null, 1425757680, null, "{ }", "Sunset Park", "41 to 44 streets, 5 to 7 avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-mzsk.k48r-qfig", "00000000-0000-0000-5520-A42850FA20EA", 0, 1425757680, null, 1425757680, null, "{ }", "Sunset Park (Recreation Center)", "41 to 44 streets, 5 to 7 avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-q6b2.anu5.jhyd", "00000000-0000-0000-2114-0B036BEFF385", 0, 1425757680, null, 1425757680, null, "{ }", "Surf Playground", "West 27 Street & Surf Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-9twb~32ev.8m6i", "00000000-0000-0000-C8A0-DAC9F0EC3FDF", 0, 1425757680, null, 1425757680, null, "{ }", "Tall Oak Playground", "64 Avenue, 218 & 219 streets", "Yes", null, "Queens", null ]
+  , [ "row-8wju~9jzp.k9s6", "00000000-0000-0000-6511-AB3FAA7631B4", 0, 1425757680, null, 1425757680, null, "{ }", "Taylor Playground", "Guerlain Street, Thieriot Avenue, Taylor Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-uddy_2bka-jftf", "00000000-0000-0000-BB2B-C8128175B96B", 0, 1425757680, null, 1425757680, null, "{ }", "Tecumseh Playground", "West 77 Street & Amsterdam Avenue", "Yes", null, "Manhattan", null ]
+  , [ "row-3rj3~ynff_qav3", "00000000-0000-0000-6073-F92A2B75B54A", 0, 1425757680, null, 1425757680, null, "{ }", "Terrace Playground", "Howard Avenue & Martha Street", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-hdbu_smpf.as8m", "00000000-0000-0000-14F2-E55357EFDE38", 0, 1425757680, null, 1425757680, null, "{ }", "The Pearly Gates", "Tratman Avenue, Street Peter's Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-izvr.5fk8_49b2", "00000000-0000-0000-3D75-BD64CA3209A2", 0, 1425757680, null, 1425757680, null, "{ }", "Thomas Jefferson Park", "1 Avenue to FDR Drive, East 111 to East 114 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-cn3n-nkn3~pngi", "00000000-0000-0000-153A-2B08BFEEAAD5", 0, 1425757680, null, 1425757680, null, "{ }", "Tiffany Playground", "Tiffany Street, Fox Street, East 167 Street", "Yes", null, "Bronx", null ]
+  , [ "row-s9hv.hrkd.bhcj", "00000000-0000-0000-115A-390B950DC16F", 0, 1425757680, null, 1425757680, null, "{ }", "Tiger Playground", "Evergreen Avenue & Eldert Street", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-vgti-pt2k_rkri", "00000000-0000-0000-FB1A-5F8159A5518C", 0, 1425757680, null, 1425757680, null, "{ }", "Tilden Playground", "Tilden Avenue, East 48 to East 49 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-pi89-dg69_u8qk", "00000000-0000-0000-4E7A-A31A57718B1F", 0, 1425757680, null, 1425757680, null, "{ }", "Todt Hill Playground", "Schmidts Lane & Manor Road", "Yes", "Yes", "Staten Island", null ]
+  , [ "row-ujcw~bctj-p5ww", "00000000-0000-0000-CB5B-D5E3DEA16983", 0, 1425757680, null, 1425757680, null, "{ }", "Tompkins Square Park", "Avenues A to B, East 7 to East 10 streets", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-ganj-9gm5~r8iv", "00000000-0000-0000-6F50-864F1D450404", 0, 1425757680, null, 1425757680, null, "{ }", "Tremont Park Playground", "Corner of East 175 Street & Arthur Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-v4ep~re2h.p7z3", "00000000-0000-0000-25AC-FCD9BCABD2F6", 0, 1425757680, null, 1425757680, null, "{ }", "Triborough Bridge Playground A", "Hoyt Avenue, 19 to 21 streets", "Yes", null, "Queens", null ]
+  , [ "row-jzyx-qznk_nu3b", "00000000-0000-0000-C63F-556C0909BECB", 0, 1425757680, null, 1425757680, null, "{ }", "Triborough Bridge Playground B", "Hoyt Avenue, 21 to 23 streets", "No", null, "Queens", null ]
+  , [ "row-266h_5mc2~vhmq", "00000000-0000-0000-6D87-296BAFD738CE", 0, 1425757680, null, 1425757680, null, "{ }", "Underhill Playground", "Underhill Avenue & Prospect Place", "Yes", null, "Brooklyn", null ]
+  , [ "row-m4k9-ewhx.u6at", "00000000-0000-0000-3F35-AE3B0C60AA58", 0, 1425757680, null, 1425757680, null, "{ }", "Underwood Park", "Lafayette & Waverly avenues", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-u3ce.zx6s-jwp7", "00000000-0000-0000-E059-1EA1FC1A5ED4", 0, 1425757680, null, 1425757680, null, "{ }", "Union Playground (PS 214)", "Union Street & 31 Road", "Yes", null, "Queens", null ]
+  , [ "row-epxk-k2ue-dwnf", "00000000-0000-0000-2921-3483B849DF53", 0, 1425757680, null, 1425757680, null, "{ }", "Union Square Park", "Broadway to 4 Avenue, East 14 Street to East 17 streets", "Yes", null, "Manhattan", null ]
+  , [ "row-ttju-p57d-f8sh", "00000000-0000-0000-E3CF-01E98392195C", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Allen Shandler Recreation Area)", "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South", "Yes", null, "Bronx", null ]
+  , [ "row-3ju8~afhe.9nrp", "00000000-0000-0000-829F-258DB2F5F4F5", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Classic Playground)", "Van Cortlandt Park South and Gouverneur Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-2m79_yyuu~hguz", "00000000-0000-0000-5AFE-109E1DB1649B", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Indian Field)", "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South", "Yes", "Yes", "Bronx", null ]
+  , [ "row-kvmp.pn7f~4hew", "00000000-0000-0000-FAE5-EE250D1CEBBE", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Nature Center)", "West 239 Street & Van Cortlandt East", "Yes", null, "Bronx", null ]
+  , [ "row-ecjj.yimq_wjad", "00000000-0000-0000-86C6-FEC3D0FE1B41", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Pool Building)", "West 242nd Street & Broadway", "Yes", null, "Bronx", null ]
+  , [ "row-qw6a~n28k.fdnf", "00000000-0000-0000-3090-620E7E3C2A0E", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Stables Area)", "Broadway and West 254th Street", "Yes", null, "Bronx", null ]
+  , [ "row-eb6x-vzmj~87nt", "00000000-0000-0000-FED7-EB2AD38CBF2D", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Stadium)", "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South", "Yes", null, "Bronx", null ]
+  , [ "row-uc4z~xb47~2uc4", "00000000-0000-0000-2633-F7E50AA284E7", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (UC Pool Headquarters)", "Broadway, Jerome Avenue, City Line, Van Cortlandt Park South", "Yes", null, "Bronx", null ]
+  , [ "row-yvas~nvf6.kf7a", "00000000-0000-0000-F0F1-82D8DBE48C91", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (UC Pool Men's Locker)", "West 242nd Street & Broadway", "Yes", null, "Bronx", null ]
+  , [ "row-crnp~bgir-wta5", "00000000-0000-0000-C184-1EF5DAF09278", 0, 1425757680, null, 1425757680, null, "{ }", "Van Cortlandt Park (Woodlawn Playground)", "West 239 Street & Van Cortlandt East", "Yes", null, "Bronx", null ]
+  , [ "row-4nrj_q8ae~97j6", "00000000-0000-0000-6C0E-F7772A9591BF", 0, 1425757680, null, 1425757680, null, "{ }", "Van Voorhees Lower Park", "Congress, Columbia, West/South BQE", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-z7dg~37if_q3hc", "00000000-0000-0000-4B53-0CA0DE77576F", 0, 1425757680, null, 1425757680, null, "{ }", "Vesuvio Playground", "Spring & Thompson streets", "Yes", "Yes", "Manhattan", null ]
+  , [ "row-h4g7-wbgw.9jap", "00000000-0000-0000-1D18-94C8DF5210C4", 0, 1425757680, null, 1425757680, null, "{ }", "Vidalia Park", "Vyse & Daly avenues between West 179-180 streets", "No", "Yes", "Bronx", null ]
+  , [ "row-wf8x.kyf4.b6aw", "00000000-0000-0000-5F57-C65BE546BA70", 0, 1425757680, null, 1425757680, null, "{ }", "Vinmont Veteran Playground", "Mosholu Avenue, West 254 Street, Riverdale Avenue, West 256 Street", "Yes", "Yes", "Bronx", null ]
+  , [ "row-735i.zbk8_6rqu", "00000000-0000-0000-E25E-0D09F8E0DAC9", 0, 1425757680, null, 1425757680, null, "{ }", "Virginia Playground", "Virginia Avenue, McGraw Avenue, Cross Bronx Expressway, White Plains Road", "No", null, "Bronx", null ]
+  , [ "row-3i5e-m8ji.nn5n", "00000000-0000-0000-E388-FB2BC8F4FC71", 0, 1425757680, null, 1425757680, null, "{ }", "Vleigh Place Playground", "Vleigh Place & 141 Street", "Yes", "Yes", "Queens", null ]
+  , [ "row-zbbk-rtfy_i3nh", "00000000-0000-0000-7E77-730E5F94F591", 0, 1425757680, null, 1425757680, null, "{ }", "Vleigh Playground (PS 165)", "70 Road to 71 Avenue", "Yes", null, "Queens", null ]
+  , [ "row-xk3n~gvqd~i47q", "00000000-0000-0000-ED96-37F2610EFD5B", 0, 1425757680, null, 1425757680, null, "{ }", "Wagner Pool", "East 124 Street between 1 & 2 Avenues", "No", null, "Manhattan", null ]
+  , [ "row-5nxi.ru26_vpn7", "00000000-0000-0000-2B3E-201F3AB51DDB", 0, 1425757680, null, 1425757680, null, "{ }", "Wakefield Playground", "Matilda Avenue, East 239 Street, Carpenter Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-zk8t~ujt4_txzs", "00000000-0000-0000-FD1D-C2CFB48BF0FA", 0, 1425757680, null, 1425757680, null, "{ }", "Washington Hall Playground", "Park, Washington avenues to Hall Street", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-i5ec.kyzs~f8yr", "00000000-0000-0000-2C83-4BE7D653AA64", 0, 1425757680, null, 1425757680, null, "{ }", "Washington Square Park Western Half", "5 Avenue, Waverly Place, West 4 & MacDougal streets.", "Yes", null, "Manhattan", null ]
+  , [ "row-vd3f~i4d7.r5y7", "00000000-0000-0000-6387-535D1615DBE9", 0, 1425757680, null, 1425757680, null, "{ }", "Watson Gleason Playground", "Gleason Avenue, Rosedale Avenue, Watson Avenue, Nobel Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-j5ds_afkq-eqt6", "00000000-0000-0000-43B1-DA1D7FF7F052", 0, 1425757680, null, 1425757680, null, "{ }", "Wayanda Park", "Robard Lane & 217 Street", "Yes", null, "Queens", null ]
+  , [ "row-mh4j~a3uk.3yz4", "00000000-0000-0000-031E-9BF83FD87B9E", 0, 1425757680, null, 1425757680, null, "{ }", "Webster Playground", "E. 188 St. Bet. Webster Ave. And Park Ave.", null, "Yes", "Bronx", null ]
+  , [ "row-uaew_mmx8-3eek", "00000000-0000-0000-79EE-EA0732C93298", 0, 1425757680, null, 1425757680, null, "{ }", "Weeping Beech Park", "37 Avenue & Bowne Street", "Yes", null, "Queens", null ]
+  , [ "row-m8u3.rwx9-sged", "00000000-0000-0000-4E15-12B19820E3F7", 0, 1425757680, null, 1425757680, null, "{ }", "West 2nd Street Comfort Station", "W. 2nd Street", null, null, "Brooklyn", null ]
+  , [ "row-ts3q_tt4d.xwat", "00000000-0000-0000-3533-B2AE6C7EED17", 0, 1425757680, null, 1425757680, null, "{ }", "West 59th Street Recreation Center & Pool", "West 59 to West 60 streets, Amsterdam to West End avenues", "Yes", null, "Manhattan", null ]
+  , [ "row-mrda_mbxg.pmqa", "00000000-0000-0000-95B3-848B494DAC52", 0, 1425757680, null, 1425757680, null, "{ }", "West 8nd Street CS", "W 8 St.", null, null, "Brooklyn", null ]
+  , [ "row-szep.zkzs_ccak", "00000000-0000-0000-E2B8-84E0EC4E79F8", 0, 1425757680, null, 1425757680, null, "{ }", "Whitestone Playground (PS 193)", "12 Avenue & 153 Street", "Yes", null, "Queens", null ]
+  , [ "row-aytu.yx22_nvce", "00000000-0000-0000-BC79-B091557142E2", 0, 1425757680, null, 1425757680, null, "{ }", "William E. Kelly Memorial Park", "Avenue S, East 14 & East 15 streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-frz7~icmp~5c42", "00000000-0000-0000-1A97-6BB9457913DC", 0, 1425757680, null, 1425757680, null, "{ }", "William Sheridan Playground", "Wythe Avenue, Berry & Grand streets", "Yes", null, "Brooklyn", null ]
+  , [ "row-du8q-j9ib~xjvs", "00000000-0000-0000-9613-7C604EE2FAE0", 0, 1425757680, null, 1425757680, null, "{ }", "Williamsbridge Oval", "Reservoir Oval East, Reservoir Oval West, Reservoir Place, Putnam Place, Bainbridge Avenue, Wayne Avenue, Tryon Avenue, Holt Place, Van Cortlandt Avenue", "Yes", null, "Bronx", null ]
+  , [ "row-iwdr_e4rk~mquj", "00000000-0000-0000-85CE-CBE6E2CC3809", 0, 1425757680, null, 1425757680, null, "{ }", "Willis Playground", "East 139 Street, East 140 Street, Willis & Alexander avenues", "Yes", null, "Bronx", null ]
+  , [ "row-ttcu~4aj7-cc4d", "00000000-0000-0000-8FAA-27F4FF1D6BAD", 0, 1425757680, null, 1425757680, null, "{ }", "Willoughby Playground", "Tompkins & Willoughby avenues", "Yes", null, "Brooklyn", null ]
+  , [ "row-56cz-xzve~jzhv", "00000000-0000-0000-0D49-7B770FF0DD82", 0, 1425757680, null, 1425757680, null, "{ }", "Willow Lake Playground (PS 196)", "Grand Central Parkway between 71 & 72 avenues", "Yes", null, "Queens", null ]
+  , [ "row-kmaj.bv9z~ru92", "00000000-0000-0000-CA35-4CA624A3E7E2", 0, 1425757680, null, 1425757680, null, "{ }", "Willowbrook Park", "Richmond Avenue To Victory Boulevard", "Yes", null, "Staten Island", null ]
+  , [ "row-aga7_r7kg~j93i", "00000000-0000-0000-01CE-4820091C78FA", 0, 1425757680, null, 1425757680, null, "{ }", "Wingate Park", "Brooklyn Avenue & Rutland Road", "Yes", null, "Brooklyn", null ]
+  , [ "row-5584~vm2q.jq8x", "00000000-0000-0000-EF47-8E652528CBA8", 0, 1425757680, null, 1425757680, null, "{ }", "Woods Playground", "Bergen Street & Utica Avenue", "Yes", null, "Brooklyn", null ]
+  , [ "row-7d2e_rpcm_nwfz", "00000000-0000-0000-916C-536DA8F32DF8", 0, 1425757680, null, 1425757680, null, "{ }", "Woodtree Playground", "20 Avenue, 37 Street, 38 Street", "Yes", null, "Queens", null ]
+  , [ "row-zn42_tpiz-rif7", "00000000-0000-0000-C977-C65B317AE35F", 0, 1425757680, null, 1425757680, null, "{ }", "Yak Playground", "Avenue Y between Coyle & Batchelder streets", "Yes", "Yes", "Brooklyn", null ]
+  , [ "row-2vzi_rbmi-65rz", "00000000-0000-0000-3AF5-17ECF6D48BD3", 0, 1425757680, null, 1425757680, null, "{ }", "Zimmerman Playground", "Britton Street, Barker Avenue, Olinville Avenue", "No", null, "Bronx", null ]
+   ]
+  }
