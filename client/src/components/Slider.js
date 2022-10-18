@@ -31,7 +31,7 @@ function ImageSlider() {
                         
                     </ul>
                     <div className="details">
-                        <h2>Ángel Guevara <span className="job-title">Frontend, UI/UX Developer & Map Designer</span></h2>
+                        <h2>Ángel Guevara <span className="job-title">Project Manager, Front End Specialist, UI/UX & Map Designer</span></h2>
                     </div>
                 </div>
             </div>
@@ -46,8 +46,7 @@ function ImageSlider() {
                         
                     </ul>
                     <div className="details">
-                        <h2>Shane Geary <span className="job-title">Front End, Authentication & Deployment Specialist</span></h2>
-                        <h3>Credits: Log In/ Sign Up page, authentication, NavBar, deployment</h3>
+                        <h2>Shane Geary <span className="job-title">Front End, Authentication, Deployment Specialist & Nav Bar Designer</span></h2>
                     </div>
                 </div>
             </div>
@@ -61,7 +60,7 @@ function ImageSlider() {
                     <li><a href='https://github.com/Sgeary88'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Hannah Lee<span className="job-title">Backend Developer</span></h2>
+                        <h2>Hannah Lee<span className="job-title">API Specialist</span></h2>
                     </div>
                 </div>
             </div>
@@ -75,7 +74,7 @@ function ImageSlider() {
                     <li><a href="https://github.com/allisonruiz"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Allison Ruiz <span className="job-title">Backend Developer</span></h2>
+                        <h2>Allison Ruiz <span className="job-title">Back End, Controllers & Database Specialist</span></h2>
                     </div>
                 </div>
             </div>
