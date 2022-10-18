@@ -46,7 +46,8 @@ function ImageSlider() {
                         
                     </ul>
                     <div className="details">
-                        <h2>Shane Geary <span className="job-title">API Specialist</span></h2>
+                        <h2>Shane Geary <span className="job-title">Front End, Authentication & Deployment Specialist</span></h2>
+                        <h3>Credits: Log In/ Sign Up page, authentication, NavBar, deployment</h3>
                     </div>
                 </div>
             </div>
@@ -56,8 +57,8 @@ function ImageSlider() {
                         <img src='' />
                     </div>
                     <ul className="social-icons">
-                    <li><a href=''><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
-                    <li><a href=''><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
+                    <li><a href='https://www.linkedin.com/in/shane-geary-28316b146/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
+                    <li><a href='https://github.com/Sgeary88'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                     </ul>
                     <div className="details">
                         <h2>Hannah Lee<span className="job-title">Backend Developer</span></h2>
