@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav} from 'react-bootstrap'
 import { React } from 'react';
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { ProjectCard } from './ProjectCard';
 
 function Project() {
     const projects = [{
