@@ -8,6 +8,7 @@ const app = express();
 
 app.use(cors())
 
+
 const mongoose = require('mongoose')
 // need to install mongoose
 
@@ -18,7 +19,7 @@ mongoose.connect(mongoUrl, {
     useNewUrlParser: true
 }).then(() => {
     console.log('connected to database');
-
+    
 }).catch(e => console.log(e));
 
 require('./userDetails');
