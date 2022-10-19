@@ -4,14 +4,14 @@ import styled from 'styled-components';
 
 const COLORS= {
     primaryDark: '#115b4c',
-    primaryLight: '#B6EDC8',
+    primaryLight: '#FEDF00',
 };
 
 const MenuLabel = styled.label `
 background-color:${COLORS.primaryLight};
 position: fixed;
 top: 6rem;
-right: 6rem;
+right: 87rem;
 border-radius: 50%;
 height: 7rem;
 width: 7rem;
@@ -24,7 +24,7 @@ text-align: center;
 const NavBackground = styled.div `
     position: fixed;
     top: 6.5rem;
-    right: 6.5rem;
+    right: 87rem;
     background-image: radial-gradient(
         ${COLORS.primaryDark},
         ${COLORS.primaryLight}
@@ -106,7 +106,7 @@ const ItemLink = styled(NavLink) `
     font-size: 3rem;
     font-weight: 300;
     text-decoration: none;
-    color: ${COLORS.primaryLight};
+    color: white;
     padding: 1rem 2rem;
 
     background-image: linear-gradient(
