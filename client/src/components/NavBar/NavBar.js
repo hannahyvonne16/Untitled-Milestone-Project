@@ -13,11 +13,11 @@ position: fixed;
 top: 6rem;
 right: 87rem;
 border-radius: 50%;
-height: 7rem;
-width: 7rem;
+height: 13rem;
+width: 13rem;
 cursor: pointer;
 z-index: 1000;
-box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
+box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1);
 text-align: center;
 `;
 
@@ -29,8 +29,8 @@ const NavBackground = styled.div `
         ${COLORS.primaryDark},
         ${COLORS.primaryLight}
     );
-    height: 6rem;
-    width: 6rem;
+    height: 13rem;
+    width: 13rem;
     border-radius 50%;
 
     transform: ${(props) => (props.clicked ? "scale(80)" : "scale(0)")};
