@@ -1,71 +1,68 @@
+require('dotenv').config()
 const express = require('express')
 const cors = require('cors');
 const axios = require('axios');
-const path =require('path')
-const PORT = process.env.PORT || 4000
+const path = require('path')
+const PORT = process.env.PORT
 const app = express();
 
 app.use(cors())
-   
+
 const mongoose = require('mongoose')
 // need to install mongoose
 
 // Connection to mongoDB database
-     const mongoUrl = process.env.MONGO_URI
+const mongoUrl = process.env.MONGO_URI
 
-    app.listen(4000, ()=> console.log(`Server is running on ${PORT}`))
-    mongoose.connect(mongoUrl, {
-        useNewUrlParser: true
-    }).then(() => {console.log('connected to database');
+mongoose.connect(mongoUrl, {
+    useNewUrlParser: true
+}).then(() => {
+    console.log('connected to database');
 
-    }).catch(e => console.log(e));
+}).catch(e => console.log(e));
 
-    require('./userDetails');
+require('./userDetails');
 
-    // code for sign up 
-    const User = mongoose.model('UserInfo');
-    app.post('/sign-up', async(req, res) => {
-        const {fname, lname, email, password} = req.body;
-        try {
-            const oldUser = await User.findOne({ email });
-            if(oldUser) {
-                res.send({error: 'User exists'});
-            }
-                await User.create({
-                    fname,
-                    lname,
-                    email,
-                    password,
-                });
-                res.send({status: 'ok'});
-        } catch (error) {
-            res.send({status: 'error'});
+// code for sign up 
+const User = mongoose.model('UserInfo');
+app.post('/sign-up', async (req, res) => {
+    const { fname, lname, email, password } = req.body;
+    try {
+        const oldUser = await User.findOne({ email });
+        if (oldUser) {
+            res.send({ error: 'User exists' });
         }
-    });
+        await User.create({
+            fname,
+            lname,
+            email,
+            password,
+        });
+        res.send({ status: 'ok' });
+    } catch (error) {
+        res.send({ status: 'error' });
+    }
+});
 
-    // code for log in
+// code for log in
 
-    app.post('/login-user', async (req, res) => {
-        const { email, password } = req.body;
+app.post('/login-user', async (req, res) => {
+    const { email, password } = req.body;
 
-        // To find if user has email/password
-        const user = await User.findOne({ email });
-        if (!user) {
-            return res.json({ error: 'User Not Found' });
-        } 
-        if (!password) {
-            return res.json({ status: 'error', error: 'Invalid Password'});
-        }
-    });
-
-    app.listen(4000, () => {
-        console.log('Server started');
-    });
+    // To find if user has email/password
+    const user = await User.findOne({ email });
+    if (!user) {
+        return res.json({ error: 'User Not Found' });
+    }
+    if (!password) {
+        return res.json({ status: 'error', error: 'Invalid Password' });
+    }
+});
 
 app.use(express.static(path.resolve(__dirname, '../client/build')))
 
 
-app.use(express.urlencoded({extended:true}));
+app.use(express.urlencoded({ extended: true }));
 
 app.use('/', require('./controllers/toilets_controller'))
 
