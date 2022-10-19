@@ -10,7 +10,7 @@ app.use(cors())
 
 
 const mongoose = require('mongoose')
-// need to install mongoose
+
 
 // Connection to mongoDB database
 const mongoUrl = process.env.MONGO_URI
