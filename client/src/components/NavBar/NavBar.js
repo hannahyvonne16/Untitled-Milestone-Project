@@ -17,7 +17,7 @@ height: 13rem;
 width: 13rem;
 cursor: pointer;
 z-index: 1000;
-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1);
+box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
 text-align: center;
 `;
 
@@ -25,10 +25,7 @@ const NavBackground = styled.div `
     position: fixed;
     top: 6.5rem;
     right: 87rem;
-    background-image: radial-gradient(
-        ${COLORS.primaryDark},
-        ${COLORS.primaryLight}
-    );
+    background-color: ${COLORS.primaryLight};
     height: 13rem;
     width: 13rem;
     border-radius 50%;
@@ -106,7 +103,7 @@ const ItemLink = styled(NavLink) `
     font-size: 3rem;
     font-weight: 300;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem 2rem;
 
     background-image: linear-gradient(
