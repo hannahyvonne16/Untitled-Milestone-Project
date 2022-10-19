@@ -694,17 +694,527 @@
           {
               "type": "Feature",
               "properties": {
-                  "place": "RJP5+GW, George Freeth Way, Redondo Beach, CA 90277",
-                  "longlat": "33.83684981506967, -118.39015176428926"
+                  "place": "2017 E 4th St, Long Beach, Ca",
+                  "longlat": "longlat"
               },
               "geometry": {
                   "type": "Point",
                   "coordinates": [
-                      -118.39015176428926,
-                      33.83684981506967
+                      -118.167161,
+                      33.7719625
                   ]
               },
-              "id": "00044"
+              "id": "00045"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "330 Pine Ave, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1921234,
+                      33.7711586
+                  ]
+              },
+              "id": "00046"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "649 Long Beach Blvd, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1898444,
+                      33.7751582
+                  ]
+              },
+              "id": "00047"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "1250 North Bellflower Blvd., Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1205362,
+                      33.781664
+                  ]
+              },
+              "id": "00048"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "1521 pier c street, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.212689,
+                      33.773433
+                  ]
+              },
+              "id": "00049"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "99 South Pine Avenue, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1933786,
+                      33.7644897
+                  ]
+              },
+              "id": "00050"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "5710 E 7th St, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1203593,
+                      33.7748358
+                  ]
+              },
+              "id": "00051"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "2300 E. 4th St, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1643767,
+                      33.7717029
+                  ]
+              },
+              "id": "00052"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "242 Pine Ave, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1919418,
+                      33.7701595
+                  ]
+              },
+              "id": "00053"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "5393 Atlantic Ave, Long Beach, CA",
+                  "longlat": "longlat"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1850209,
+                      33.854243
+                  ]
+              },
+              "id": "00054"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.77575763688348, -118.11414097194172"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11414097194172,
+                      33.77575763688348
+                  ]
+              },
+              "id": "00055"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.77767239333733, -118.11487499275916"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11487499275916,
+                      33.77767239333733
+                  ]
+              },
+              "id": "00056"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.77680264486337, -118.11214193652404"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11214193652404,
+                      33.77680264486337
+                  ]
+              },
+              "id": "00057"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.777219253556524, -118.11263927360045"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11263927360045,
+                      33.777219253556524
+                  ]
+              },
+              "id": "00058"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.77782966696578, -118.11239632287395"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11239632287395,
+                      33.77782966696578
+                  ]
+              },
+              "id": "00059"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.77827026341533, -118.11272209771175"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11272209771175,
+                      33.77827026341533
+                  ]
+              },
+              "id": "00060"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.77880264776819, -118.1126503168153"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1126503168153,
+                      33.77880264776819
+                  ]
+              },
+              "id": "00061"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.777779181811226, -118.1140969779595"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1140969779595,
+                      33.777779181811226
+                  ]
+              },
+              "id": "00062"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.779192931681585, -118.11369413048553"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11369413048553,
+                      33.779192931681585
+                  ]
+              },
+              "id": "00063"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.779257184449015, -118.11428494247951"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11428494247951,
+                      33.779257184449015
+                  ]
+              },
+              "id": "00064"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.781224220115135, -118.1135445758572"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1135445758572,
+                      33.781224220115135
+                  ]
+              },
+              "id": "00065"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78267526328235, -118.11223986478913"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11223986478913,
+                      33.78267526328235
+                  ]
+              },
+              "id": "00066"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.781683462500006, -118.1122212923896"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1122212923896,
+                      33.781683462500006
+                  ]
+              },
+              "id": "00067"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.782009374305275, -118.10956027038979"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.10956027038979,
+                      33.782009374305275
+                  ]
+              },
+              "id": "00068"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78276202181796, -118.1095878784254"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1095878784254,
+                      33.78276202181796
+                  ]
+              },
+              "id": "00069"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78334944943123, -118.10924553876404"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.10924553876404,
+                      33.78334944943123
+                  ]
+              },
+              "id": "00070"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.7851575997318, -118.1093394060906"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1093394060906,
+                      33.7851575997318
+                  ]
+              },
+              "id": "00071"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.784329852984335, -118.10920693119864"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.10920693119864,
+                      33.784329852984335
+                  ]
+              },
+              "id": "00072"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78340952845532, -118.11404500988814"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11404500988814,
+                      33.78340952845532
+                  ]
+              },
+              "id": "00073"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78167770730496, -118.11606555782035"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11606555782035,
+                      33.78167770730496
+                  ]
+              },
+              "id": "00074"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.781650418850546, -118.11781220288536"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11781220288536,
+                      33.781650418850546
+                  ]
+              },
+              "id": "00075"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78234354289831, -118.11787786623367"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11787786623367,
+                      33.78234354289831
+                  ]
+              },
+              "id": "00076"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.787469893030575, -118.11438143041318"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11438143041318,
+                      33.787469893030575
+                  ]
+              },
+              "id": "00077"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.78821935124322, -118.11318183620119"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.11318183620119,
+                      33.78821935124322
+                  ]
+              },
+              "id": "00078"
+          },
+          {
+              "type": "Feature",
+              "properties": {
+                  "place": "On CSULB Campus",
+                  "longlat": "33.788226226976285, -118.1117423231468"
+              },
+              "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                      -118.1117423231468,
+                      33.788226226976285
+                  ]
+              },
+              "id": "00079"
           }
       ]
 }
