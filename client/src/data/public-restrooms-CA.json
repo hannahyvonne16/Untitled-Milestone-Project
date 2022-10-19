@@ -1,0 +1,410 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "200 Aquarium Way, Long Beach, CA 90802",
+            "longlat": "33.76504573922812, -118.19437030893667"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.19437030893667,
+                33.76504573922812
+            ]
+        },
+        "id": "00001"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "Long Beach, CA 90802",
+            "longlat": "33.74675120497478, -118.18889186234966"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.18889186234966,
+                33.74685825737537
+            ]
+        },
+        "id": "00002"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "435 Shoreline Village Drive, Long Beach, CA 90802",
+            "longlat": "33.75814311424992, -118.18911575585796"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.18911575585796,
+                33.75814311424992
+            ]
+        },
+        "id": "00003"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "87 Aquarium Way, Long Beach, CA 90802",
+            "longlat": "33.76353053660642, -118.19542431145203"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.19542431145203,
+                33.76353053660642
+            ]
+        },
+        "id": "00004"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "45 Aquarium Way, Long Beach, CA 90802",
+            "longlat": "33.76545708226686, -118.19426559720151"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.19426559720151,
+                33.76545708226686
+            ]
+        },
+        "id": "00005"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "123-111 E 1st St, Long Beach, CA 90802",
+            "longlat": "33.76862823537515, -118.1920351620609"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.1920351620609,
+                33.76862823537515
+            ]
+        },
+        "id": "00006"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "98 S 8th Pl, Long Beach, CA 90802",
+            "longlat": "33.76489469568639, -118.17516293630433"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.17516293630433,
+                33.76489469568639
+            ]
+        },
+        "id": "00007"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "2500-2698 E Ocean Blvd, Long Beach, CA 90803",
+            "longlat": "33.76262422039733, -118.16308533585271"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.16308533585271,
+                33.76262422039733
+            ]
+        },
+        "id": "00008"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "3100-3298 E Ocean Blvd, Long Beach, CA 90803",
+            "longlat": "33.76208498187518, -118.15442702921463"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.15442702921463,
+                33.76208498187518
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5000 E Ocean Blvd, Long Beach, CA 90803",
+            "longlat": "33.75680450864272, -118.13932082861517"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.13932082861517,
+                33.75680450864272
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "87 Claremont Pl, Long Beach, CA 90803",
+            "longlat": "33.75366461356584, -118.13425681866829"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.13425681866829,
+                33.75366461356584
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "14 54th Pl, Long Beach, CA 90803",
+            "longlat": "33.7540845912068, -118.13183988290496"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.13183988290496,
+                33.7540845912068
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5417 E Ocean Blvd, Long Beach, CA 90803",
+            "longlat": "33.753709938794856, -118.13150728899971"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.13150728899971,
+                33.753709938794856
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5415 E Ocean Blvd, Long Beach, CA 90803",
+            "longlat": "33.75358505429371, -118.13112105091618"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.13112105091618,
+                33.75358505429371
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "194 Bay Shore Ave, Long Beach, CA 90803",
+            "longlat": "33.75861597170191, -118.13016618457398"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.13016618457398,
+                33.75861597170191
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5255 E Paoli Way, Long Beach, CA 90803",
+            "longlat": "33.76853422056245, -118.1299086926354"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.1299086926354,
+                33.76853422056245
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5059 E Colorado St, Long Beach, CA 90814",
+            "longlat": "33.770103910119985, -118.1338139888131"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.1338139888131,
+                33.770103910119985
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "736 Park Ave # 700, Long Beach, CA 90804",
+            "longlat": "33.77584730186235, -118.1373759622678"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.1373759622678,
+                33.77584730186235
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5255 E Paoli Way, Long Beach, CA 90803",
+            "longlat": "33.76842869968972, -118.12988264847569"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.12988264847569,
+                33.76842869968972
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5355 E Eliot St, Long Beach, CA 90803",
+            "longlat": "33.76871410028135, -118.12825186545643"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.12825186545643,
+                33.76871410028135
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "398 La Verne Ave, Long Beach, CA 90803",
+            "longlat": "33.76434379956067, -118.12664254010848"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.12664254010848,
+                33.76434379956067
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "5300-5498 E Paoli Way, Long Beach, CA 90803",
+            "longlat": "33.76173935111104, -118.12378866982479"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.12378866982479,
+                33.76173935111104
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "6901 E Willow St, Long Beach, CA 90815",
+            "longlat": "33.80565829816211, -118.09543477660057"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.09543477660057,
+                33.80565829816211
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "Long Beach, CA 90815",
+            "longlat": "33.80492030050168, -118.08597859274319"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.08597859274319,
+                33.80492030050168
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "8050 E Spring St, Long Beach, CA 90815",
+            "longlat": "33.80855313235427, -118.08596222777163"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.08596222777163,
+                33.80855313235427
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "7339 E Spring St, Long Beach, CA 90815",
+            "longlat": "33.811407235662685, -118.08702463990217"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.08702463990217,
+                33.811407235662685
+            ]
+        },
+        "id": "00000"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "place": "7866 E Wardlow Rd #7834, Long Beach, CA 90808",
+            "longlat": "33.81723291095649, -118.08439277055344"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -118.08439277055344,
+                33.81723291095649
+            ]
+        },
+        "id": "00000"
+    }
+  ]
+}
