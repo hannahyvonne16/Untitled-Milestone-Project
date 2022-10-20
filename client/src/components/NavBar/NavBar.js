@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const COLORS= {
     primaryDark: '#115b4c',
-    primaryLight: '#FEDF00',
+    primaryLight: '#FEDF00', //Pantone Yellow
 };
 
 const MenuLabel = styled.label `
