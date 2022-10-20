@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
 
 mapboxgl.accessToken= process.env.REACT_APP_MAPBOX_TOKEN;
