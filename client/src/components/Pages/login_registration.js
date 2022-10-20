@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../Project.css'
-
 
 export default class Login extends Component {
   constructor(props) {
