@@ -22,10 +22,10 @@ Fountain was designed first and foremost with the user in mind. Our goal is to d
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Pantone Yellow | ![#fedd00](https://via.placeholder.com/10/fedd00?text=+) ##fedd00 |
-| Pantone Blue 072 C | ![10069f](https://via.placeholder.com/10/10069f?text=+) #10069f |
-| PANTONE 11-0601 TCX. Bright White. | ![#f4f5f0](https://via.placeholder.com/10/f4f5f0?text=+) #f4f5f0 |
-| Pantone Black 6 C Color | ![#101820](https://via.placeholder.com/10/101820?text=+) #101820|
+| Pantone Yellow | ![#fedd00](https://via.placeholder.com/10/fedd00?text=+)  |
+| Pantone Blue 072 C | ![10069f](https://via.placeholder.com/10/10069f?text=+) |
+| PANTONE 11-0601 TCX. Bright White. | ![#f4f5f0](https://via.placeholder.com/10/f4f5f0?text=+)  |
+| Pantone Black 6 C Color | ![#101820](https://via.placeholder.com/10/101820?text=+) |
 
 
 ## Ideation
