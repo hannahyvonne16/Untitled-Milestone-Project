@@ -53,7 +53,7 @@ const List = styled.ul `
     position: absolute;
     list-style: none;
     top: 50%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
