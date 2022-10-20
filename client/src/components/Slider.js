@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import angel from '..//assets/img/angel_profile.jpg'//Angel's picture
 import '../slider-css/Slider.css'
-import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon1 from '../assets/img/LinkedIn_icon_circle.svg'
 import navIcon2 from '../assets/img/behance2.png'; //Behance Logo
 import navIcon3 from '../assets/img/25231.png'; //Github Logo
 
@@ -70,7 +70,7 @@ function ImageSlider() {
                         <img src='https://media.discordapp.net/attachments/967201872555434044/1007049743513436191/IMG_8097.jpg?width=1083&height=1443' />
                     </div>
                     <ul className="social-icons">
-                    <li><a href="https://www.linkedin.com/in/allisonruiz/"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt=''/></a></li>
+                    <li><a href="https://www.linkedin.com/in/allisonruiz/"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
                     <li><a href="https://github.com/allisonruiz"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                     </ul>
                     <div className="details">
