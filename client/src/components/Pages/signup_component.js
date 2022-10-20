@@ -79,12 +79,12 @@ export default class SignUp extends Component {
             onChange={(e) => this.setState({ password: e.target.value })}
           />
         </div>
-
         <div>
-          <button type='submit' className='btn btn-primary'>
+          <button type="submit">
             Sign Up
           </button>
         </div>
+
         <p>
           Already registered <a href='/login-user'>sign in?</a>
         </p>
