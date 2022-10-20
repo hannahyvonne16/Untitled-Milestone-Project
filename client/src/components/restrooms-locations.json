@@ -1,185 +1,216 @@
 [
     {
-		"location": "CSULB Beach Building Services",
+		"id": "00001",
+        "location": "CSULB Beach Building Services",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.108063,33.783249]
 	},
 	{
-		"location": "CSULB University Library",
+		"id": "00002",
+        "location": "CSULB University Library",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.122270,33.781990]
 	},
 	{
+        "id": "00003",
 		"location": "University Student Union",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.122276,33.781818]
 	},
 	{
+        "id": "00004",
 		"location": "Richard and Karen Carpenter Performing Arts Center",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.1117423231468,33.788226226976285]
 	},
 	{
+        "id": "00005",
 		"location": "Martha B. Knoebel Dance Theatre",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11318183620119,33.78821935124322]
 	},
 	{
+        "id": "00006",
 		"location": "Walter Pyramid",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11438143041318,33.787469893030575]
 	},
 	{
+        "id": "00007",
 		"location": "CSULB Student Health Services",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11787786623367,33.78234354289831]
 	},
 	{
+        "id": "00008",
 		"location": "CSULB School of Nursing",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11781220288536,33.781650418850546]
 	},
 	{
+        "id": "00009",
 		"location": "CSULB Family and Consumer Services",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11606555782035,33.78167770730496]
 	},
 	{
+        "id": "00010",
 		"location": "CSULB Horn Center",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11404500988814,33.78340952845532]
 	},
 	{
+        "id": "00011",
 		"location": "CSULB University Police Station",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.10920693119864,33.784329852984335]
 	},
 	{
+        "id": "00012",
 		"location": "CSULB Student Recreation and Wellness Center",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.1093394060906,33.7851575997318]
 	},
 	{
+        "id": "00013",
 		"location": "CSULB Mailing Services",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.10924553876404,33.78334944943123]
 	},
 	{
+        "id": "00014",
 		"location": "CSULB Human Services and Design",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.1095878784254,33.78276202181796]
 	},
 	{
+        "id": "00015",
 		"location": "CSULB Design Center",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.10956027038979,33.782009374305275]
 	},
 	{
+        "id": "00016",
 		"location": "CSULB Central Plant",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.1122212923896,33.781683462500006]
 	},
 	{
+        "id": "00017",
 		"location": "CSULB Kinesiology Building",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11223986478913,33.78267526328235]
 	},
 	{
+        "id": "00018",
 		"location": "CSULB Psychology Building",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11428494247951,33.779257184449015]
 	},
 	{
+        "id": "00019",
 		"location": "CSULB Department of Asian and Asian American Studies",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11369413048553,33.779192931681585]
 	},
 	{
+        "id": "00020",
 		"location": "CSULB College of Liberal Arts",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.1140969779595,33.777779181811226]
 	},
 	{
+        "id": "00021",
 		"location": "CSULB Peterson Hall 1",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.1126503168153,33.77880264776819]
 	},
 	{
+        "id": "00022",
 		"location": "CSULB Fine Arts Building 3",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11239632287395,33.77782966696578]
 	},
 	{
+        "id": "00023",
 		"location": "CSULB Fine Arts Building 1",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11263927360045,33.777219253556524]
 	},
 	{
+        "id": "00024",
 		"location": "CSULB Liberal Arts 1",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11487499275916,33.77767239333733]
 	},
 	{
+        "id": "00025",
 		"location": "CSULB Education Psychology Clinc",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11414097194172,33.77575763688348]
 	},
 	{
+        "id": "00026",
 		"location": "CSULB Fine Arts Building 4",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.11263492499057,33.77835927331352]
 	},
     {
+        "id": "00027",
         "location": "200 Aquarium Way, Long Beach, CA 90802",
         "city": "Long Beach",
 		"state": "California",
         "coordinates": [-118.19437030893667,33.76504573922812]
 	},
     {
+        "id": "00028",
 		"location": "Long Beach, CA 90802",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.18889186234966,33.74685825737537]
 	},
     {
+        "id": "00029",
 		"location": "435 Shoreline Village Drive",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.18911575585796,33.75814311424992]
 	},
     {
+        "id": "00030",
 		"location": "87 Aquarium Way",
 		"city": "Long Beach",
 		"state": "California",
 		"coordinates": [-118.19542431145203,33.76353053660642]
 	},
     {
+        "id": "00031",
 		"location": "45 Aquarium Way",
 		"city": "Long Beach",
 		"state": "California",
@@ -187,6 +218,7 @@
         33.76545708226686]
 	},
     {
+        "id": "00032",
 		"location": "123-111 E 1st St",
 		"city": "Long Beach",
 		"state": "California",
@@ -194,6 +226,7 @@
         33.76862823537515]
 	},
     {
+        "id": "00033",
 		"location": "98 S 8th Pl",
 		"city": "Long Beach",
 		"state": "California",
@@ -201,6 +234,7 @@
         33.76489469568639]
 	},
     {
+        "id": "00034",
 		"location": "2500-2698 E Ocean Blvd",
 		"city": "Long Beach",
 		"state": "California",
@@ -208,6 +242,7 @@
         33.76262422039733]
 	},
     {
+        "id": "00035",
 		"location": "3100-3298 E Ocean Blvd",
 		"city": "Long Beach",
 		"state": "California",
@@ -215,6 +250,7 @@
         33.76208498187518]
 	},
     {
+        "id": "00036",
 		"location": "5000 E Ocean Blvd",
 		"city": "Long Beach",
 		"state": "California",
@@ -222,6 +258,7 @@
         33.75680450864272]
 	},
     {
+        "id": "00037",
 		"location": "87 Claremont Pl",
 		"city": "Long Beach",
 		"state": "California",
@@ -229,6 +266,7 @@
         33.75366461356584]
 	},
     {
+        "id": "00038",
 		"location": "14 54th Pl",
 		"city": "Long Beach",
 		"state": "California",
@@ -236,6 +274,7 @@
         33.7540845912068]
 	},
     {
+        "id": "00039",
 		"location": "5417 E Ocean Blvd",
 		"city": "Long Beach",
 		"state": "California",
@@ -243,6 +282,7 @@
         33.753709938794856]
 	},
     {
+        "id": "00040",
 		"location": "5415 E Ocean Blvd,",
 		"city": "Long Beach",
 		"state": "California",
@@ -250,6 +290,7 @@
         33.75358505429371]
 	},
     {
+        "id": "00041",
 		"location": "194 Bay Shore Ave",
 		"city": "Long Beach",
 		"state": "California",
@@ -257,6 +298,7 @@
         33.75861597170191]
 	},
     {
+        "id": "00042",
 		"location": "5255 E Paoli Way",
 		"city": "Long Beach",
 		"state": "California",
@@ -264,6 +306,7 @@
         33.770103910119985]
 	},
     {
+        "id": "00043",
 		"location": "736 Park Ave #700",
 		"city": "Long Beach",
 		"state": "California",
@@ -271,6 +314,7 @@
         33.77584730186235]
 	},
     {
+        "id": "00044",
 		"location": "5355 E Eliot St",
 		"city": "Long Beach",
 		"state": "California",
@@ -278,6 +322,7 @@
         33.76871410028135]
 	},
     {
+        "id": "00045",
 		"location": "San Gabriel River Mid Trail",
 		"city": "Lakewood",
 		"state": "California",
@@ -285,6 +330,7 @@
         33.84249164820199]
 	},
     {
+        "id": "00046",
 		"location": "San Gabriel River Mid Trail",
 		"city": "Cerritos",
 		"state": "California",
@@ -292,6 +338,7 @@
         33.85582788916204]
 	},
     {
+        "id": "00047",
 		"location": "Lakewood Center near the Burger King",
 		"city": "Lakewood",
 		"state": "California",
@@ -299,6 +346,7 @@
         33.852166839413336]
 	},
     {
+        "id": "00048",
 		"location": "12305 207th St",
 		"city": "Lakewood",
 		"state": "California",
@@ -306,6 +354,7 @@
         33.84279090843893]
 	},
     {
+        "id": "00049",
 		"location": "Roaring Twenties, located inside Knott's Berry Farm",
 		"city": "Buena Park",
 		"state": "California",
@@ -313,6 +362,7 @@
         33.843871217435485]
 	},
     {
+        "id": "00050",
 		"location": "Located inside Knott's Berry Farm",
 		"city": "Buena Park",
 		"state": "California",
@@ -320,6 +370,7 @@
         33.84592384802676]
 	},
     {
+        "id": "00051",
 		"location": "Located inside Knott's Berry Farm",
 		"city": "Buena Park",
 		"state": "California",
@@ -327,6 +378,7 @@
         33.84512278555493]
 	},
     {
+        "id": "00052",
 		"location": "Located inside Knott's Berry Farm",
 		"city": "Buena Park",
 		"state": "California",
@@ -334,10 +386,147 @@
         33.84613746341745]
 	},
     {
+        "id": "00053",
 		"location": "Located inside Knott's Berry Farm",
 		"city": "Buena Park",
 		"state": "California",
 		"coordinates": [-117.99833171129157,
         33.84576363613322]
+	},
+    {
+        "id": "00054",
+		"location": "628 W C St. Located in Wimington Waterfront Park",
+		"city": "Wilmington",
+		"state": "California",
+		"coordinates": [-118.26929039177719,
+        33.77196000816306]
+	},
+    {
+        "id": "00055",
+		"location": "Ken Malloy Harbor Regional Park, 25820 Vermont Ave",
+		"city": "Harbor City",
+		"state": "California",
+		"coordinates": [-118.29474932712185,
+        33.783785522850685]
+	},
+    {
+        "id": "00056",
+		"location": "Washington Ave",
+		"city": "Torrance",
+		"state": "California",
+		"coordinates": [-118.32193456464246,
+        33.82575846973218]
+	},
+    {
+        "id": "00057",
+		"location": "Inside Charles H. Wilson Park",
+		"city": "Torrance",
+		"state": "California",
+		"coordinates": [-118.32654711547343,
+        33.82565763271964]
+	},
+    {
+        "id": "00058",
+		"location": "1719 Esplanade",
+		"city": "Redondo Beach",
+		"state": "California",
+		"coordinates": [-118.39027314720585,
+        33.8176911329574]
+	},
+    {
+        "id": "00059",
+		"location": "1409 Esplanade",
+		"city": "Redondo Beach",
+		"state": "California",
+		"coordinates": [-118.39003038137263,
+        33.82172489647362]
+	},
+    {
+        "id": "00060",
+		"location": "811 Esplanade",
+		"city": "Redondo Beach",
+		"state": "California",
+		"coordinates": [-118.39051591303905,
+        33.828581857799435]
+	},
+    {
+        "id": "00061",
+		"location": "330 Pine Ave",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1921234,
+        33.7711586]
+	},
+    {
+        "id": "00062",
+		"location": "2017 E 4th St",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.167161,
+        33.7719625]
+	},
+    {
+        "id": "00063",
+		"location": "649 Long Beach Blvd",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1898444,
+        33.7751582]
+	},
+    {
+        "id": "00064",
+		"location": "1250 North Bellflower Blvd.",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1205362,
+        33.781664]
+	},
+    {
+        "id": "00065",
+		"location": "1521 Pier C street",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.212689,
+        33.773433]
+	},
+    {
+        "id": "00066",
+		"location": "99 South Pine Avenue",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1933786,
+        33.7644897]
+	},
+    {
+        "id": "00067",
+		"location": "5710 E 7th St",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1203593,
+        33.7748358]
+	},
+    {
+        "id": "00068",
+		"location": "2300 E. 4th St",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1643767,
+        33.7717029]
+	},
+    {
+        "id": "00069",
+		"location": "242 Pine Ave",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1919418,
+        33.7701595]
+	},
+    {
+        "id": "00070",
+		"location": "5393 Atlantic Ave",
+		"city": "Long Beach",
+		"state": "California",
+		"coordinates": [-118.1850209,
+        33.854243]
 	}
 ]
