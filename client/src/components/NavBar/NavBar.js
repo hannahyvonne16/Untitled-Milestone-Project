@@ -147,11 +147,6 @@ function Navbar() {
                     </li>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            <Link to='/project'>Project</Link>
-                        </ItemLink>
-                    </li>
-                    <li>
-                        <ItemLink onClick={handleClick}>
                             <Link to='/team'>Team</Link>
                         </ItemLink>
                     </li>

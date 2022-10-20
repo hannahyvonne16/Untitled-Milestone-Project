@@ -53,7 +53,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src='' />
+                        <img src='https://media.discordapp.net/attachments/967595293304561724/1032496202454933565/Facetune_18-10-2022-20-55-10.jpg?width=301&height=535' />
                     </div>
                     <ul className="social-icons">
                     <li><a href='https://www.linkedin.com/in/shane-geary-28316b146/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
