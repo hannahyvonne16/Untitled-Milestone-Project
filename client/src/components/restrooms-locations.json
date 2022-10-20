@@ -276,5 +276,68 @@
 		"state": "California",
 		"coordinates": [-118.12825186545643,
         33.76871410028135]
+	},
+    {
+		"location": "San Gabriel River Mid Trail",
+		"city": "Lakewood",
+		"state": "California",
+		"coordinates": [-118.09663350211349,
+        33.84249164820199]
+	},
+    {
+		"location": "San Gabriel River Mid Trail",
+		"city": "Cerritos",
+		"state": "California",
+		"coordinates": [-118.10152735468246,
+        33.85582788916204]
+	},
+    {
+		"location": "Lakewood Center near the Burger King",
+		"city": "Lakewood",
+		"state": "California",
+		"coordinates": [-118.14023359807908,
+        33.852166839413336]
+	},
+    {
+		"location": "12305 207th St",
+		"city": "Lakewood",
+		"state": "California",
+		"coordinates": [-118.07009884811184,
+        33.84279090843893]
+	},
+    {
+		"location": "Roaring Twenties, located inside Knott's Berry Farm",
+		"city": "Buena Park",
+		"state": "California",
+		"coordinates": [-118.00214529966759,
+        33.843871217435485]
+	},
+    {
+		"location": "Located inside Knott's Berry Farm",
+		"city": "Buena Park",
+		"state": "California",
+		"coordinates": [-118.00207720729983,
+        33.84592384802676]
+	},
+    {
+		"location": "Located inside Knott's Berry Farm",
+		"city": "Buena Park",
+		"state": "California",
+		"coordinates": [-118.00077512499654,
+        33.84512278555493]
+	},
+    {
+		"location": "Located inside Knott's Berry Farm",
+		"city": "Buena Park",
+		"state": "California",
+		"coordinates": [-117.99924799143095,
+        33.84613746341745]
+	},
+    {
+		"location": "Located inside Knott's Berry Farm",
+		"city": "Buena Park",
+		"state": "California",
+		"coordinates": [-117.99833171129157,
+        33.84576363613322]
 	}
 ]
