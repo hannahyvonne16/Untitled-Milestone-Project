@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { NavLink,Link } from 'react-router-dom';
 import styled from 'styled-components';
+import logo from '..//NavBar/logo.png';
 
 const COLORS= {
     primaryDark: '#115b4c',
@@ -10,8 +11,8 @@ const COLORS= {
 const MenuLabel = styled.label `
 background-color:${COLORS.primaryLight};
 position: fixed;
-top: 6rem;
-right: 87rem;
+top: 3rem;
+right: 65rem;
 border-radius: 50%;
 height: 13rem;
 width: 13rem;
@@ -23,8 +24,8 @@ text-align: center;
 
 const NavBackground = styled.div `
     position: fixed;
-    top: 6.5rem;
-    right: 87rem;
+    top: 3rem;
+    right: 65rem;
     background-color: ${COLORS.primaryLight};
     height: 13rem;
     width: 13rem;
@@ -34,47 +35,7 @@ const NavBackground = styled.div `
       transition: transform 1s;  
 `;
 
-const Icon = styled.span `
-    position: relative;
-    background-color: ${props => props.clicked ? 'transparent' : 'black'};
-    width: 3rem;
-    height: 2px;
-    display: inline-block;
-    margin-top: 3.5rem;
-    transition: all 0.5s;
 
-    &::before, 
-    &::after {
-        content:"";
-        background-color: black;
-        width: 3rem;
-        height: 2px;
-        display: inline-block;
-
-        position: absolute;
-        left: 0;
-        transition: all 0.5s;
-    }
-
-    &::before {
-        top: ${props => (props.clicked ? '0' : '-0.8rem')};
-        transform: ${props => 
-        props.clicked ? 'rotate(135deg)' : 'rotate(0)'}
-    }
-
-    &::after {
-        top: ${props => (props.clicked ? '0' : '0.8rem')};
-        transform: ${props => 
-            props.clicked ? 'rotate(-135deg)' : 'rotate(0)'}
-    }
-
-    ${MenuLabel}:hover &::before {
-        top: ${props => (props.clicked ? '0' : '-1.5rem')}; 
-    }
-    ${MenuLabel}:hover &::after {
-        top: ${props => (props.clicked ? '0' : '1.5rem')}; 
-    }
-`; 
 
 const Navigation = styled.nav `
     height: 100vh;
@@ -129,7 +90,7 @@ function Navbar() {
     return (
         <>
             <MenuLabel htmlFor='navi-toggle' onClick={handleClick}>
-                <Icon clicked={click}>&nbsp;</Icon>
+                <img src={logo} style={{width: '120px', height:'auto'}}></img>
             </MenuLabel>
             <NavBackground clicked={click}>&nbsp;</NavBackground>
 
