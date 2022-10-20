@@ -1,7 +1,6 @@
+const mongoose = require('mongoose');
 require('dotenv').config()
 // (Shane) trying to set up for log in and sign up to connect with MongoDB
-
-const mongoose = require('mongoose');
 
 const UserDetailsSchema = new mongoose.Schema(
     {
