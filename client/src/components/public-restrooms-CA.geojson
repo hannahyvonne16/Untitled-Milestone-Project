@@ -274,21 +274,6 @@
           {
               "type": "Feature",
               "properties": {
-                  "place": "5255 E Paoli Way, Long Beach, CA 90803",
-                  "longlat": "33.76842869968972, -118.12988264847569"
-              },
-              "geometry": {
-                  "type": "Point",
-                  "coordinates": [
-                      -118.12988264847569,
-                      33.76842869968972
-                  ]
-              },
-              "id": "00018"
-          },
-          {
-              "type": "Feature",
-              "properties": {
                   "place": "5355 E Eliot St, Long Beach, CA 90803",
                   "longlat": "33.76871410028135, -118.12825186545643"
               },
