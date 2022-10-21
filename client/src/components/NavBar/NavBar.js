@@ -12,7 +12,7 @@ const MenuLabel = styled.label `
 background-color:${COLORS.primaryLight};
 position: fixed;
 top: 3rem;
-right: 65rem;
+right: 45vw;
 border-radius: 50%;
 height: 13rem;
 width: 13rem;
@@ -30,6 +30,7 @@ const NavBackground = styled.div `
     height: 13rem;
     width: 13rem;
     border-radius 50%;
+    z-index: 100;
 
     transform: ${(props) => (props.clicked ? "scale(80)" : "scale(0)")};
       transition: transform 1s;  
@@ -42,7 +43,7 @@ const Navigation = styled.nav `
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 600;
+    z-index: 999;
     width: ${ props => props.clicked ? '100%' : '0'};
     opacity: ${ props => props.clicked ? '1' : '0'};
 
