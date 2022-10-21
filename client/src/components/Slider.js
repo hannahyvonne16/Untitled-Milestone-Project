@@ -3,6 +3,9 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import angel from '..//assets/img/angel_profile.jpg'//Angel's picture
+import hannah from '..//assets/img/hannah_profile.jpg'//Hannah's picture
+import shane from '..//assets/img/placeholder-man.jpg'//placeholder for Shane's picture
+import allison from '..//assets/img/allison_profile.jpg'//Allison's picture
 import '../slider-css/Slider.css'
 import navIcon1 from '../assets/img/LinkedIn_icon_circle.svg'
 import navIcon2 from '../assets/img/behance2.png'; //Behance Logo
@@ -38,11 +41,11 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src='' />
+                        <img src={shane} />
                     </div>
                     <ul className="social-icons">
-                    <li><a href=''><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
-                    <li><a href=''><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
+                    <li><a href='https://www.linkedin.com/in/shane-geary-28316b146/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
+                    <li><a href='https://github.com/Sgeary88'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                         
                     </ul>
                     <div className="details">
@@ -53,21 +56,21 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src='https://media.discordapp.net/attachments/967595293304561724/1032496202454933565/Facetune_18-10-2022-20-55-10.jpg?width=301&height=535' />
+                        <img src={hannah} />
                     </div>
                     <ul className="social-icons">
-                    <li><a href='https://www.linkedin.com/in/shane-geary-28316b146/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
-                    <li><a href='https://github.com/Sgeary88'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
+                    <li><a href='hhttps://www.linkedin.com/in/hannah-lee-b3b370218/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
+                    <li><a href='https://github.com/hannahyvonne16'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Hannah Lee<span className="job-title">API Specialist</span></h2>
+                        <h2>Hannah Lee<span className="job-title">API, Map & Data Specialist</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src='https://media.discordapp.net/attachments/967201872555434044/1007049743513436191/IMG_8097.jpg?width=1083&height=1443' />
+                        <img src={allison} />
                     </div>
                     <ul className="social-icons">
                     <li><a href="https://www.linkedin.com/in/allisonruiz/"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>

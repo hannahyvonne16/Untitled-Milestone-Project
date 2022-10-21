@@ -40,5 +40,5 @@ Fountain was designed first and foremost with the user in mind. Our goal is to d
 - Ángel Guevara: Project Manager, Front End Specialist, UI/UX & Map Designer
 - Allison Ruiz: Back End, Controllers & Database Specialist
 - Shane Geary: Front End, Authentication, Deployment Specialist & Nav Bar Designer
-- Hannah Lee: API & Data Specialist
+- Hannah Lee: API, Map & Data Specialist
 
