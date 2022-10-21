@@ -6,7 +6,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "200 Aquarium Way, Long Beach, CA 90802",
+                    "location": "200 Aquarium Way",
                     "longlat": "33.76504573922812, -118.19437030893667"
                 },
                 "geometry": {
@@ -23,14 +23,14 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "Long Beach, CA 90802",
-                    "longlat": "33.74675120497478, -118.18889186234966"
+                    "location": "Midway along S Harbor Scenic Dr.",
+                    "longlat": "33.74608551105733, -118.18896769754018"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -118.18889186234966,
-                        33.74685825737537
+                        -118.18896769754018,
+                        33.74608551105733
                     ]
                 },
                 "id": "00002"
@@ -91,7 +91,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "123-111 E 1st St, Long Beach, CA 90802",
+                    "location": "123-111 E 1st St.",
                     "longlat": "33.76862823537515, -118.1920351620609"
                 },
                 "geometry": {
@@ -108,7 +108,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "98 S 8th Pl, Long Beach, CA 90802",
+                    "location": "98 S 8th Pl.",
                     "longlat": "33.76489469568639, -118.17516293630433"
                 },
                 "geometry": {
@@ -125,7 +125,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "2500-2698 E Ocean Blvd, Long Beach, CA 90803",
+                    "location": "2500-2698 E Ocean Blvd.",
                     "longlat": "33.76262422039733, -118.16308533585271"
                 },
                 "geometry": {
@@ -142,7 +142,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "3100-3298 E Ocean Blvd, Long Beach, CA 90803",
+                    "location": "3100-3298 E Ocean Blvd.",
                     "longlat": "33.76208498187518, -118.15442702921463"
                 },
                 "geometry": {
@@ -159,7 +159,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5000 E Ocean Blvd, Long Beach, CA 90803",
+                    "location": "5000 E Ocean Blvd.",
                     "longlat": "33.75680450864272, -118.13932082861517"
                 },
                 "geometry": {
@@ -176,7 +176,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "87 Claremont Pl, Long Beach, CA 90803",
+                    "location": "87 Claremont Pl.",
                     "longlat": "33.75366461356584, -118.13425681866829"
                 },
                 "geometry": {
@@ -193,7 +193,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "14 54th Pl, Long Beach, CA 90803",
+                    "location": "14 54th Pl.",
                     "longlat": "33.7540845912068, -118.13183988290496"
                 },
                 "geometry": {
@@ -210,7 +210,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5417 E Ocean Blvd, Long Beach, CA 90803",
+                    "location": "5417 E Ocean Blvd.",
                     "longlat": "33.753709938794856, -118.13150728899971"
                 },
                 "geometry": {
@@ -227,7 +227,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5415 E Ocean Blvd, Long Beach, CA 90803",
+                    "location": "5415 E Ocean Blvd.",
                     "longlat": "33.75358505429371, -118.13112105091618"
                 },
                 "geometry": {
@@ -244,7 +244,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "194 Bay Shore Ave, Long Beach, CA 90803",
+                    "location": "194 Bay Shore Ave.",
                     "longlat": "33.75861597170191, -118.13016618457398"
                 },
                 "geometry": {
@@ -261,7 +261,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5255 E Paoli Way, Long Beach, CA 90803",
+                    "location": "5255 E Paoli Way",
                     "longlat": "33.76853422056245, -118.1299086926354"
                 },
                 "geometry": {
@@ -278,7 +278,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5059 E Colorado St, Long Beach, CA 90814",
+                    "location": "5059 E Colorado St.",
                     "longlat": "33.770103910119985, -118.1338139888131"
                 },
                 "geometry": {
@@ -295,7 +295,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "736 Park Ave # 700, Long Beach, CA 90804",
+                    "location": "736 Park Ave. #700",
                     "longlat": "33.77584730186235, -118.1373759622678"
                 },
                 "geometry": {
@@ -312,7 +312,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5355 E Eliot St, Long Beach, CA 90803",
+                    "location": "5355 E Eliot St.",
                     "longlat": "33.76871410028135, -118.12825186545643"
                 },
                 "geometry": {
@@ -329,7 +329,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "398 La Verne Ave, Long Beach, CA 90803",
+                    "location": "398 La Verne Ave.",
                     "longlat": "33.76434379956067, -118.12664254010848"
                 },
                 "geometry": {
@@ -346,7 +346,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5300-5498 E Paoli Way, Long Beach, CA 90803",
+                    "location": "5300-5498 E Paoli Way",
                     "longlat": "33.76173935111104, -118.12378866982479"
                 },
                 "geometry": {
@@ -363,7 +363,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "6901 E Willow St, Long Beach, CA 90815",
+                    "location": "6901 E Willow St.",
                     "longlat": "33.80565829816211, -118.09543477660057"
                 },
                 "geometry": {
@@ -380,7 +380,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "Long Beach, CA 90815",
+                    "location": "Inside El Dorado Nature Park",
                     "longlat": "33.80492030050168, -118.08597859274319"
                 },
                 "geometry": {
@@ -397,7 +397,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "8050 E Spring St, Long Beach, CA 90815",
+                    "location": "8050 E Spring St.",
                     "longlat": "33.80855313235427, -118.08596222777163"
                 },
                 "geometry": {
@@ -414,7 +414,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "7339 E Spring St, Long Beach, CA 90815",
+                    "location": "7339 E Spring St.",
                     "longlat": "33.811407235662685, -118.08702463990217"
                 },
                 "geometry": {
@@ -431,7 +431,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "7866 E Wardlow Rd #7834, Long Beach, CA 90808",
+                    "location": "7866 E Wardlow Rd #7834.",
                     "longlat": "33.81723291095649, -118.08439277055344"
                 },
                 "geometry": {
@@ -448,7 +448,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "Long Beach, CA 90808",
+                    "location": "Inside El Dorado Nature Park",
                     "longlat": "33.819992975135115, -118.08272187120981"
                 },
                 "geometry": {
@@ -465,7 +465,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "Carson & Clark SE, Long Beach, CA 90808",
+                    "location": "Carson & Clark SE.",
                     "longlat": "33.831259591561945, -118.13356679587355"
                 },
                 "geometry": {
@@ -480,7 +480,7 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Lakewood",
                     "state": "California",
                     "location": "5939 Henrilee St, Lakewood, CA 90713",
                     "longlat": "33.84148557314899, -118.11513838229348"
@@ -497,9 +497,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Lakewood",
                     "state": "California",
-                    "location": "Lakewood, CA 90713",
+                    "location": "San Gabriel River Mid Trail",
                     "longlat": "33.84249164820199, -118.09663350211349"
                 },
                 "geometry": {
@@ -514,9 +514,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Cerritos",
                     "state": "California",
-                    "location": "San Gabriel River Mid Trail, Cerritos, CA 90703",
+                    "location": "San Gabriel River Mid Trail",
                     "longlat": "33.85582788916204, -118.10152735468246"
                 },
                 "geometry": {
@@ -533,7 +533,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "Lakewood, CA 90712",
+                    "location": "Lakewood Center near the Burger King",
                     "longlat": "33.852166839413336, -118.14023359807908"
                 },
                 "geometry": {
@@ -548,7 +548,7 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Lakewood",
                     "state": "California",
                     "location": "12305 207th St, Lakewood, CA 90715",
                     "longlat": "33.84279090843893, -118.07009884811184"
@@ -565,9 +565,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Buena Park",
                     "state": "California",
-                    "location": "Roaring Twenties, Buena Park, CA 90620. Located in Knott's Berry Farm",
+                    "location": "Located inside Knott's Berry Farm",
                     "longlat": "33.843871217435485, -118.00214529966759"
                 },
                 "geometry": {
@@ -582,9 +582,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Buena Park",
                     "state": "California",
-                    "location": "Buena Park, CA 90620. Located in Knott's Berry Farm",
+                    "location": "Located inside Knott's Berry Farm",
                     "longlat": "33.84592384802676, -118.00207720729983"
                 },
                 "geometry": {
@@ -599,9 +599,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Buena Park",
                     "state": "California",
-                    "location": "Buena Park, CA 90620. Located in Knott's Berry Farm",
+                    "location": "Located inside Knott's Berry Farm",
                     "longlat": "33.84512278555493, -118.00077512499654"
                 },
                 "geometry": {
@@ -616,9 +616,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Buena Park",
                     "state": "California",
-                    "location": "Buena Park, CA 90620. Located in Knott's Berry Farm",
+                    "location": "Located inside Knott's Berry Farm",
                     "longlat": "33.84613746341745, -117.99924799143095"
                 },
                 "geometry": {
@@ -633,9 +633,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Buena Park",
                     "state": "California",
-                    "location": "8039 Beach Blvd, Buena Park, CA 90620. Located in Knott's Berry Farm",
+                    "location": "Located inside Knott's Berry Farm",
                     "longlat": "33.84576363613322, -117.99833171129157"
                 },
                 "geometry": {
@@ -650,9 +650,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Wilmington",
                     "state": "California",
-                    "location": "628 W C St, Wilmington, CA 90744. Located in Wilmington Waterfront Park",
+                    "location": "Located inside Wilmington Waterfront Park",
                     "longlat": "33.77196000816306, -118.26929039177719"
                 },
                 "geometry": {
@@ -667,9 +667,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Harbor City",
                     "state": "California",
-                    "location": "Ken Malloy Harbor Regional Park, 25820 Vermont Ave, Harbor City, CA 90710",
+                    "location": "Ken Malloy Harbor Regional Park",
                     "longlat": "33.783785522850685, -118.29474932712185"
                 },
                 "geometry": {
@@ -684,9 +684,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Torrance",
                     "state": "California",
-                    "location": "Washington Ave, Torrance, CA 90501",
+                    "location": "Washington Ave",
                     "longlat": "33.82575846973218, -118.32193456464246"
                 },
                 "geometry": {
@@ -701,9 +701,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Torrance",
                     "state": "California",
-                    "location": "Torrance, CA 90501",
+                    "location": "Inside Charles H. Wilson Park",
                     "longlat": "33.82565763271964, -118.32654711547343"
                 },
                 "geometry": {
@@ -718,9 +718,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Redondo Beach",
                     "state": "California",
-                    "location": "1719 Esplanade, Redondo Beach, CA 90277",
+                    "location": "1719 Esplanade",
                     "longlat": "33.8176911329574, -118.39027314720585"
                 },
                 "geometry": {
@@ -735,9 +735,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Redondo Beach",
                     "state": "California",
-                    "location": "1409 Esplanade, Redondo Beach, CA 90277",
+                    "location": "1409 Esplanade",
                     "longlat": "33.82172489647362, -118.39003038137263"
                 },
                 "geometry": {
@@ -752,9 +752,9 @@
             {
                 "type": "Feature",
                 "properties": {
-                    "city": "Long Beach",
+                    "city": "Redondo Beach",
                     "state": "California",
-                    "location": "811 Esplanade, Redondo Beach, CA 90277",
+                    "location": "811 Esplanade",
                     "longlat": "33.828581857799435, -118.39051591303905"
                 },
                 "geometry": {
@@ -771,7 +771,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "2017 E 4th St, Long Beach, Ca",
+                    "location": "2017 E 4th St",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -788,7 +788,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "330 Pine Ave, Long Beach, CA",
+                    "location": "330 Pine Ave.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -805,7 +805,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "649 Long Beach Blvd, Long Beach, CA",
+                    "location": "649 Long Beach Blvd.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -822,7 +822,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "1250 North Bellflower Blvd., Long Beach, CA",
+                    "location": "1250 North Bellflower Blvd.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -839,7 +839,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "1521 pier c street, Long Beach, CA",
+                    "location": "1521 Pier C St.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -856,7 +856,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "99 South Pine Avenue, Long Beach, CA",
+                    "location": "99 South Pine Ave.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -873,7 +873,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5710 E 7th St, Long Beach, CA",
+                    "location": "5710 E 7th St.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -890,7 +890,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "2300 E. 4th St, Long Beach, CA",
+                    "location": "2300 E. 4th St.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -907,7 +907,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "242 Pine Ave, Long Beach, CA",
+                    "location": "242 Pine Ave.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -924,7 +924,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "5393 Atlantic Ave, Long Beach, CA",
+                    "location": "5393 Atlantic Ave.",
                     "longlat": "longlat"
                 },
                 "geometry": {
@@ -941,7 +941,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Education Psychology Clinc",
                     "longlat": "33.77575763688348, -118.11414097194172"
                 },
                 "geometry": {
@@ -958,7 +958,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Liberal Arts Building 1",
                     "longlat": "33.77767239333733, -118.11487499275916"
                 },
                 "geometry": {
@@ -975,14 +975,14 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
-                    "longlat": "33.77680264486337, -118.11214193652404"
+                    "location": "CSULB Univerity Library",
+                    "longlat": "33.777025697434375, -118.11438120006008"
                 },
                 "geometry": {
                     "type": "Point",
                     "coordinates": [
-                        -118.11214193652404,
-                        33.77680264486337
+                        -118.11438120006008,
+                        33.777025697434375
                     ]
                 },
                 "id": "00057"
@@ -992,7 +992,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Fine Arts Building 1",
                     "longlat": "33.777219253556524, -118.11263927360045"
                 },
                 "geometry": {
@@ -1009,7 +1009,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Fine Arts Building 3",
                     "longlat": "33.77782966696578, -118.11239632287395"
                 },
                 "geometry": {
@@ -1026,7 +1026,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Fine Arts Building 4",
                     "longlat": "33.77827026341533, -118.11272209771175"
                 },
                 "geometry": {
@@ -1043,7 +1043,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Peterson Hall 1",
                     "longlat": "33.77880264776819, -118.1126503168153"
                 },
                 "geometry": {
@@ -1060,7 +1060,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB College of Liberal Arts",
                     "longlat": "33.777779181811226, -118.1140969779595"
                 },
                 "geometry": {
@@ -1077,7 +1077,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Department of Asian and Asian American Studies",
                     "longlat": "33.779192931681585, -118.11369413048553"
                 },
                 "geometry": {
@@ -1094,7 +1094,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Psychology Building",
                     "longlat": "33.779257184449015, -118.11428494247951"
                 },
                 "geometry": {
@@ -1111,7 +1111,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB University Studen Union",
                     "longlat": "33.781224220115135, -118.1135445758572"
                 },
                 "geometry": {
@@ -1128,7 +1128,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Kinesiology Building",
                     "longlat": "33.78267526328235, -118.11223986478913"
                 },
                 "geometry": {
@@ -1145,7 +1145,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Central Plant",
                     "longlat": "33.781683462500006, -118.1122212923896"
                 },
                 "geometry": {
@@ -1162,7 +1162,7 @@
                 "properties": {
                     "city": "Long Beach",
                     "state": "California",
-                    "location": "On CSULB Campus",
+                    "location": "CSULB Design Center",
                     "longlat": "33.782009374305275, -118.10956027038979"
                 },
                 "geometry": {
