@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
-import restrooms from '../data/test.geojson'
+import restrooms from '../data/restrooms.geojson'
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
-// Sample data 
 const data = restrooms
 
 class Home extends React.Component {
 
-	// Set up states for updating map 
+	// set map
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -20,7 +19,7 @@ class Home extends React.Component {
 		}
 	}
 
-	// Create map and lay over markers
+	// map
 	componentDidMount() {
 		const map = new mapboxgl.Map({
 			container: this.mapContainer,
@@ -30,9 +29,9 @@ class Home extends React.Component {
 		})
 
 		map.on('load', () => {
-			// Add an image to use as a custom marker
+			// custom marker image
 			map.loadImage(
-				'https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png',
+				'https://i.ibb.co/48hy5yw/golden-throne.png',
 				(error, image) => {
 					if (error) throw error;
 					map.addImage('custom-marker', image);
@@ -41,14 +40,13 @@ class Home extends React.Component {
 						data: data
 					});
 
-					// Add a symbol layer
+					// symbol layer
 					map.addLayer({
 						'id': 'points',
 						'type': 'symbol',
 						'source': 'points',
 						'layout': {
 							'icon-image': 'custom-marker',
-							// get the title name from the source's "title" property
 							'text-field': ['get', 'title'],
 							'text-font': [
 								'Open Sans Semibold',
@@ -78,24 +76,6 @@ class Home extends React.Component {
 				.addTo(map);
 		});
 
-
-
-		//data.forEach((location) => {
-		//const popup = new mapboxgl.Popup()
-		//.setLngLat(coordinates)
-		//.setPopup(new mapboxgl.Popup({ offset: 30 })
-		//.setHTML('<h4>' + location.city + '</h4>' + location.location))
-		//.addTo(map);
-		//})
-		//data.forEach((location) => {
-		//	console.log(location)
-		//	var marker = new mapboxgl.Marker()
-		//					.setLngLat(location.coordinates)
-		//					.setPopup(new mapboxgl.Popup({ offset: 30 })
-		//					.setHTML('<h4>' + location.city + '</h4>' + location.location))
-		//					.addTo(map);
-		//
-		//		})
 	}
 
 	render() {
