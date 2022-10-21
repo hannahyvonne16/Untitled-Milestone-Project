@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
-import restrooms from '../restrooms-locations.json'
+import restrooms from '../data/test.geojson'
 
-mapboxgl.accessToken= process.env.REACT_APP_MAPBOX_TOKEN;
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 // Sample data 
 const data = restrooms
 
-class Home extends React.Component{
+class Home extends React.Component {
 
 	// Set up states for updating map 
-	constructor(props){
+	constructor(props) {
 		super(props);
 		this.state = {
 			lng: -118.109680,
@@ -21,29 +21,87 @@ class Home extends React.Component{
 	}
 
 	// Create map and lay over markers
-	componentDidMount(){
+	componentDidMount() {
 		const map = new mapboxgl.Map({
 			container: this.mapContainer,
-			style: 'mapbox://styles/angelguevara94/cl2gzvhpl003l14nvx50xc0v4', 
+			style: 'mapbox://styles/angelguevara94/cl2gzvhpl003l14nvx50xc0v4',
 			center: [this.state.lng, this.state.lat],
 			zoom: this.state.zoom
 		})
 
-		data.forEach((location) => {
-			console.log(location)
-			var marker = new mapboxgl.Marker()
-							.setLngLat(location.coordinates)
-							.setPopup(new mapboxgl.Popup({ offset: 30 })
-							.setHTML('<h4>' + location.city + '</h4>' + location.location))
-							.addTo(map);
+		map.on('load', () => {
+			// Add an image to use as a custom marker
+			map.loadImage(
+				'https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png',
+				(error, image) => {
+					if (error) throw error;
+					map.addImage('custom-marker', image);
+					map.addSource('points', {
+						type: 'geojson',
+						data: data
+					});
 
-		})
+					// Add a symbol layer
+					map.addLayer({
+						'id': 'points',
+						'type': 'symbol',
+						'source': 'points',
+						'layout': {
+							'icon-image': 'custom-marker',
+							// get the title name from the source's "title" property
+							'text-field': ['get', 'title'],
+							'text-font': [
+								'Open Sans Semibold',
+								'Arial Unicode MS Bold'
+							],
+							'text-offset': [0, 1.25],
+							'text-anchor': 'top'
+						}
+					});
+				}
+			);
+		});
+
+
+		map.on('click', 'points', (e) => {
+			const coordinates = e.features[0].geometry.coordinates.slice();
+			const city = e.features[0].properties.city;
+			const location = e.features[0].properties.location;
+
+			while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+				coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			}
+
+			new mapboxgl.Popup()
+				.setLngLat(coordinates)
+				.setHTML('<h4>' + city + '</h4>' + location)
+				.addTo(map);
+		});
+
+
+
+		//data.forEach((location) => {
+		//const popup = new mapboxgl.Popup()
+		//.setLngLat(coordinates)
+		//.setPopup(new mapboxgl.Popup({ offset: 30 })
+		//.setHTML('<h4>' + location.city + '</h4>' + location.location))
+		//.addTo(map);
+		//})
+		//data.forEach((location) => {
+		//	console.log(location)
+		//	var marker = new mapboxgl.Marker()
+		//					.setLngLat(location.coordinates)
+		//					.setPopup(new mapboxgl.Popup({ offset: 30 })
+		//					.setHTML('<h4>' + location.city + '</h4>' + location.location))
+		//					.addTo(map);
+		//
+		//		})
 	}
 
-	render(){
-		return(
+	render() {
+		return (
 			<div>
-				<div ref={el => this.mapContainer = el} style={{width:'100%', height:'100vh'}}/>
+				<div ref={el => this.mapContainer = el} style={{ width: '100%', height: '100vh' }} />
 			</div>
 		)
 	}
