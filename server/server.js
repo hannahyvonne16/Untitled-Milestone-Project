@@ -7,6 +7,7 @@ const PORT = process.env.PORT
 const app = express();
 
 app.use(cors())
+app.use(express.json())
 
 
 const mongoose = require('mongoose')
@@ -27,6 +28,7 @@ require('./userDetails');
 // code for sign up 
 const User = mongoose.model('UserInfo');
 app.post('/sign-up', async (req, res) => {
+    console.log(req.body)
     const { fname, lname, email, password } = req.body;
     try {
         const oldUser = await User.findOne({ email });
