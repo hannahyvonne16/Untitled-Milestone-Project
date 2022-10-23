@@ -5,85 +5,47 @@ const axios = require('axios');
 const path = require('path')
 const PORT = process.env.PORT
 const app = express();
-
+const mongoose = require('mongoose')
 app.use(cors())
 app.use(express.json())
 
 
-const mongoose = require('mongoose')
 
 
-// Connection to mongoDB database
+// // Connection to mongoDB database
 const mongoUrl = process.env.MONGO_URI
 
 mongoose.connect(mongoUrl, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    dbName:"plants"
 }).then(() => {
     console.log('connected to database');
     
 }).catch(e => console.log(e));
 
-require('./userDetails');
-
-// code for sign up 
-const User = mongoose.model('UserInfo');
-app.post('/sign-up', async (req, res) => {
-    console.log(req.body)
-    const { fname, lname, email, password } = req.body;
-    try {
-        const oldUser = await User.findOne({ email });
-        if (oldUser) {
-            res.send({ error: 'User exists' });
-        }
-        await User.create({
-            fname,
-            lname,
-            email,
-            password,
-        });
-        res.send({ status: 'ok' });
-    } catch (error) {
-        res.send({ status: 'error' });
-    }
-});
-
-// code for log in
-
-app.post('/login-user', async (req, res) => {
-    const { email, password } = req.body;
-
-    // To find if user has email/password
-    const user = await User.findOne({ email });
-    if (!user) {
-        return res.json({ error: 'User Not Found' });
-    }
-    if (!password) {
-        return res.json({ status: 'error', error: 'Invalid Password' });
-    }
-});
+// require('./userDetails');
 
 app.use(express.static(path.resolve(__dirname, '../client/build')))
 
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/', require('./controllers/toilets_controller'))
+app.use('/toilets', require('./controllers/toilets_controller'))
+app.use('/users', require('./controllers/user_controller'))
+// app.use('/authentication', require('./controllers/auth_controller'))
 
-app.get('/', (req, res) => {
-    res.send("Toiletries");
+app.get('/message', (req, res) => {
+    res.json({message: "message"});
 });
 
-app.listen(PORT, () => {
-    console.log(`Server listening on ${PORT}`)
-})
 
-app.get('/', (req, res) => {
-    res.json('hi')
-})
+// app.get('/', (req, res) => {
+//     res.json('hi')
+// })
 
-app.get('/', (req, res) => {
-    res.json('Hello API')
-})
+// app.get('/', (req, res) => {
+//     res.json('Hello API')
+// })
 
 // for sign-up and maybe log-in??? (Shane)
 // app.post('/post', async (req, res) => {
@@ -118,3 +80,6 @@ app.get('/', (req, res) => {
 //         res.send({ status: 'error' });
 //     }
 // });
+app.listen(PORT, () => {
+    console.log(`Server listening on ${PORT}`)
+})
