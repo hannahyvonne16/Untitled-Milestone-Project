@@ -35,13 +35,22 @@ const mongoose = require('mongoose')
 //     console.log('finishline')
 // });
 router.post('/sign-up', async (req, res) => {
-    let {email, ...rest} = req.body
+    let {email, password,  ...rest} = req.body
     console.log('from client: ', req.body)
+    console.log('email: ', email)
+    console.log('password: ', password)
+    console.log('rest: ', rest)
     const oldUser = await User.findOne({email});
     if(oldUser){
         res.send({error: 'User exists'})
     } else {
-        const user = await User.create(req.body)
+        let hash= await bcrypt.hash(password, 10) 
+        const user = await User.create({
+            ...rest,
+            email: email,
+            password: hash
+        })
+        console.log('password: ', user.password)
         // res.json(user)
         res.send({ status: "userCreated" })
     }
