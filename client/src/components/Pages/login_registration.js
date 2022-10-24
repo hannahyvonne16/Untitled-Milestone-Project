@@ -1,44 +1,35 @@
 import React, { Component } from 'react';
+import {useState} from 'react';
 
-export default class Login extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        email: '',
-        password: '',
-    };
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-  handleSubmit(e) {
+export default function Login(){
+let [usersData, setUsersData] = useState({email:"", password: ""})
+  async function handleSubmit(e) {
     e.preventDefault();
-    const { email, password } = this.state;
-    console.log(email, password);
-    fetch('http://localhost:4000/login-user', {
+    console.log(usersData);
+   const response = await fetch(`http://localhost:4000/authentication/login-user`, {
       method: 'POST',
-      crossDomain: true,
+  //     // crossDomain: true,
       headers: {
         'Content-Type': 'application/json',
-        Accept: 'application/json',
-        'Access-Control-Allow-Origin': '*',
+  //       // Accept: 'application/json',
+  //       // 'Access-Control-Allow-Origin': '*',
       },
-      body: JSON.stringify({
-        email,
-        password,
-      }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data, 'userRegister');
-        if (data.status === 'ok') {
-          alert('login successful');
-          window.localStorage.setItem('token', data.data);
-          window.location.href = './userDetails';
-        }
+      body: JSON.stringify(usersData),
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       console.log(data, 'userRegister');
+  //       if (data.status === 'ok') {
+  //         alert('login successful');
+  //         window.localStorage.setItem('token', data.data);
+  //         window.location.href = './userDetails';
+  //       }
       });
+      const parsedResponse= await response.json()
+    console.log(parsedResponse)
   }
-  render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <h3>Sign In</h3>
 
         <div>
@@ -47,7 +38,7 @@ export default class Login extends Component {
             type='email'
             className='form-control'
             placeholder='Enter email'
-            onChange={(e) => this.setState({ email: e.target.value })}
+            onChange={e => setUsersData({ ...usersData, 'email': e.target.value },)}
           />
         </div>
 
@@ -57,7 +48,7 @@ export default class Login extends Component {
             type='password'
             className='form-control'
             placeholder='Enter password'
-            onChange={(e) => this.setState({ password: e.target.value })}
+            onChange={e => setUsersData({ ...usersData, 'password': e.target.value },)}
           />
         </div>
 
@@ -72,4 +63,3 @@ export default class Login extends Component {
       </form>
     );
   }
-}

@@ -10,8 +10,6 @@ app.use(cors())
 app.use(express.json())
 
 
-
-
 // // Connection to mongoDB database
 const mongoUrl = process.env.MONGO_URI
 
@@ -32,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/toilets', require('./controllers/toilets_controller'))
 app.use('/users', require('./controllers/user_controller'))
-// app.use('/authentication', require('./controllers/auth_controller'))
+app.use('/authentication', require('./controllers/auth_controller'))
 
 app.get('/message', (req, res) => {
     res.json({message: "message"});
