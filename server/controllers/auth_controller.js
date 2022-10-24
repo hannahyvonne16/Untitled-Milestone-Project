@@ -3,6 +3,7 @@ const router = require('express').Router()
 const bcrypt = require ('bcrypt')
 const db= require("../models")
 const mongoose = require('mongoose')
+const jwt = require('json-web-token')
 
 router.post('/login-user', async (req, res) => {
     const { email, password } = req.body;
@@ -16,7 +17,8 @@ router.post('/login-user', async (req, res) => {
         return res.json({ error: 'User Not Found' });
     }
     else {
-        res.json({user: user})
+        const result = await jwt.encode(process.env.JWT_SECRET, { id: user.userId})
+        res.json({user: user, token: result.value})
     }
 
     // if (!password) {
@@ -24,5 +26,15 @@ router.post('/login-user', async (req, res) => {
     //     return res.json({ status: 'error', error: 'Invalid Password' });
     // }
 });
+router.get('/profile', async(req,res) => {
+    try{
+        let user = await User.findOne({
+        })
+        res.json(user)
+    } catch{
+        res.json(null)
+    }
+}
+)
 
 module.exports= router

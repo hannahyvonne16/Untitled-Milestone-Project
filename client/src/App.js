@@ -9,7 +9,7 @@ import SignUp from './components/Pages/signup_component';
 import Login from './components/Pages/login_registration';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {useEffect, useState} from 'react';
-
+import CurrentUserProvider from './context/CurrentUser.js'
 // import 'bootstrap/dist/css/bootstrap.min.css';
  
 
@@ -25,6 +25,7 @@ function App() {
   }, [])
   console.log(data)
   return (
+    <CurrentUserProvider>
     <div className="App">
         <Router>
           <NavBar />
@@ -40,6 +41,7 @@ function App() {
           </div>
         </Router>
     </div>
+    </CurrentUserProvider>
   );
 }
 

@@ -1,32 +1,31 @@
 import React, { Component } from 'react';
-import {useState} from 'react';
+import {useState, useContext} from 'react';
+import { CurrentUser } from '../../context/CurrentUser';
 
 export default function Login(){
+  const { setCurrentUser } = useContext(CurrentUser)
+  let [errorMessage, setErrorMessage] =  useState(null)
 let [usersData, setUsersData] = useState({email:"", password: ""})
   async function handleSubmit(e) {
     e.preventDefault();
     console.log(usersData);
    const response = await fetch(`http://localhost:4000/authentication/login-user`, {
       method: 'POST',
-  //     // crossDomain: true,
       headers: {
         'Content-Type': 'application/json',
-  //       // Accept: 'application/json',
-  //       // 'Access-Control-Allow-Origin': '*',
       },
       body: JSON.stringify(usersData),
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log(data, 'userRegister');
-  //       if (data.status === 'ok') {
-  //         alert('login successful');
-  //         window.localStorage.setItem('token', data.data);
-  //         window.location.href = './userDetails';
-  //       }
+
       });
       const parsedResponse= await response.json()
     console.log(parsedResponse)
+    
+    if (response.status === 200) {
+      setCurrentUser(parsedResponse.user)
+      console.log(parsedResponse.token)
+    } else {
+      setErrorMessage(parsedResponse.message)
+    }
   }
     return (
       <form onSubmit={handleSubmit}>
