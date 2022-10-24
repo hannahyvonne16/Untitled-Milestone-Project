@@ -25,7 +25,7 @@ text-align: center;
 const NavBackground = styled.div `
     position: fixed;
     top: 3rem;
-    right: 65rem;
+    right: 45vw;
     background-color: ${COLORS.primaryLight};
     height: 13rem;
     width: 13rem;
