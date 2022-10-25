@@ -55,7 +55,7 @@ const List = styled.ul`
     position: absolute;
     list-style: none;
     top: 50%;
-    left: 52%;
+    left: 51%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
@@ -97,11 +97,16 @@ function Navbar() {
         let name = currentUser.fname + ' ' + currentUser.lname
         loggedIn = (
             <>
-            <li>
-                Logged in as {name}
+            <br/>
+            <li style={{fontSize: "1.3em"}}>
+                Logged in as
             </li>
+            <li style={{fontSize: "1.7em"}}>
+                <b>{name}</b>
+            </li>
+            <br/>
             <li>
-                <button onClick={logOut}>
+                <button style={{background: "black",color: "white", padding: "2px", borderRadius: "5px"}} onClick={logOut}>
                     Log out
                 </button>
             </li>
@@ -124,12 +129,17 @@ function Navbar() {
                 <List>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            <Link to='/'>Home</Link>
+                            <Link to='/home'>Home</Link>
                         </ItemLink>
                     </li>
                     <li>
                         <ItemLink onClick={handleClick}>
-                            <Link to='/account'>Account</Link>
+                            <Link to='/account'>Login</Link>
+                        </ItemLink>
+                    </li>
+                    <li>
+                        <ItemLink onClick={handleClick}>
+                            <Link to='/sign-up'>Sign-Up</Link>
                         </ItemLink>
                     </li>
                     <li>

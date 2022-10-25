@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
 
 export default function SignUp() {
+  let navigate = useNavigate();
   let [usersData, setUsersData] = useState({ fname: "", lname: "", email: "", password: "" })
   // const [fname, setFName] = useState("")
   // const [lname, setlName] = useState("")
@@ -21,7 +23,9 @@ export default function SignUp() {
     })
     // const parsedResponse= await response.json()
     // console.log(parsedResponse)
-  
+
+    let path = '/account';
+    navigate(path);
   }
 
   // handleClose()}
@@ -56,11 +60,13 @@ export default function SignUp() {
 
   // render() {
   return (
+    <div class="signup">
     <form onSubmit={handleSubmit}>
       <h3>Sign Up</h3>
 
       <div>
-        <label>First name</label>
+        <label>First Name:</label>
+        <br/>
         <input
           // value= {fname}
           type='text'
@@ -70,9 +76,10 @@ export default function SignUp() {
           onChange={e => setUsersData({ ...usersData, 'fname': e.target.value },)}
         />
       </div>
-
+      <br/>
       <div>
-        <label>Last name</label>
+        <label>Last Name:</label>
+        <br/>
         <input
           // value= {lname}
           type='text'
@@ -82,9 +89,10 @@ export default function SignUp() {
           onChange={e => setUsersData({ ...usersData, 'lname': e.target.value },)}
         />
       </div>
-
+      <br/>
       <div>
-        <label>Email address</label>
+        <label>Email Address:</label>
+        <br/>
         <input
           // value= {email}
           type='email'
@@ -94,9 +102,10 @@ export default function SignUp() {
           onChange={e => setUsersData({ ...usersData, 'email': e.target.value },)}
         />
       </div>
-
+      <br/>
       <div>
-        <label>Password</label>
+        <label>Password:</label>
+        <br/>
         <input
           // value= {password}
           type='password'
@@ -106,15 +115,17 @@ export default function SignUp() {
           onChange={e => setUsersData({ ...usersData, 'password': e.target.value },)}
         />
       </div>
-      <div>
-        <button type="submit">
+      <br/>
+      <div class="button-box">
+        <button type="submit" className='btn btn-primary submit-btn'>
           Sign Up
         </button>
       </div>
 
       <p>
-        Already registered <a href='/login-user'>sign in?</a>
+        Already registered? <a href='/login-user'><b>Click here to sign in!</b></a>
       </p>
     </form>
+    </div>
   );
 }

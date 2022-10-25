@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { useState, useContext } from 'react';
 import { CurrentUser } from '../../context/CurrentUser';
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
+  let navigate = useNavigate();
   const { setCurrentUser } = useContext(CurrentUser)
   let [errorMessage, setErrorMessage] = useState(null)
   let [usersData, setUsersData] = useState({ email: "", password: "" })
@@ -26,15 +28,19 @@ export default function Login() {
     } else {
       setErrorMessage(parsedResponse.message)
     }
+
+    let path = '/home';
+    navigate(path);
   }
-  
 
   return (
+    <div class="signin">
     <form onSubmit={handleSubmit}>
       <h3>Sign In</h3>
 
-      <div>
-        <label>Email address</label>
+      <div class="input-feature">
+        <label>Email Address:</label>
+        <br/>
         <input
           type='email'
           className='form-control'
@@ -43,8 +49,9 @@ export default function Login() {
         />
       </div>
 
-      <div>
-        <label>Password</label>
+      <div class="input-feature">
+        <label>Password:</label>
+        <br/>
         <input
           type='password'
           className='form-control'
@@ -52,15 +59,17 @@ export default function Login() {
           onChange={e => setUsersData({ ...usersData, 'password': e.target.value },)}
         />
       </div>
-
-      <div>
-        <button type='submit' className='btn btn-primary'>
+      <br/>
+      <div class="button-box">
+        <button type='submit' className='btn btn-primary submit-btn'>
           Submit
         </button>
       </div>
+      <br/>
       <p>
-        <a href='/sign-up'>Sign up</a>
+      Not yet registered? <a href='/sign-up'><b>Click here to Sign up!</b></a>
       </p>
     </form>
+    </div>
   );
 }

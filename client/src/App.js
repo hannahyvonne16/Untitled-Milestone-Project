@@ -32,6 +32,7 @@ function App() {
           <div className="pages">
             <Routes>
               <Route exact path="/" element={<Home />} />
+              <Route exact path="/home" element={<Home />} />
               <Route path="/account" element={<Login />} />
               <Route path="/project" element={<Project />} />
               <Route path="/team" element={<Team />} />

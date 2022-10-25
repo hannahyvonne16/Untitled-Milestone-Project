@@ -25,7 +25,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src={angel}/>
+                        <img src={angel} alt="Angel"/>
                     </div>
                     <ul className="social-icons">
                         <li><a href="https://www.linkedin.com/in/angel-guevara8/"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='Linkedin'/></a></li>
@@ -41,7 +41,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src={shane} />
+                        <img src={shane} alt="placeholder"/>
                     </div>
                     <ul className="social-icons">
                     <li><a href='https://www.linkedin.com/in/shane-geary-28316b146/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
@@ -56,21 +56,21 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src={hannah} />
+                        <img src={hannah} alt="Hannah"/>
                     </div>
                     <ul className="social-icons">
                     <li><a href='hhttps://www.linkedin.com/in/hannah-lee-b3b370218/'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
                     <li><a href='https://github.com/hannahyvonne16'><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon3} alt='GitHub'/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Hannah Lee<span className="job-title">API, Map & Data Specialist</span></h2>
+                        <h2>Hannah Lee<span className="job-title">API, Front End, Map & Data Specialist</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src={allison} />
+                        <img src={allison} alt="Allison"/>
                     </div>
                     <ul className="social-icons">
                     <li><a href="https://www.linkedin.com/in/allisonruiz/"><img style={{width: '50px', height: '50px', opacity: '1'}} src={navIcon1} alt='LinkedIn'/></a></li>
