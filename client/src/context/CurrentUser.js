@@ -13,7 +13,7 @@ export default function CurrentUserProvider ({children}) {
                 }
             })
             let user = await response.json()
-            console.log(user)
+            
             setCurrentUser(user)
         }
         getLoggedInUser()

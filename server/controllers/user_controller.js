@@ -36,10 +36,7 @@ const mongoose = require('mongoose')
 // });
 router.post('/sign-up', async (req, res) => {
     let {email, password,  ...rest} = req.body
-    console.log('from client: ', req.body)
-    console.log('email: ', email)
-    console.log('password: ', password)
-    console.log('rest: ', rest)
+  
     const oldUser = await User.findOne({email});
     if(oldUser){
         res.send({error: 'User exists'})
@@ -50,7 +47,7 @@ router.post('/sign-up', async (req, res) => {
             email: email,
             password: hash
         })
-        console.log('password: ', user.password)
+       
         // res.json(user)
         res.send({ status: "userCreated" })
     }

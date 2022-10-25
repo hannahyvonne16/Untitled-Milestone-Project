@@ -96,10 +96,22 @@ function Navbar() {
     if (currentUser) {
         let name = currentUser.fname + ' ' + currentUser.lname
         loggedIn = (
+            <>
             <li>
                 Logged in as {name}
             </li>
+            <li>
+                <button onClick={logOut}>
+                    Log out
+                </button>
+            </li>
+            </>
         )
+    }
+
+    async function logOut() {
+        localStorage.removeItem('token')
+        window.location.reload()
     }
     return (
         <>

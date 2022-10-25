@@ -10,7 +10,7 @@ export default function SignUp() {
   // const [password, setPassword] = useState("")
   async function handleSubmit(e) {
     e.preventDefault()
-    console.log(usersData)
+    
     const response = await fetch(`http://localhost:4000/users/sign-up`, {
       method: 'POST',
       headers: {
@@ -19,8 +19,8 @@ export default function SignUp() {
       body: JSON.stringify(usersData)
 
     })
-    const parsedResponse= await response.json()
-    console.log(parsedResponse)
+    // const parsedResponse= await response.json()
+    // console.log(parsedResponse)
   
   }
 

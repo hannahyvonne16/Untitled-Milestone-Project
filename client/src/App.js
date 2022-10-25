@@ -23,7 +23,7 @@ function App() {
       setData(data.message)
     })
   }, [])
-  console.log(data)
+  
   return (
     <CurrentUserProvider>
     <div className="App">

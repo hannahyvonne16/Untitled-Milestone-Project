@@ -8,7 +8,7 @@ export default function Login() {
   let [usersData, setUsersData] = useState({ email: "", password: "" })
   async function handleSubmit(e) {
     e.preventDefault();
-    console.log(usersData);
+    
     const response = await fetch(`http://localhost:4000/authentication/login-user`, {
       method: 'POST',
       headers: {
@@ -18,7 +18,7 @@ export default function Login() {
 
     });
     const parsedResponse = await response.json()
-    console.log(parsedResponse)
+    
 
     if (response.status === 200) {
       setCurrentUser(parsedResponse.user)

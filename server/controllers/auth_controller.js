@@ -7,13 +7,12 @@ const jwt = require('json-web-token')
 
 router.post('/login-user', async (req, res) => {
     const { email, password } = req.body;
-    console.log('from client: ', req.body)
-    console.log(email, password)
+
     // To find if user has email/password
     const user = await User.findOne({ email });
-    console.log(user)
+
     if (!user || !await bcrypt.compare(password, user.password)) {
-        console.log("here")
+    
         return res.json({ error: 'User Not Found' });
     }
     else {
@@ -28,12 +27,12 @@ router.post('/login-user', async (req, res) => {
 });
 router.get('/profile', async (req, res) => {
     try {
-        console.log('req.body: \n ', req.body)
+       
         const [authenticationMethod, token]= req.headers.authorization.split(' ')
         if (authenticationMethod == 'Bearer') {
             const result = await jwt.decode(process.env.JWT_SECRET, token)
             const {id} = result.value
-            console.log('id: ', id)
+          
             let user = await User.findOne({
                 
         })

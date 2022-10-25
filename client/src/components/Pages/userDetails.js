@@ -22,7 +22,7 @@ export default class UserDetails extends Component {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data, "userData");
+        
         this.setState({ userData: data.data });
       });
   }
