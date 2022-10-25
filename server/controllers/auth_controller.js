@@ -1,7 +1,7 @@
 const User = require('../models/users')
 const router = require('express').Router()
-const bcrypt = require ('bcrypt')
-const db= require("../models")
+const bcrypt = require('bcrypt')
+const db = require("../models")
 const mongoose = require('mongoose')
 const jwt = require('json-web-token')
 
@@ -12,13 +12,13 @@ router.post('/login-user', async (req, res) => {
     // To find if user has email/password
     const user = await User.findOne({ email });
     console.log(user)
-    if (!user || !await bcrypt.compare (password, user.password)) {
+    if (!user || !await bcrypt.compare(password, user.password)) {
         console.log("here")
         return res.json({ error: 'User Not Found' });
     }
     else {
-        const result = await jwt.encode(process.env.JWT_SECRET, { id: user.userId})
-        res.json({user: user, token: result.value})
+        const result = await jwt.encode(process.env.JWT_SECRET, { id: user.userId })
+        res.json({ user: user, token: result.value })
     }
 
     // if (!password) {
@@ -26,15 +26,23 @@ router.post('/login-user', async (req, res) => {
     //     return res.json({ status: 'error', error: 'Invalid Password' });
     // }
 });
-router.get('/profile', async(req,res) => {
-    try{
-        let user = await User.findOne({
+router.get('/profile', async (req, res) => {
+    try {
+        const [authenticationMethod, token]= req.headers.authotization.split(' ')
+        if (authenticationMethod == 'Bearer') {
+            const result = await jwt.decode(process.env.JWT_SECRET, token)
+            const {id} = result.value
+            console.log('id: ', id)
+            let user = await User.findOne({
+                
         })
         res.json(user)
-    } catch{
+        }
+        
+    } catch {
         res.json(null)
     }
 }
 )
 
-module.exports= router
+module.exports = router
