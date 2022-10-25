@@ -1,14 +1,15 @@
-import React, {useState} from 'react';
-import { NavLink,Link } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import logo from '..//NavBar/logo.png';
+import { CurrentUser } from '../../context/CurrentUser';
 
-const COLORS= {
+const COLORS = {
     primaryDark: '#115b4c',
     primaryLight: '#FEDF00', //Pantone Yellow
 };
 
-const MenuLabel = styled.label `
+const MenuLabel = styled.label`
 background-color:${COLORS.primaryLight};
 position: fixed;
 top: 3rem;
@@ -22,7 +23,7 @@ box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
 text-align: center;
 `;
 
-const NavBackground = styled.div `
+const NavBackground = styled.div`
     position: fixed;
     top: 3rem;
     right: 45vw;
@@ -38,19 +39,19 @@ const NavBackground = styled.div `
 
 
 
-const Navigation = styled.nav `
+const Navigation = styled.nav`
     height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 999;
-    width: ${ props => props.clicked ? '100%' : '0'};
-    opacity: ${ props => props.clicked ? '1' : '0'};
+    width: ${props => props.clicked ? '100%' : '0'};
+    opacity: ${props => props.clicked ? '1' : '0'};
 
     transition: width 0.8s, opacity 0.8s;
 `;
 
-const List = styled.ul `
+const List = styled.ul`
     position: absolute;
     list-style: none;
     top: 50%;
@@ -60,7 +61,7 @@ const List = styled.ul `
     width: 100%;
 `;
 
-const ItemLink = styled(NavLink) `
+const ItemLink = styled(NavLink)`
     display: inline-block;
     font-size: 3rem;
     font-weight: 300;
@@ -87,11 +88,23 @@ const ItemLink = styled(NavLink) `
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const handleClick= () => setClick(!click);
+    const handleClick = () => setClick(!click);
+
+    const { currentUser } = useContext(CurrentUser)
+
+    let loggedIn = null
+    if (currentUser) {
+        let name = currentUser.fname + ' ' + currentUser.lname
+        loggedIn = (
+            <li>
+                Logged in as {name}
+            </li>
+        )
+    }
     return (
         <>
             <MenuLabel htmlFor='navi-toggle' onClick={handleClick}>
-                <img src={logo} style={{width: '120px', height:'auto'}}></img>
+                <img src={logo} style={{ width: '120px', height: 'auto' }}></img>
             </MenuLabel>
             <NavBackground clicked={click}>&nbsp;</NavBackground>
 
@@ -112,6 +125,7 @@ function Navbar() {
                             <Link to='/team'>Team</Link>
                         </ItemLink>
                     </li>
+                    {loggedIn}
                 </List>
 
             </Navigation>
