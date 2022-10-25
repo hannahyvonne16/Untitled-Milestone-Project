@@ -7,9 +7,17 @@ export default function CurrentUserProvider ({children}) {
 
     useEffect(() => {
         const getLoggedInUser = async () => {
-            let response = await fetch(`http://localhost:4000/authentication/profile`)
+            let response = await fetch(`http://localhost:4000/authentication/profile`, {
+                headers: {
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`
+                }
+            })
+            let user = await response.json()
+            console.log(user)
+            setCurrentUser(user)
         }
-    })
+        getLoggedInUser()
+    }, [])
 
     window.setCurrentUser = setCurrentUser
     return (

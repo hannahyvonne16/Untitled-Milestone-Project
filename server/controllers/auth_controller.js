@@ -28,7 +28,8 @@ router.post('/login-user', async (req, res) => {
 });
 router.get('/profile', async (req, res) => {
     try {
-        const [authenticationMethod, token]= req.headers.authotization.split(' ')
+        console.log('req.body: \n ', req.body)
+        const [authenticationMethod, token]= req.headers.authorization.split(' ')
         if (authenticationMethod == 'Bearer') {
             const result = await jwt.decode(process.env.JWT_SECRET, token)
             const {id} = result.value
@@ -39,7 +40,8 @@ router.get('/profile', async (req, res) => {
         res.json(user)
         }
         
-    } catch {
+    } catch (e) {
+        console.log(e)
         res.json(null)
     }
 }
