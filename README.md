@@ -10,6 +10,9 @@ Fountain was designed first and foremost with the user in mind. Our goal is to d
 
  - [Powered by MapBox](https://www.mapbox.com/)
 
+## Heroku
+
+- [Heroku Link](https://fountain-finder.herokuapp.com/)
 
 ## Authors
 
